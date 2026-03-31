@@ -159,12 +159,14 @@ frontend Three.js viewer ← WebSocket live update
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - **React 18** + **Vite** — fast HMR development
 - **Three.js** — 3D rendering and Gaussian Splatting viewer
 - **Zustand** — lightweight global state
 - **WebSocket** — live stream updates from backend
 
 ### Backend
+
 - **Node.js 20** + **Express 4** — REST API
 - **PostgreSQL 15** — relational data (twins, users, streams, assets)
 - **Prisma** — type-safe ORM with migrations
@@ -172,6 +174,7 @@ frontend Three.js viewer ← WebSocket live update
 - **Socket.io** — real-time event push to frontend
 
 ### AI Worker
+
 - **Python 3.11** — reconstruction pipeline
 - **SLAM** — visual odometry (monocular/stereo)
 - **3DGS Lite** — Gaussian Splatting reconstruction
@@ -180,6 +183,7 @@ frontend Three.js viewer ← WebSocket live update
 - **CUDA** — optional GPU acceleration (Dockerfile.ai-worker)
 
 ### Cloud & Infrastructure
+
 - **AWS Kinesis Video Streams** — live video ingest
 - **AWS ECS Fargate** — containerized service orchestration
 - **AWS S3** — twin asset storage (point clouds, splats, textures)
@@ -189,6 +193,7 @@ frontend Three.js viewer ← WebSocket live update
 - **AWS CDK** or **Terraform** — infrastructure as code
 
 ### Monorepo
+
 - **Turborepo** — parallel build pipeline, caching
 - **npm workspaces** — shared packages (not pnpm — uses npm)
 
@@ -329,7 +334,7 @@ MIT License © 2025 **SoftwareDT** · Manuel Nieto
 | LinkedIn | [linkedin.com/in/NietoDeveloper](https://linkedin.com/in/NietoDeveloper) |
 | Twitter / X | [@NietoDeveloper](https://twitter.com/NietoDeveloper) |
 | Website | [softwaredt.com](https://softwaredt.com) |
-| Email | contact@softwaredt.com |
+| Email | <contact@softwaredt.com> |
 
 ---
 
@@ -344,6 +349,7 @@ MIT License © 2025 **SoftwareDT** · Manuel Nieto
 ## 📜 License
 
 ### Public Repository
+
 The public parts of this repository (architecture, frontend skeleton, backend API structure, documentation and non-core components) are licensed under the **MIT License**.
 
 Copyright (c) 2026 SoftwareDT - Manuel Nieto
@@ -351,7 +357,8 @@ Copyright (c) 2026 SoftwareDT - Manuel Nieto
 See the full [LICENSE](LICENSE) file for details.
 
 ### Core AI Worker (Reconstruction Pipeline)
+
 The real-time 3D reconstruction engine (SLAM + 3DGS Lite + advanced modules) is **proprietary** and **not open source**.  
 It is available only under commercial license / Enterprise plan.
 
-Interested in the full functional version? Contact: contact@softwaredt.com
+Interested in the full functional version? Contact: <contact@softwaredt.com>
