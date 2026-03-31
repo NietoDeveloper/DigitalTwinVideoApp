@@ -1,0 +1,21 @@
+{
+  "name": "digitaltwinvideoapp",
+  "version": "1.0.0",
+  "description": "> **Real-time 3D Digital Twin reconstruction from live video streams.**  \r > Industrial-grade · Sub-200ms latency · AI-powered · Fully Dockerized",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NietoDeveloper/DigitalTwinVideoApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NietoDeveloper/DigitalTwinVideoApp/issues"
+  },
+  "homepage": "https://github.com/NietoDeveloper/DigitalTwinVideoApp#readme"
+}
