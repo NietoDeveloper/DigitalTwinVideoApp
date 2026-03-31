@@ -4,34 +4,6 @@ Project Structure
 
 /admin: Admin panel source code
 /backend: Node.js backend source code
-/frontend: React frontend source code
-
-Prerequisites
-
-Node.js (v16 or higher)
-npm or yarn
-
-Setup
-
-Clone the repository:
-git clone <repository-url>
-cd <project-directory>
-
-
-Install dependencies:
-
-Backend:cd backend
-npm install
-
-
-Frontend:cd frontend
-npm install
-
-
-Admin:cd admin
-npm install
-
-
 
 
 
