@@ -17,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/NietoDeveloper/DigitalTwinVideoApp/issues"
   },
-  "homepage": "https://github.com/NietoDeveloper/DigitalTwinVideoApp#readme"
+  "homepage": "https://github.com/NietoDeveloper/DigitalTwinVideoApp#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
 }
