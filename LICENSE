@@ -23,6 +23,7 @@ SOFTWARE.
 ## 📜 License
 
 ### Public Repository
+
 The public parts of this repository (architecture, frontend skeleton, backend API structure, documentation and non-core components) are licensed under the **MIT License**.
 
 Copyright (c) 2026 SoftwareDT - Manuel Nieto
@@ -30,6 +31,7 @@ Copyright (c) 2026 SoftwareDT - Manuel Nieto
 See the full [LICENSE](LICENSE) file for details.
 
 ### Core AI Worker (Reconstruction Pipeline)
+
 The real-time 3D reconstruction engine (SLAM + 3DGS Lite + advanced modules) is **proprietary** and **not open source**.  
 It is available only under commercial license / Enterprise plan.
 
