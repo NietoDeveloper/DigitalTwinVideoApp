@@ -35,6 +35,66 @@ Escalabilidad: Si un dashboard necesita mantenimiento, los demás siguen activos
 
 Seguridad: Tu panel de administración de ventas está totalmente aislado del dashboard del cliente.
 
-Cobro: Esta es la estructura que una empresa paga a $5,000 USD porque se ve y se comporta como un software de nivel corporativo.
+Cobro: Esta es la estructura que una empresa paga a $5,000 USD porque se ve y se comporta como un software de nivel corporativo
 
-¿Empezamos con la definición del docker-compose.yml para orquestar estos 4 servicios en tu entorno de desarrollo?
+
+digital-twins-video-industrial/
+├── apps/
+│   ├── frontend/                        ← React + Three.js + Gaussian Splatting viewer
+│   │   ├── public/
+│   │   ├── src/
+│   │   │   ├── components/              ← Dashboard en vivo, preview 3D, alertas nitidez
+│   │   │   ├── hooks/                   ← useStream, useTwin, useAlert
+│   │   │   ├── pages/
+│   │   │   ├── store/                   ← Zustand / Redux
+│   │   │   └── utils/
+│   │   ├── package.json
+│   │   └── vite.config.ts
+│   │
+│   ├── backend/                         ← Node/Express + PostgreSQL
+│   │   ├── src/
+│   │   │   ├── routes/                  ← /auth, /twins, /streams, /assets
+│   │   │   ├── services/                ← twinService, streamService, authService
+│   │   │   ├── models/                  ← Sequelize / Prisma models
+│   │   │   ├── middleware/              ← auth, rateLimit, logging
+│   │   │   └── db/                      ← Migrations, seeds SQL
+│   │   └── package.json
+│   │
+│   └── ai-worker/                       ← ¡EL CORAZÓN! Worker Docker reconstrucción en vivo
+│       ├── src/
+│       │   ├── pipeline/                ← Orquestador principal (frame → twin)
+│       │   ├── slam/                    ← SLAM module (odometría, mapa sparse)
+│       │   ├── reconstruction/          ← 3DGS ligero, NeRF fallback
+│       │   └── features/                ← Feature extraction (ORB, SuperPoint)
+│       ├── modules/
+│       │   ├── inpainting/              ← IA inpainting ligero (4%)
+│       │   ├── segmentation/            ← Máscara semántica industrial
+│       │   └── quality/                 ← Nitidez, blur detection, alertas
+│       ├── requirements.txt
+│       └── Dockerfile
+│
+├── packages/
+│   ├── shared/                          ← Types TS, schemas Zod, constantes latencia
+│   ├── ui/                              ← Componentes React reutilizables (design system)
+│   └── infra-config/                    ← AWS configs (Kinesis, S3, ECS), envs, Docker helpers
+│
+├── docker/
+│   ├── Dockerfile.frontend
+│   ├── Dockerfile.backend
+│   ├── Dockerfile.ai-worker             ← Optimizado low-latency + CUDA opcional
+│   └── docker-compose.yml               ← Dev local con stream simulado
+│
+├── infrastructure/
+│   ├── cdk/                             ← AWS CDK (ECS, RDS, Kinesis, S3, CloudFront)
+│   └── terraform/                       ← Alternativa Terraform si se prefiere
+│
+├── scripts/
+│   ├── setup.sh                         ← Bootstrap completo local
+│   ├── seed-db.sql                      ← Data inicial PostgreSQL
+│   └── simulate-stream.sh               ← Simula stream de video para dev
+│
+├── turbo.json
+├── .npmrc
+├── package.json                         ← npm workspaces
+├── .env.example
+└── README.md
