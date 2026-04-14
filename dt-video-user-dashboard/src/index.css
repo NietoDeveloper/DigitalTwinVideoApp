@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  /* SOFTWARE DT - MISION CONTROL PALETTE */
+  /* SOFTWARE DT - MISSION CONTROL PALETTE */
   --bg: #050505;          /* Space Black */
   --text: #DCDCDC;        /* Gainsboro */
   --text-h: #FFFFFF;
@@ -19,7 +19,9 @@
   --sans: 'Inter', system-ui, -apple-system, sans-serif;
   --mono: 'JetBrains Mono', ui-monospace, monospace;
 
-  font: 14px/145% var(--sans); /* Tamaño más pequeño para look técnico */
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 1.45;
   letter-spacing: 0.02em;
   color-scheme: dark;
   color: var(--text);
@@ -32,28 +34,26 @@
   overflow: hidden; 
 }
 
-#root {
-  /* Ajuste a pantalla completa estilo Mission Control */
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  overflow: hidden; /* Garantiza que no haya scroll */
-  border: none; /* Quitamos el border-inline que limita el ancho */
-}
-
 body {
   margin: 0;
   padding: 0;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  background-color: var(--bg);
 }
 
-h1, h2 {
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* --- TYPOGRAPHY --- */
+
+h1, h2, h3 {
   font-family: var(--sans);
   font-weight: 700;
   color: var(--text-h);
@@ -62,7 +62,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 1.5rem; /* Ajustado para el header del dashboard */
+  font-size: 1.5rem;
   margin: 0;
 }
 
@@ -73,3 +73,36 @@ h2 {
 }
 
 p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* --- UTILITIES & ANIMATIONS --- */
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Animación de carga para el Neural Engine */
+@keyframes loading {
+  0% { transform: translateX(-100%); }
+  50% { transform: translateX(0%); }
+  100% { transform: translateX(100%); }
+}
+
+.animate-loading {
+  animation: loading 1.5s infinite linear;
+}
+
+/* Patrón de Grid para el fondo (usado en DashboardContainer) */
+.bg-grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
