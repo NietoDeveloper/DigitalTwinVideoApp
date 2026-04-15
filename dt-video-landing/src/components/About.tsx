@@ -16,12 +16,7 @@ const About: React.FC = () => {
         </h2>
         
         <p className="text-textColor/80 leading-relaxed mb-12 max-w-2xl mx-auto">
-          Esta plataforma representa la convergencia entre el streaming de video de alta fidelidad 
-          y la réplica digital de activos. Diseñada para ofrecer una visión técnica inigualable 
-          mediante una interfaz minimalista y alto rendimiento.
-        </p>
-
-            </div>
+  
           ))}
         </div>
       </div>
