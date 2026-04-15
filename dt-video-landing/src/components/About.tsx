@@ -6,9 +6,6 @@ const About: React.FC = () => {
     { label: 'Architecture', value: 'Real-time Synchronization' },
     { label: 'Deployment', value: 'Multi-cluster Edge' },
     { label: 'Status', value: 'Production Ready' }
-  ];
 
-  );
-};
 
 export default About;
