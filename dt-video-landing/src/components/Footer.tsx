@@ -12,10 +12,6 @@ const Footer: React.FC = () => {
             Digital Twin Video Systems v1.0
           </span>
         </div>
-        
-        <p className="text-[10px] text-gainsboro/40 tracking-widest uppercase">
-          © {currentYear} Software DT. All rights reserved.
-        </p>
 
         <nav className="flex gap-6">
           <a href="#" className="text-[10px] uppercase tracking-widest text-gainsboro/60 hover:text-gold transition-colors">
