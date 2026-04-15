@@ -12,10 +12,7 @@ const About: React.FC = () => {
     <section className="py-20 px-8 bg-main">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-light tracking-tighter text-headingColor mb-8 uppercase">
-          Precision <span className="font-bold text-gold">Monitoring</span>
 
-      </div>
-    </section>
   );
 };
 
