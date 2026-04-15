@@ -1,14 +1,21 @@
 "use client";
+
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
+// Importamos tus otros componentes
+import Navbar from '@/components/Navbar';
+import About from '@/components/About';
+import Footer from '@/components/Footer';
+
+// --- SUB-COMPONENTE HERO ---
 const videos = [
   "https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-a-circuit-board-1582-large.mp4",
   "https://assets.mixkit.co/videos/preview/mixkit-abstract-technology-vj-loop-background-28684-large.mp4",
   "https://assets.mixkit.co/videos/preview/mixkit-robotic-arm-working-on-a-circuit-board-42799-large.mp4"
 ];
 
-export default function Hero() {
+function HeroSection() {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -19,7 +26,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="min-h-screen flex flex-col">
+    <section className="flex flex-col">
       {/* 50vh Video Reel */}
       <div className="h-[50vh] relative overflow-hidden bg-black">
         <AnimatePresence mode="wait">
@@ -76,5 +83,21 @@ export default function Hero() {
         </div>
       </div>
     </section>
+  );
+}
+
+// --- COMPONENTE PRINCIPAL (EL QUE RENDERIZA TODO) ---
+export default function Home() {
+  return (
+    <main className="relative bg-main min-h-screen">
+      <Navbar />
+      
+      {/* Llamamos al Hero que definimos arriba */}
+      <HeroSection />
+      
+      {/* Aquí es donde aparecen tus otros componentes */}
+      <About />
+      <Footer />
+    </main>
   );
 }
