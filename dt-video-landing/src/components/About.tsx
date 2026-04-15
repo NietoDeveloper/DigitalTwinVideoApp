@@ -23,13 +23,8 @@ const About: React.FC = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 border-y border-black/5 py-10">
           {specs.map((spec, index) => (
-            <div key={index} className="flex flex-col gap-1">
-              <span className="text-[10px] uppercase tracking-widest text-textColor/40">
-                {spec.label}
-              </span>
-              <span className="text-sm font-medium text-headingColor">
-                {spec.value}
-              </span>
+
+
             </div>
           ))}
         </div>
