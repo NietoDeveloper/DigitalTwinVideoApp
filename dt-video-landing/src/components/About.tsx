@@ -8,7 +8,6 @@ const About: React.FC = () => {
     { label: 'Status', value: 'Production Ready' }
   ];
 
-  return (
   );
 };
 
