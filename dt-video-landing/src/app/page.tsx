@@ -1,19 +1,14 @@
 "use client";
-
-import Navbar from '@/components/Navbar';
-import About from '@/components/About';
-import Footer from '@/components/Footer';
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-// --- COMPONENTE HERO INTEGRADO (Para evitar errores de importación) ---
 const videos = [
   "https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-a-circuit-board-1582-large.mp4",
   "https://assets.mixkit.co/videos/preview/mixkit-abstract-technology-vj-loop-background-28684-large.mp4",
   "https://assets.mixkit.co/videos/preview/mixkit-robotic-arm-working-on-a-circuit-board-42799-large.mp4"
 ];
 
-function Hero() {
+export default function Hero() {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -31,9 +26,7 @@ function Hero() {
           <motion.video
             key={index}
             src={videos[index]}
-            autoPlay
-            muted
-            loop
+            autoPlay muted loop playsInline
             initial={{ opacity: 0 }}
             animate={{ opacity: 0.6 }}
             exit={{ opacity: 0 }}
@@ -44,9 +37,9 @@ function Hero() {
           <motion.h1 
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            className="text-4xl md:text-7xl font-black text-center tracking-tighter"
+            className="text-4xl md:text-7xl font-black text-center tracking-tighter uppercase"
           >
-            VIDEO <span className="text-gold">DIGITAL TWIN</span>
+            Video <span className="text-gold">Digital Twin</span>
           </motion.h1>
           <p className="text-gold/60 tracking-[0.5em] uppercase text-[10px] mt-4 font-bold">Industrial Grade Reconstruction</p>
         </div>
@@ -83,23 +76,5 @@ function Hero() {
         </div>
       </div>
     </section>
-  );
-}
-
-// --- COMPONENTE PRINCIPAL HOME ---
-export default function Home() {
-  return (
-    <main className="relative bg-main">
-      <Navbar />
-      
-      {/* Hero ya incluye el Reel y los Botones */}
-      <Hero />
-      
-      {/* Sección About con estilo técnico */}
-      <About />
-      
-      {/* Footer minimalista */}
-      <Footer />
-    </main>
   );
 }
