@@ -1,7 +1,10 @@
-import Navbar from '@/components/Navbar';
-import Hero from '@/components/Hero';
-import About from '@/components/About';
-import Footer from '@/components/Footer';
+"use client";
+
+// Usamos rutas relativas directas para asegurar la compatibilidad con Turbopack
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -12,10 +15,10 @@ export default function Home() {
       {/* 2. Contenido Principal (Videos + Servicios) */}
       <Hero />
       
-      {/* 3. Sección de Información Técnica */}
+      {/* 3. Sección de Información Técnica (Digital Twin Specs) */}
       <About />
       
-      {/* 4. Pie de Página */}
+      {/* 4. Pie de Página (Contacto Bogotá) */}
       <Footer />
     </main>
   );
