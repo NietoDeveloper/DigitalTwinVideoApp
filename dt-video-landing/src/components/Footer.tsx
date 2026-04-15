@@ -14,9 +14,7 @@ const Footer: React.FC = () => {
         </div>
 
         <nav className="flex gap-6">
-          <a href="#" className="text-[10px] uppercase tracking-widest text-gainsboro/60 hover:text-gold transition-colors">
-            System Status
-          </a>
+
           <a href="#" className="text-[10px] uppercase tracking-widest text-gainsboro/60 hover:text-gold transition-colors">
             Privacy
           </a>
