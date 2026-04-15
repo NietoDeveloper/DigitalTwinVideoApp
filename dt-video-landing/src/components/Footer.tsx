@@ -8,14 +8,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-2">
           <div className="w-2 h-2 bg-gold rounded-full animate-pulse" />
-          <span className="text-xs uppercase tracking-[0.2em] text-gainsboro/60">
-            Digital Twin Video Systems v1.0
-          </span>
-        </div>
 
-     
-          </a>
-        </nav>
       </div>
     </footer>
   );
