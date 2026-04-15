@@ -1,4 +1,5 @@
 "use client";
+
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -6,6 +7,12 @@ const videos = [
   "https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-a-circuit-board-1582-large.mp4",
   "https://assets.mixkit.co/videos/preview/mixkit-abstract-technology-vj-loop-background-28684-large.mp4",
   "https://assets.mixkit.co/videos/preview/mixkit-robotic-arm-working-on-a-circuit-board-42799-large.mp4"
+];
+
+const services = [
+  { title: 'Real Estate DT', desc: 'Precision scanning for architecture.' },
+  { title: 'Industrial Unit', desc: 'Digital twins for heavy machinery.' },
+  { title: 'Infrastructure', desc: 'Large scale city-grid mapping.' }
 ];
 
 export default function Hero() {
@@ -26,7 +33,10 @@ export default function Hero() {
           <motion.video
             key={index}
             src={videos[index]}
-            autoPlay muted loop playsInline
+            autoPlay 
+            muted 
+            loop 
+            playsInline
             initial={{ opacity: 0 }}
             animate={{ opacity: 0.6 }}
             exit={{ opacity: 0 }}
@@ -41,34 +51,32 @@ export default function Hero() {
           >
             Video <span className="text-gold">Digital Twin</span>
           </motion.h1>
-          <p className="text-gold/60 tracking-[0.5em] uppercase text-[10px] mt-4 font-bold">Industrial Grade Reconstruction</p>
+          <p className="text-gold/60 tracking-[0.5em] uppercase text-[10px] mt-4 font-bold italic">
+            Industrial Grade Reconstruction
+          </p>
         </div>
       </div>
 
       {/* 50vh visible initially, buttons section */}
-      <div className="min-h-screen bg-[#DCDCDC] flex flex-col items-center justify-start gap-12 pt-24 px-8">
+      <div className="min-h-[50vh] bg-main flex flex-col items-center justify-start gap-12 pt-24 pb-24 px-8">
         <div className="flex flex-col items-center gap-2">
           <h2 className="text-sm font-black uppercase tracking-[0.4em] text-black/40">Deployment Services</h2>
-          <div className="w-12 h-1 bg-[#FFD700]" />
+          <div className="w-12 h-1 bg-gold" />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-7xl">
-          {[
-            { title: 'Real Estate DT', desc: 'Precision scanning for architecture.' },
-            { title: 'Industrial Unit', desc: 'Digital twins for heavy machinery.' },
-            { title: 'Infrastructure', desc: 'Large scale city-grid mapping.' }
-          ].map((service, i) => (
+          {services.map((service, i) => (
             <motion.button
               whileHover={{ y: -10 }}
               key={i}
-              className="h-80 bg-white shadow-[0_20px_50px_rgba(0,0,0,0.05)] rounded-3xl border border-black/5 hover:border-[#FFD700]/50 transition-all flex flex-col items-center justify-center p-8 text-center group"
+              className="h-80 bg-white shadow-[0_20px_50px_rgba(0,0,0,0.05)] rounded-3xl border border-black/5 hover:border-gold/50 transition-all flex flex-col items-center justify-center p-8 text-center group"
             >
-              <div className="w-14 h-14 bg-[#DCDCDC] rounded-2xl mb-6 group-hover:rotate-12 group-hover:bg-[#FFD700] transition-all duration-500 flex items-center justify-center">
+              <div className="w-14 h-14 bg-main rounded-2xl mb-6 group-hover:rotate-12 group-hover:bg-gold transition-all duration-500 flex items-center justify-center">
                 <div className="w-2 h-2 bg-black rounded-full" />
               </div>
               <span className="font-black text-xl uppercase tracking-tighter text-black">{service.title}</span>
               <p className="text-xs mt-4 text-black/50 leading-relaxed">{service.desc}</p>
-              <div className="mt-8 opacity-0 group-hover:opacity-100 transition-opacity text-[#FFD700] font-bold text-[10px] uppercase tracking-widest">
+              <div className="mt-8 opacity-0 group-hover:opacity-100 transition-opacity text-gold font-bold text-[10px] uppercase tracking-widest">
                 Initialize Module →
               </div>
             </motion.button>
