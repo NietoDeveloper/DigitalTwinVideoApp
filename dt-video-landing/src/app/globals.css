@@ -2,19 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Configuración de colores base Software DT */
 :root {
   --main-bg: #DCDCDC;
+  --gold: #FFD700;
 }
 
 body {
-  background-color: var(--main-bg);
+  background-color: var(--main-bg) !important;
   color: #000000;
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
+
+/* Clases de utilidad manuales (ya que no tienes tailwind.config) */
+.bg-main { background-color: #DCDCDC; }
+.text-gold { color: #FFD700; }
+.bg-gold { background-color: #FFD700; }
+.border-gold { border-color: #FFD700; }
 
 /* Scrollbar minimalista tipo Tesla */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 6px;
 }
 ::-webkit-scrollbar-track {
   background: #DCDCDC;
@@ -22,4 +33,7 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #FFD700;
   border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e6c200;
 }
