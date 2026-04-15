@@ -24,12 +24,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
-      {isOpen && (
-        <div className="md:hidden bg-white p-6 flex flex-col gap-4 shadow-xl">
-          <a href="#">About</a>
-          <a href="#">Pricing</a>
-          <a href="#">Contact</a>
+
         </div>
       )}
     </nav>
