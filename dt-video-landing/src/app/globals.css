@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-bg: #DCDCDC;
+}
+
+body {
+  background-color: var(--main-bg);
+  color: #000000;
+  overflow-x: hidden;
+}
+
+/* Scrollbar minimalista tipo Tesla */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #DCDCDC;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFD700;
+  border-radius: 10px;
+}
