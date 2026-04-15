@@ -19,14 +19,6 @@ export default function Navbar() {
           <a href="#" className="hover:text-gold transition">Contact</a>
         </div>
 
-        <button onClick={() => setIsOpen(!isOpen)} className="md:hidden">
-          {isOpen ? <X /> : <Menu />}
-        </button>
-      </div>
 
-
-        </div>
-      )}
-    </nav>
   );
 }
