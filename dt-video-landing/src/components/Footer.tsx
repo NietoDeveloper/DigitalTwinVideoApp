@@ -13,10 +13,7 @@ const Footer: React.FC = () => {
           </span>
         </div>
 
-        <nav className="flex gap-6">
-
-          <a href="#" className="text-[10px] uppercase tracking-widest text-gainsboro/60 hover:text-gold transition-colors">
-            Privacy
+     
           </a>
         </nav>
       </div>
