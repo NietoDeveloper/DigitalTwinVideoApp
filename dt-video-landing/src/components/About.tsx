@@ -21,10 +21,6 @@ const About: React.FC = () => {
           mediante una interfaz minimalista y alto rendimiento.
         </p>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 border-y border-black/5 py-10">
-          {specs.map((spec, index) => (
-
-
             </div>
           ))}
         </div>
