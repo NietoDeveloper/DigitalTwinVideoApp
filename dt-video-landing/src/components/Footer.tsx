@@ -4,13 +4,7 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full py-6 px-8 border-t border-white/10 bg-black/50 backdrop-blur-md">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-        <div className="flex items-center gap-2">
-          <div className="w-2 h-2 bg-gold rounded-full animate-pulse" />
 
-      </div>
-    </footer>
   );
 };
 
