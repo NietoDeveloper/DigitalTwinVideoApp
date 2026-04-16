@@ -19,7 +19,6 @@ export default function Hero() {
   const [index, setIndex] = useState(0);
   const videoRef = useRef<HTMLVideoElement>(null);
 
-  // Efecto para rotar videos
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prev) => (prev + 1) % videos.length);
@@ -27,18 +26,17 @@ export default function Hero() {
     return () => clearInterval(timer);
   }, []);
 
-  // Forzar la reproducción cuando cambie el index
   useEffect(() => {
     if (videoRef.current) {
       videoRef.current.load();
-      videoRef.current.play().catch(e => console.log("Autoplay blocked or loading:", e));
+      videoRef.current.play().catch(e => console.log("Video wait:", e));
     }
   }, [index]);
 
   return (
-    <section className="flex flex-col w-full min-h-screen">
-      {/* 50vh ARRIBA: Video Reel */}
-      <div className="h-[50vh] relative overflow-hidden bg-black w-full border-b border-white/5">
+    <section className="flex flex-col w-full h-auto">
+      {/* SECCIÓN 1: 50vh Video Reel */}
+      <div className="h-[50vh] sticky top-0 relative overflow-hidden bg-black w-full border-b border-white/5 z-0">
         <AnimatePresence mode="wait">
           <motion.video
             ref={videoRef}
@@ -49,14 +47,13 @@ export default function Hero() {
             loop 
             playsInline
             initial={{ opacity: 0 }}
-            animate={{ opacity: 0.5 }} // Opacidad controlada para look industrial
+            animate={{ opacity: 0.6 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 1.5 }}
-            className="absolute inset-0 w-full h-full object-cover z-0"
+            transition={{ duration: 1.2 }}
+            className="absolute inset-0 w-full h-full object-cover"
           />
         </AnimatePresence>
         
-        {/* Capa de Texto Central */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white z-10 px-6 pointer-events-none">
           <motion.h1 
             initial={{ y: 20, opacity: 0 }}
@@ -71,36 +68,56 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* 50vh ABAJO: Botones / Servicios con FONDO NEGRO */}
+      {/* SECCIÓN 2: 50vh Botones Estilizados */}
       <div 
         style={{ backgroundColor: '#000000' }} 
-        className="min-h-[50vh] flex flex-col items-center justify-start gap-12 pt-16 pb-16 px-8 relative z-10"
+        className="h-[50vh] flex flex-col items-center justify-center gap-8 px-8 relative z-10 border-t border-white/5"
       >
-        <div className="flex flex-col items-center gap-2">
-          <h2 className="text-sm font-black uppercase tracking-[0.4em] text-white/30">Deployment Services</h2>
-          <div style={{ backgroundColor: '#FFD700' }} className="w-12 h-0.5" />
+        <div className="flex flex-col items-center gap-2 mb-2">
+          <h2 className="text-[10px] font-black uppercase tracking-[0.5em] text-white/20">Deployment Hub</h2>
+          <div style={{ backgroundColor: '#FFD700' }} className="w-8 h-[1px]" />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-7xl">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-7xl h-full max-h-[300px]">
           {services.map((service, i) => (
             <motion.button
-              whileHover={{ y: -5, backgroundColor: 'rgba(255, 215, 0, 0.05)' }}
+              whileHover={{ scale: 1.02, backgroundColor: 'rgba(255, 215, 0, 0.03)' }}
+              whileTap={{ scale: 0.98 }}
               key={i}
-              className="h-64 bg-transparent border border-white/10 rounded-2xl transition-all flex flex-col items-center justify-center p-8 text-center group"
+              className="flex-1 border border-white/10 rounded-xl transition-all flex flex-col items-center justify-center p-6 text-center group relative overflow-hidden"
             >
+              {/* Indicador de selección sutil */}
+              <div className="absolute top-0 left-0 w-full h-[2px] bg-gold opacity-0 group-hover:opacity-100 transition-opacity" />
+              
               <div 
-                style={{ backgroundColor: 'rgba(255, 215, 0, 0.1)' }} 
-                className="w-12 h-12 rounded-xl mb-6 group-hover:rotate-12 group-hover:bg-[#FFD700] transition-all duration-500 flex items-center justify-center"
+                style={{ border: '1px solid rgba(255, 215, 0, 0.3)' }} 
+                className="w-10 h-10 rounded-full mb-4 flex items-center justify-center group-hover:bg-gold transition-colors duration-500"
               >
-                <div className="w-1.5 h-1.5 bg-[#FFD700] group-hover:bg-black rounded-full" />
+                <div className="w-1 h-1 bg-gold group-hover:bg-black rounded-full" />
               </div>
-              <span className="font-black text-lg uppercase tracking-tighter text-white">{service.title}</span>
-              <p className="text-[10px] mt-3 text-white/40 leading-relaxed max-w-[200px]">{service.desc}</p>
-              <div style={{ color: '#FFD700' }} className="mt-6 opacity-0 group-hover:opacity-100 transition-opacity font-bold text-[9px] uppercase tracking-[0.2em]">
-                Initialize Module →
+              
+              <span className="font-black text-sm md:text-base uppercase tracking-widest text-white group-hover:text-gold transition-colors">
+                {service.title}
+              </span>
+              
+              <p className="text-[9px] mt-2 text-white/30 leading-tight max-w-[150px] uppercase font-medium">
+                {service.desc}
+              </p>
+
+              <div className="mt-4 flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-all transform translate-y-2 group-hover:translate-y-0">
+                 <span style={{ color: '#FFD700' }} className="text-[8px] font-bold tracking-[0.3em]">CONNECTING</span>
+                 <div className="flex gap-1">
+                    <span className="w-1 h-1 bg-gold animate-pulse" />
+                    <span className="w-1 h-1 bg-gold animate-pulse delay-75" />
+                 </div>
               </div>
             </motion.button>
           ))}
+        </div>
+        
+        {/* Espacio inferior para indicar el scroll/selección */}
+        <div className="mt-4 animate-bounce">
+           <div className="w-[1px] h-8 bg-gradient-to-b from-gold to-transparent" />
         </div>
       </div>
     </section>
