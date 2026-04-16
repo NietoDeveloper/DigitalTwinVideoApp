@@ -20,11 +20,7 @@ dex]}
             src={videos[index]}
             autoPlay 
             muted 
-            loop 
-            playsInline
-            preload="auto"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 0.6 }}
+            loop : 0.6 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 1 }}
             className="absolute inset-0 w-full h-full object-cover z-0"
