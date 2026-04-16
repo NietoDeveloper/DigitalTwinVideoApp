@@ -14,14 +14,7 @@ r z-0"
         </div>
       </div>
 
-      {/* 50vh Services Section */}
-      <div 
-        style={{ backgroundColor: '#DCDCDC' }} 
-        className="min-h-[50vh] flex flex-col items-center justify-start gap-12 pt-24 pb-24 px-8 relative z-10"
-      >
-        <div className="flex flex-col items-center gap-2">
-          <h2 className="text-sm font-black uppercase tracking-[0.4em] text-black/40">Deployment Services</h2>
-          <div style={{ backgroundColor: '#FFD700' }} className="w-12 h-1" />
+      {/* 50vh Services Section */}700' }} className="w-12 h-1" />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-7xl">
