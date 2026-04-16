@@ -15,16 +15,7 @@ r z-0"
       </div>
               whileHover={{ y: -10 }}
               key={i}
-              className="h-80 bg-white shadow-xl rounded-3xl border border-black/5 transition-all flex flex-col items-center justify-center p-8 text-center group"
-            >
-              <div 
-                style={{ backgroundColor: '#DCDCDC' }} 
-                className="w-14 h-14 rounded-2xl mb-6 group-hover:rotate-12 group-hover:bg-[#FFD700] transition-all duration-500 flex items-center justify-center"
-              >
-                <div className="w-2 h-2 bg-black rounded-full" />
-              </div>
-              <span className="font-black text-xl uppercase tracking-tighter text-black">{service.title}</span>
-              <p className="text-xs mt-4 text-black/50 leading-relaxed">{service.desc}</p>
+              className="h-80 bg-whitt-black/50 leading-relaxed">{service.desc}</p>
               <div style={{ color: '#FFD700' }} className="mt-8 opacity-0 group-hover:opacity-100 transition-opacity font-bold text-[10px] uppercase tracking-widest">
                 Initialize Module →
               </div>
