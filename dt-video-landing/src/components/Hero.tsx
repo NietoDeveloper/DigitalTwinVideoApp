@@ -13,13 +13,6 @@ r z-0"
           </p>
         </div>
       </div>
-
-      {/* 50vh Services Section */}700' }} className="w-12 h-1" />
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-7xl">
-          {services.map((service, i) => (
-            <motion.button
               whileHover={{ y: -10 }}
               key={i}
               className="h-80 bg-white shadow-xl rounded-3xl border border-black/5 transition-all flex flex-col items-center justify-center p-8 text-center group"
