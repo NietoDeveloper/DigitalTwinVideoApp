@@ -8,22 +8,7 @@ const videos = [
   "https://assets.mixkit.co/videos/preview/mixkit-abstract-technology-vj-loop-background-28684-large.mp4",
   "https://assets.mixkit.co/videos/preview/mixkit-robotic-arm-working-on-a-circuit-board-42799-large.mp4"
 ];
-
-const services = [
-  { title: 'Real Estate DT', desc: 'Precision scanning for architecture.' },
-  { title: 'Industrial Unit', desc: 'Digital twins for heavy machinery.' },
-  { title: 'Infrastructure', desc: 'Large scale city-grid mapping.' }
-];
-
-
-dex]}
-            src={videos[index]}
-            autoPlay 
-            muted 
-            loop : 0.6 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 1 }}
-            className="absolute inset-0 w-full h-full object-cover z-0"
+r z-0"
           />
         </AnimatePresence>
         
