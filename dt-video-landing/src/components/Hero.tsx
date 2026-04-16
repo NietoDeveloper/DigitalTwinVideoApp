@@ -15,15 +15,7 @@ const services = [
   { title: 'Infrastructure', desc: 'Large scale city-grid mapping.' }
 ];
 
-export default function Hero() {
-  const [index, setIndex] = useState(0);
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setIndex((prev) => (prev + 1) % videos.length);
-    }, 5000);
-    return () => clearInterval(timer);
-  }, []);
 
   return (
     <section className="flex flex-col w-full">
