@@ -21,24 +21,7 @@ export default function Hero() {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setIndex((prev) => (prev + 1) % videos.length);
-    }, 5000);
-    return () => clearInterval(timer);
-  }, []);
-
-
-
-  return (
-    <section className="flex flex-col w-full h-auto">
-      {/* SECCIÓN 1: 50vh Video Reel */}
-      <div className="h-[50vh] sticky top-0 relative overflow-hidden bg-black w-full border-b border-white/5 z-0">
-        <AnimatePresence mode="wait">
-          <motion.video
-            ref={videoRef}
-            key={videos[index]}
-            src={videos[index]}
-            autoPlay 
-            muted 
+  
             loop 
             playsInline
             initial={{ opacity: 0 }}
