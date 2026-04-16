@@ -1,44 +1,50 @@
 @import "tailwindcss";
 
-/* Configuración de Identidad Software DT - Dark Mode */
+/* 1. Variables de Identidad Software DT */
 :root {
-  --main-bg: #000000; /* Fondo negro total */
-  --accent-gray: #DCDCDC; /* Gainsboro para contrastes */
-  --gold: #FFD700;
+  --main-bg: #000000; /* Fondo Negro Total para resaltar el Reel */
+  --accent-gold: #FFD700;
+  --industrial-gray: #DCDCDC;
 }
 
+/* 2. Reset Base */
 body {
   background-color: var(--main-bg) !important;
-  color: #FFFFFF; /* Texto blanco para legibilidad sobre negro */
+  color: #FFFFFF; /* Texto blanco sobre fondo negro */
   margin: 0;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
 
-/* Clases de utilidad manuales */
+/* 3. Clases de Utilidad Manuales (Backups) */
 .bg-main { background-color: #000000; }
-.bg-industrial { background-color: #DCDCDC; }
 .text-gold { color: #FFD700; }
 .bg-gold { background-color: #FFD700; }
 .border-gold { border-color: #FFD700; }
 
-/* Scrollbar minimalista tipo Tesla (Ajustado para fondo oscuro) */
+/* 4. Scrollbar Estilo Tesla Dark */
 ::-webkit-scrollbar {
   width: 5px;
 }
+
 ::-webkit-scrollbar-track {
-  background: #000000;
+  background: #000000; /* Track negro para que no se note */
 }
+
 ::-webkit-scrollbar-thumb {
-  background: #FFD700;
+  background: var(--accent-gold);
   border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #e6c200;
 }
 
-/* Optimización para que el contenido no se pegue a los bordes */
-main {
-  @apply w-full;
+/* 5. Fix para el contenedor del Video */
+video {
+  display: block;
+  object-fit: cover;
+  /* Asegura que el video no tenga filtros que lo oculten */
+  filter: brightness(0.8); 
 }
