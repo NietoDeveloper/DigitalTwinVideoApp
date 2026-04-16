@@ -18,11 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body 
-        className="antialiased overflow-x-hidden bg-main"
-        // bg-main asegura que si hay un delay en la carga, 
-        // el fondo sea el Gainsboro (#DCDCDC) que definiste.
-      >
-        {children}
+
       </body>
     </html>
   )
