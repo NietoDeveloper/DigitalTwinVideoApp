@@ -22,23 +22,7 @@ export default function Hero() {
   useEffect(() => {
     const timer = setInterval(() => {
   
-            loop 
-            playsInline
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 0.6 }}
-            exit={{ opacity: 0 }}
-            transition(255, 215, 0, 0.6)' }} className="tracking-[0.5em] uppercase text-[10px] mt-4 font-bold">
-            Industrial Grade Reconstruction
-          </p>
-        </div>
-      </div>
-
-      {/* SECCIÓN 2: 50vh Botones Estilizados */}
-      <div 
-        style={{ backgroundColor: '#000000' }} 
-        className="h-[50vh] flex flex-col items-center justify-center gap-8 px-8 relative z-10 border-t border-white/5"
-      >
-        <div className="flex flex-col items-center gap-2 mb-2">
+            loop col items-center gap-2 mb-2">
           <h2 className="text-[10px] font-black uppercase tracking-[0.5em] text-white/20">Deployment Hub</h2>
           <div style={{ backgroundColor: '#FFD700' }} className="w-8 h-[1px]" />
         </div>
