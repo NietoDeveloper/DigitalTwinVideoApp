@@ -16,14 +16,7 @@ const services = [
 ];
 
 
-
-  return (
-    <section className="flex flex-col w-full">
-      {/* 50vh Video Reel */}
-      <div className="h-[50vh] relative overflow-hidden bg-black w-full">
-        <AnimatePresence mode="wait">
-          <motion.video
-            key={videos[index]}
+dex]}
             src={videos[index]}
             autoPlay 
             muted 
