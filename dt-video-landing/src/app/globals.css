@@ -1,34 +1,34 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-/* Configuración de colores base Software DT */
+/* Configuración de Identidad Software DT - Dark Mode */
 :root {
-  --main-bg: #DCDCDC;
+  --main-bg: #000000; /* Fondo negro total */
+  --accent-gray: #DCDCDC; /* Gainsboro para contrastes */
   --gold: #FFD700;
 }
 
 body {
   background-color: var(--main-bg) !important;
-  color: #000000;
+  color: #FFFFFF; /* Texto blanco para legibilidad sobre negro */
   margin: 0;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
 
-/* Clases de utilidad manuales (ya que no tienes tailwind.config) */
-.bg-main { background-color: #DCDCDC; }
+/* Clases de utilidad manuales */
+.bg-main { background-color: #000000; }
+.bg-industrial { background-color: #DCDCDC; }
 .text-gold { color: #FFD700; }
 .bg-gold { background-color: #FFD700; }
 .border-gold { border-color: #FFD700; }
 
-/* Scrollbar minimalista tipo Tesla */
+/* Scrollbar minimalista tipo Tesla (Ajustado para fondo oscuro) */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 5px;
 }
 ::-webkit-scrollbar-track {
-  background: #DCDCDC;
+  background: #000000;
 }
 ::-webkit-scrollbar-thumb {
   background: #FFD700;
@@ -36,4 +36,9 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #e6c200;
+}
+
+/* Optimización para que el contenido no se pegue a los bordes */
+main {
+  @apply w-full;
 }
