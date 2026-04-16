@@ -18,31 +18,7 @@ const services = [
 export default function Hero() {
   const [index, setIndex] = useState(0);
   const videoRef = useRef<HTMLVideoElement>(null);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-  
-            loop col items-center gap-2 mb-2">
-          <h2 className="text-[10px] font-black uppercase tracking-[0.5em] text-white/20">Deployment Hub</h2>
-          <div style={{ backgroundColor: '#FFD700' }} className="w-8 h-[1px]" />
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-7xl h-full max-h-[300px]">
-          {services.map((service, i) => (
-            <motion.button
-              whileHover={{ scale: 1.02, backgroundColor: 'rgba(255, 215, 0, 0.03)' }}
-              whileTap={{ scale: 0.98 }}
-              key={i}
-              className="flex-1 border border-white/10 rounded-xl transition-all flex flex-col items-center justify-center p-6 text-center group relative overflow-hidden"
-            >
-              {/* Indicador de selección sutil */}
-              <div className="absolute top-0 left-0 w-full h-[2px] bg-gold opacity-0 group-hover:opacity-100 transition-opacity" />
-              
-              <div 
-                style={{ border: '1px solid rgba(255, 215, 0, 0.3)' }} 
-                className="w-10 h-10 rounded-full mb-4 flex items-center justify-center group-hover:bg-gold transition-colors duration-500"
-              >
-                <div className="w-1 h-1 bg-gold group-hover:bg-black rounded-full" />
+-1 bg-gold group-hover:bg-black rounded-full" />
               </div>
               
               <span className="font-black text-sm md:text-base uppercase tracking-widest text-white group-hover:text-gold transition-colors">
