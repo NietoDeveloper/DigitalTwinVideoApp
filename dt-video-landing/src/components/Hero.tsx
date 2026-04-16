@@ -26,12 +26,7 @@ export default function Hero() {
     return () => clearInterval(timer);
   }, []);
 
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.load();
-      videoRef.current.play().catch(e => console.log("Video wait:", e));
-    }
-  }, [index]);
+
 
   return (
     <section className="flex flex-col w-full h-auto">
