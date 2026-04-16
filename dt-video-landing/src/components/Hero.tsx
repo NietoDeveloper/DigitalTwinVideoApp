@@ -9,20 +9,7 @@ const videos = [
   "https://assets.mixkit.co/videos/preview/mixkit-robotic-arm-working-on-a-circuit-board-42799-large.mp4"
 ];
 r z-0"
-          />
-        </AnimatePresence>
-        
-        {/* Capa de Texto Central */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-white z-10 px-6 pointer-events-none">
-          <motion.h1 
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            className="text-4xl md:text-7xl font-black text-center tracking-tighter uppercase italic"
-          >
-            Video <span style={{ color: '#FFD700' }}>Digital Twin</span>
-          </motion.h1>
-          <p style={{ color: 'rgba(255, 215, 0, 0.6)' }} className="tracking-[0.5em] uppercase text-[10px] mt-4 font-bold">
-            Industrial Grade Reconstruction
+          />nstruction
           </p>
         </div>
       </div>
