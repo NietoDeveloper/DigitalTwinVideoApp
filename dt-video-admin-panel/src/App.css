@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* 1. CONFIGURACIÓN DEL TEMA (Software DT Identity & Admin Extensions) */
+/* 1. CONFIGURACIÓN DEL TEMA (Tailwind v4 Compliant) */
 @theme {
   /* Colores Core Software DT */
   --color-gainsboro: #DCDCDC;
@@ -9,16 +9,19 @@
   --color-heading-color: #000000;
   --color-text-color: #1a1a1a;
   
-  --background-main: #DCDCDC;
-  --background-card: #FFFFFF;
+  /* Definición de fondos como colores para habilitar bg-* */
+  --color-main: #DCDCDC;
+  --color-card: #FFFFFF;
 
   /* Mapeo de Identidad */
-  --color-accent: var(--color-gold);
-  --color-accent-bg: var(--color-gainsboro);
-  --color-accent-border: var(--color-yellow-color);
-  --color-border: #bcbcbc;
+  --color-accent: #FFD700;
+  --color-accent-bg: #DCDCDC;
+  --color-accent-border: #FEB60D;
+  
+  /* Cambiamos border a border-dt para evitar colisión con utilidades nativas */
+  --color-border-dt: #bcbcbc;
 
-  /* Estados de Infraestructura (Nuevos para Video App) */
+  /* Estados de Infraestructura */
   --color-status-online: #10b981;
   --color-status-warning: #f59e0b;
   --color-status-error: #ef4444;
@@ -28,6 +31,7 @@
 /* 2. ESTILOS BASE */
 @layer base {
   body {
+    /* Ahora bg-main funciona porque definimos --color-main */
     @apply bg-main text-text-color antialiased m-0;
     font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   }
@@ -40,9 +44,8 @@
 
 /* 3. COMPONENTES REUTILIZABLES (Admin UI) */
 
-/* Tarjetas de Métricas (KPIs) */
 .glass-card {
-  @apply bg-white border border-border shadow-sm rounded-lg p-6 transition-all;
+  @apply bg-card border border-border-dt shadow-sm rounded-lg p-6 transition-all;
   &:hover {
     @apply shadow-md border-gold;
   }
@@ -53,12 +56,11 @@
   font-family: ui-monospace, Consolas, monospace;
 }
 
-/* El Counter distintivo del #1 Committer */
 .counter {
   @apply inline-flex items-center text-sm font-bold px-3 py-1.5 rounded-md transition-all cursor-pointer;
   color: var(--color-heading-color);
   background: white;
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-border-dt);
 
   &:hover {
     @apply border-gold -translate-y-0.5 shadow-sm;
@@ -68,6 +70,7 @@
 
 /* 4. ESTRUCTURA DEL DASHBOARD */
 #root {
+  /* bg-main aplicado correctamente */
   @apply min-h-screen flex flex-col w-full max-w-[1600px] mx-auto bg-main;
 }
 
@@ -78,14 +81,12 @@
   }
 }
 
-/* Rejilla de Métricas en Tiempo Real */
 .metrics-grid {
   @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full;
 }
 
-/* Sección de Navegación Inferior / Footer */
 #next-steps {
-  @apply flex border-top border-border bg-white mt-auto;
+  @apply flex border-t border-border-dt bg-card mt-auto;
   text-align: left;
 
   & > div {
@@ -97,9 +98,9 @@
 }
 
 #docs {
-  @apply border-right border-border;
+  @apply border-r border-border-dt;
   @media (max-width: 1024px) {
-    @apply border-right-0 border-bottom;
+    @apply border-r-0 border-b;
   }
 }
 
@@ -107,29 +108,28 @@
   @apply list-none p-0 flex flex-wrap gap-3 mt-6;
 
   a {
-    @apply flex items-center gap-2 px-4 py-2 text-sm font-bold rounded-md bg-white border border-border transition-all no-underline;
+    @apply flex items-center gap-2 px-4 py-2 text-sm font-bold rounded-md bg-white border border-border-dt transition-all no-underline;
     color: var(--color-heading-color);
 
     &:hover {
       @apply -translate-y-1 shadow-md border-gold;
     }
   }
-
-  @media (max-width: 1024px) { @apply justify-center; }
 }
 
-/* Efectos visuales de Ticks (Detalle de Ingeniería) */
+/* Detalles de Ingeniería (Ticks) */
 .ticks {
-  @apply relative w-full h-px bg-border my-4;
+  @apply relative w-full h-px bg-border-dt my-4;
   &::before, &::after {
     content: '';
     @apply absolute top-[-4.5px] border-[5px] border-transparent;
   }
-  &::before { @apply left-0 border-left-border; }
-  &::after { @apply right-0 border-right-border; }
+  /* Ajuste de sintaxis de bordes para PostCSS */
+  &::before { @apply left-0 border-l-border-dt; }
+  &::after { @apply right-0 border-r-border-dt; }
 }
 
 #spacer {
-  @apply h-20 border-top border-border;
+  @apply h-20 border-t border-border-dt;
   @media (max-width: 1024px) { @apply h-12; }
 }
