@@ -1,1 +1,1 @@
-export defau
+export def
