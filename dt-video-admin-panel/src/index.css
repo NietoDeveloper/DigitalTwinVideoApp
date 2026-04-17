@@ -1,0 +1,119 @@
+/* 1. Directivas base de Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Paleta de colores ajustada con toques de Software DT (Gainsboro/Gold) */
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #FFFFFF; /* Fondo limpio para admin panel */
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+  --accent: #aa3bff; /* Morado tecnológico */
+  --accent-bg: rgba(170, 59, 255, 0.1);
+  --accent-border: rgba(170, 59, 255, 0.5);
+  --social-bg: rgba(244, 243, 236, 0.5);
+  --shadow: rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  /* Tipografía */
+  --sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --heading: 'Inter', system-ui, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font-family: var(--sans);
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background-color: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 2. Soporte para Modo Oscuro (Nativo de Admin Panel) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #9ca3af;
+    --text-h: #f3f4f6;
+    --bg: #111111; /* Un negro más profundo para el dashboard */
+    --border: #2e303a;
+    --code-bg: #1f2028;
+    --accent: #FFD700; /* Cambiamos a Gold en dark mode para resaltar KPIs */
+    --accent-bg: rgba(255, 215, 0, 0.1);
+    --accent-border: rgba(255, 215, 0, 0.5);
+    --social-bg: rgba(47, 48, 58, 0.5);
+    --shadow: rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+  }
+}
+
+/* 3. Contenedor Principal (Optimizado para Admin) */
+#root {
+  width: 100%;
+  max-width: 1440px; /* Expandido para dashboards más anchos */
+  margin: 0 auto;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: var(--bg);
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* 4. Tipografía y Encabezados */
+h1, h2, h3 {
+  font-family: var(--heading);
+  font-weight: 600;
+  color: var(--text-h);
+  @apply tracking-tight;
+}
+
+h1 {
+  font-size: clamp(2.25rem, 5vw, 3.5rem); /* Escalado fluido */
+  letter-spacing: -0.03em;
+  margin: 1.5rem 0;
+}
+
+h2 {
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+/* 5. Utilidades Pro para el Panel */
+code {
+  font-family: var(--mono);
+  font-size: 0.875rem;
+  padding: 0.2rem 0.5rem;
+  background: var(--code-bg);
+  border-radius: 6px;
+  color: var(--accent); /* Resalta IDs de streams o tokens */
+}
+
+/* Scrollbar personalizada para el dashboard */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text);
+}
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
+}
