@@ -28,14 +28,3 @@
   color-scheme: light dark;
   color: var(--text);
   background-color: var(--bg);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* 2. Soporte para Modo Oscuro (Nativo de Admin Panel) */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
