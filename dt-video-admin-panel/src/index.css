@@ -9,13 +9,6 @@
   --accent-border: rgba(170, 59, 255, 0.5);
   --social-bg: r
   }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
     --border: #2e303a;
     --code-bg: #1f2028;
     --accent: #c084fc;
