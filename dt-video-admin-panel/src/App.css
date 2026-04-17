@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+/* 1. CONFIGURACIÓN DEL TEMA (Software DT Identity) */
+@theme {
+  --color-gainsboro: #DCDCDC;
+  --color-gold: #FFD700;
+  --color-yellow-color: #FEB60D;
+  --color-heading-color: #000000;
+  --color-text-color: #000000;
+  
+  --background-main: #DCDCDC;
+  --background-card: #FFFFFF;
+
+  /* Mapeo de variables del template a tu identidad */
+  --color-accent: var(--color-gold);
+  --color-accent-bg: var(--color-gainsboro);
+  --color-accent-border: var(--color-yellow-color);
+  --color-border: #bcbcbc;
+}
+
+/* 2. ESTILOS BASE Y COMPONENTES */
+@layer base {
+  body {
+    @apply bg-main text-text-color antialiased;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+}
+
+/* Estilo del Counter con colores de marca */
+.counter {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--color-heading-color);
+  background: var(--color-accent-bg);
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  margin-bottom: 24px;
+  cursor: pointer;
+
+  &:hover {
+    border-color: var(--color-accent-border);
+    background: white;
+  }
+  
+  &:focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 2px;
+  }
+}
+
+/* 3. ESTRUCTURA DEL DASHBOARD (Digital Twin App Video) */
+#center {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  place-content: center;
+  place-items: center;
+  flex-grow: 1;
+
+  @media (max-width: 1024px) {
+    padding: 32px 20px 24px;
+    gap: 18px;
+  }
+}
+
+#next-steps {
+  display: flex;
+  border-top: 1px solid var(--color-border);
+  text-align: left;
+
+  & > div {
+    flex: 1 1 0;
+    padding: 32px;
+    @media (max-width: 1024px) {
+      padding: 24px 20px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+#docs {
+  border-right: 1px solid var(--color-border);
+  @media (max-width: 1024px) {
+    border-right: none;
+    border-bottom: 1px solid var(--color-border);
+  }
+}
+
+#next-steps ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  margin: 32px 0 0;
+
+  a {
+    color: var(--color-heading-color);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    background: white;
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid var(--color-border);
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-color: var(--color-gold);
+    }
+  }
+
+  @media (max-width: 1024px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    li { flex: 1 1 calc(50% - 8px); }
+  }
+}
+
+#spacer {
+  height: 88px;
+  border-top: 1px solid var(--color-border);
+  @media (max-width: 1024px) { height: 48px; }
+}
+
+/* Efectos visuales de bordes */
+.ticks {
+  position: relative;
+  width: 100%;
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    top: -4.5px;
+    border: 5px solid transparent;
+  }
+  &::before { left: 0; border-left-color: var(--color-border); }
+  &::after { right: 0; border-right-color: var(--color-border); }
+}
