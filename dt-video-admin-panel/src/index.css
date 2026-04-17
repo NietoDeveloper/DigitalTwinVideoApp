@@ -102,7 +102,3 @@ code {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--bg);
-}
-::-webkit-scrollbar-thumb {
-
