@@ -98,6 +98,3 @@ code {
 }
 
 /* Scrollbar personalizada para el dashboard */
-::-webkit-scrollbar {
-  width: 8px;
-}
