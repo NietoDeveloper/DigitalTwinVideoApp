@@ -1,147 +1,135 @@
 @import "tailwindcss";
 
-/* 1. CONFIGURACIÓN DEL TEMA (Software DT Identity) */
+/* 1. CONFIGURACIÓN DEL TEMA (Software DT Identity & Admin Extensions) */
 @theme {
+  /* Colores Core Software DT */
   --color-gainsboro: #DCDCDC;
   --color-gold: #FFD700;
   --color-yellow-color: #FEB60D;
   --color-heading-color: #000000;
-  --color-text-color: #000000;
+  --color-text-color: #1a1a1a;
   
   --background-main: #DCDCDC;
   --background-card: #FFFFFF;
 
-  /* Mapeo de variables del template a tu identidad */
+  /* Mapeo de Identidad */
   --color-accent: var(--color-gold);
   --color-accent-bg: var(--color-gainsboro);
   --color-accent-border: var(--color-yellow-color);
   --color-border: #bcbcbc;
+
+  /* Estados de Infraestructura (Nuevos para Video App) */
+  --color-status-online: #10b981;
+  --color-status-warning: #f59e0b;
+  --color-status-error: #ef4444;
+  --color-status-ai: #aa3bff;
 }
 
-/* 2. ESTILOS BASE Y COMPONENTES */
+/* 2. ESTILOS BASE */
 @layer base {
   body {
-    @apply bg-main text-text-color antialiased;
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    @apply bg-main text-text-color antialiased m-0;
+    font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+
+  h1, h2, h3 {
+    @apply font-semibold tracking-tight;
+    color: var(--color-heading-color);
   }
 }
 
-/* Estilo del Counter con colores de marca */
+/* 3. COMPONENTES REUTILIZABLES (Admin UI) */
+
+/* Tarjetas de Métricas (KPIs) */
+.glass-card {
+  @apply bg-white border border-border shadow-sm rounded-lg p-6 transition-all;
+  &:hover {
+    @apply shadow-md border-gold;
+  }
+}
+
+.kpi-value {
+  @apply text-3xl font-bold tracking-tighter mt-2;
+  font-family: ui-monospace, Consolas, monospace;
+}
+
+/* El Counter distintivo del #1 Committer */
 .counter {
-  font-size: 16px;
-  padding: 5px 10px;
-  border-radius: 5px;
+  @apply inline-flex items-center text-sm font-bold px-3 py-1.5 rounded-md transition-all cursor-pointer;
   color: var(--color-heading-color);
-  background: var(--color-accent-bg);
-  border: 2px solid transparent;
-  transition: all 0.3s ease;
-  margin-bottom: 24px;
-  cursor: pointer;
+  background: white;
+  border: 1px solid var(--color-border);
 
   &:hover {
-    border-color: var(--color-accent-border);
-    background: white;
-  }
-  
-  &:focus-visible {
-    outline: 2px solid var(--color-gold);
-    outline-offset: 2px;
+    @apply border-gold -translate-y-0.5 shadow-sm;
+    background: var(--color-accent-bg);
   }
 }
 
-/* 3. ESTRUCTURA DEL DASHBOARD (Digital Twin App Video) */
+/* 4. ESTRUCTURA DEL DASHBOARD */
+#root {
+  @apply min-h-screen flex flex-col w-full max-w-[1600px] mx-auto bg-main;
+}
+
 #center {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  place-content: center;
-  place-items: center;
-  flex-grow: 1;
-
+  @apply flex flex-col flex-grow p-8 gap-8;
   @media (max-width: 1024px) {
-    padding: 32px 20px 24px;
-    gap: 18px;
+    @apply p-5 gap-6;
   }
 }
 
+/* Rejilla de Métricas en Tiempo Real */
+.metrics-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full;
+}
+
+/* Sección de Navegación Inferior / Footer */
 #next-steps {
-  display: flex;
-  border-top: 1px solid var(--color-border);
+  @apply flex border-top border-border bg-white mt-auto;
   text-align: left;
 
   & > div {
-    flex: 1 1 0;
-    padding: 32px;
-    @media (max-width: 1024px) {
-      padding: 24px 20px;
-    }
+    @apply flex-1 p-8;
+    @media (max-width: 1024px) { @apply p-6; }
   }
 
-  @media (max-width: 1024px) {
-    flex-direction: column;
-    text-align: center;
-  }
+  @media (max-width: 1024px) { @apply flex-col text-center; }
 }
 
 #docs {
-  border-right: 1px solid var(--color-border);
+  @apply border-right border-border;
   @media (max-width: 1024px) {
-    border-right: none;
-    border-bottom: 1px solid var(--color-border);
+    @apply border-right-0 border-bottom;
   }
 }
 
 #next-steps ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 8px;
-  margin: 32px 0 0;
+  @apply list-none p-0 flex flex-wrap gap-3 mt-6;
 
   a {
+    @apply flex items-center gap-2 px-4 py-2 text-sm font-bold rounded-md bg-white border border-border transition-all no-underline;
     color: var(--color-heading-color);
-    font-size: 14px;
-    font-weight: 600;
-    border-radius: 6px;
-    background: white;
-    display: flex;
-    padding: 8px 16px;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
-    transition: transform 0.2s, box-shadow 0.2s;
-    border: 1px solid var(--color-border);
 
     &:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      border-color: var(--color-gold);
+      @apply -translate-y-1 shadow-md border-gold;
     }
   }
 
-  @media (max-width: 1024px) {
-    flex-wrap: wrap;
-    justify-content: center;
-    li { flex: 1 1 calc(50% - 8px); }
+  @media (max-width: 1024px) { @apply justify-center; }
+}
+
+/* Efectos visuales de Ticks (Detalle de Ingeniería) */
+.ticks {
+  @apply relative w-full h-px bg-border my-4;
+  &::before, &::after {
+    content: '';
+    @apply absolute top-[-4.5px] border-[5px] border-transparent;
   }
+  &::before { @apply left-0 border-left-border; }
+  &::after { @apply right-0 border-right-border; }
 }
 
 #spacer {
-  height: 88px;
-  border-top: 1px solid var(--color-border);
-  @media (max-width: 1024px) { height: 48px; }
-}
-
-/* Efectos visuales de bordes */
-.ticks {
-  position: relative;
-  width: 100%;
-  &::before, &::after {
-    content: '';
-    position: absolute;
-    top: -4.5px;
-    border: 5px solid transparent;
-  }
-  &::before { left: 0; border-left-color: var(--color-border); }
-  &::after { right: 0; border-right-color: var(--color-border); }
+  @apply h-20 border-top border-border;
+  @media (max-width: 1024px) { @apply h-12; }
 }
