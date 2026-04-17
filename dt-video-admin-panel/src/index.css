@@ -39,10 +39,3 @@
   :root {
     --text: #9ca3af;
     --text-h: #f3f4f6;
-    --bg: #111111; /* Un negro más profundo para el dashboard */
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #FFD700; /* Cambiamos a Gold en dark mode para resaltar KPIs */
-    --accent-bg: rgba(255, 215, 0, 0.1);
-
-
