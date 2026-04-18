@@ -97,8 +97,6 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
             </div>
           </div>
         </header>
-
-        {/* PAGE CONTENT */}
         <main id="center" className="overflow-y-auto">
           {children}
           
