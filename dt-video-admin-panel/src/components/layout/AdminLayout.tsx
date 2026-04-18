@@ -30,8 +30,3 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
   ];
 
   return (
-    <div className="flex min-h-screen bg-main transition-colors duration-300">
-      {/* SIDEBAR */}
-      <
-
-export default AdminLayout;
