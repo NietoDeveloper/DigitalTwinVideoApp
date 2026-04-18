@@ -119,12 +119,4 @@
 
 /* Detalles de Ingeniería (Ticks) */
 .ticks {
-  @apply relative w-full h-px bg-border-dt my-4;
-  &::before, &::after {
-    content: '';
-    @apply absolute top-[-4.5px] border-[5px] border-transparent;
-  }
-  /* Ajuste de sintaxis de bordes para PostCSS */
-  &::before { @apply left-0 border-l-border-dt; }
-  &::after { @apply right-0 border-r-border-dt; }
-}
+  @apply rel
