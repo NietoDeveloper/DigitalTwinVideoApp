@@ -1,15 +1,29 @@
 {
   "name": "dt-video-landing-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "General backend API for Digital Twin Video App - Software DT",
+  "main": "src/index.ts",
   "type": "commonjs",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only --exit-child src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "tsc --noEmit",
+    "prisma:generate": "npx prisma generate",
+    "prisma:studio": "npx prisma studio",
+    "prisma:migrate": "npx prisma migrate dev",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up"
+  },
+  "keywords": [
+    "digital-twin",
+    "video-app",
+    "mern",
+    "typescript",
+    "software-dt"
+  ],
+  "author": "NietoDeveloper",
+  "license": "ISC",
   "dependencies": {
     "@prisma/client": "^7.7.0",
     "bcrypt": "^6.0.0",
