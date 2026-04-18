@@ -5,7 +5,5 @@ import {
   Video, 
   Cpu, 
   CreditCard, 
-  Settings, 
-re();
-labbel: 'Billing', id: 'billing' },
+  Settings,  'billing' },
     { icon: 
