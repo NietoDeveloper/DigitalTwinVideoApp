@@ -38,12 +38,6 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
         } bg-white border-r border-border-dt flex flex-col transition-all duration-300 ease-in-out`}
       >
         <div className="p-6 flex items-center justify-between">
-          {isSidebarOpen && (
-            <span className="font-bold text-xl tracking-tighter text-heading-color">
-              SOFTWARE <span className="text-gold">DT</span>
-            </span>
-          )}
-          ))}
-        </nav>
+          {isSidebarOp
 
 export default AdminLayout;
