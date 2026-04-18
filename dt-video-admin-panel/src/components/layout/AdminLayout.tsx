@@ -96,9 +96,7 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
               MN
             </div>
           </div>
-        </header>
-        <main id="center" className="overflow-y-auto">
-          {children}
+
           
           {/* Ticks visual de arquitectura */}
           <div className="px-8 mt-auto">
