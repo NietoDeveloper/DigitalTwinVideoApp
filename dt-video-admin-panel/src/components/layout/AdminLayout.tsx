@@ -67,8 +67,4 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
           ))}
         </nav>
 
-        <div className="p-4 border-t border-border-dt">
-          <div className="counter w-full justify-center">
-            {isSidebarOpen ? 'NietoDeveloper' : 'ND'}
-          </div
 export default AdminLayout;
