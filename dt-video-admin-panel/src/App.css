@@ -103,6 +103,3 @@
     @apply border-r-0 border-b;
   }
 }
-
-#next-steps ul {
-  @apply list-none p-0 flex flex-wrap gap-3 mt-6;
