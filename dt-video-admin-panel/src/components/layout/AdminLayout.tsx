@@ -6,19 +6,7 @@ import {
   Cpu, 
   CreditCard, 
   Settings, 
-  ChevronLeft, 
-  ChevronRight,
-  Activity
-} from 'lucide-react';
-import { useAdminStore } from '../../store';
-
-interface AdminLayoutProps {
-  children: React.ReactNode;
-}
-
-const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-  const { systemStatus } = useAdminStore();
+re();
 
   const menuItems = [
     { icon: <LayoutDashboard sl: 'Streams', id: 'streams' },
