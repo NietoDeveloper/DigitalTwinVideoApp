@@ -43,10 +43,6 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
               SOFTWARE <span className="text-gold">DT</span>
             </span>
           )}
-          <button 
-            onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-            className="p-1 hover:bg-gainsboro rounded-md transition-colors"
-          >
           ))}
         </nav>
 
