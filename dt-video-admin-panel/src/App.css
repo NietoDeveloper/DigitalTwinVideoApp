@@ -67,39 +67,3 @@
     background: var(--color-accent-bg);
   }
 }
-
-/* 4. ESTRUCTURA DEL DASHBOARD */
-#root {
-  /* bg-main aplicado correctamente */
-  @apply min-h-screen flex flex-col w-full max-w-[1600px] mx-auto bg-main;
-}
-
-#center {
-  @apply flex flex-col flex-grow p-8 gap-8;
-  @media (max-width: 1024px) {
-    @apply p-5 gap-6;
-  }
-}
-
-.metrics-grid {
-  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full;
-}
-
-#next-steps {
-  @apply flex border-t border-border-dt bg-card mt-auto;
-  text-align: left;
-
-  & > div {
-    @apply flex-1 p-8;
-    @media (max-width: 1024px) { @apply p-6; }
-  }
-
-  @media (max-width: 1024px) { @apply flex-col text-center; }
-}
-
-#docs {
-  @apply border-r border-border-dt;
-  @media (max-width: 1024px) {
-    @apply border-r-0 border-b;
-  }
-}
