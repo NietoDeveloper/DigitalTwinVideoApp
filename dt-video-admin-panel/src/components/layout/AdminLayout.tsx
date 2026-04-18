@@ -90,10 +90,6 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
           </div>
 
           
-          {/* Ticks visual de arquitectura */}
-          <div className="px-8 mt-auto">
-             <div className="ticks"></div>
-          </div>
         </main>
       </div>
     </div>
