@@ -128,8 +128,3 @@
   &::before { @apply left-0 border-l-border-dt; }
   &::after { @apply right-0 border-r-border-dt; }
 }
-
-#spacer {
-  @apply h-20 border-t border-border-dt;
-  @media (max-width: 1024px) { @apply h-12; }
-}
