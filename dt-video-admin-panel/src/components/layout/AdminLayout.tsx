@@ -83,10 +83,7 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
             <h2 className="text-sm font-mono uppercase tracking-widest opacity-70">
               System Status: <span className={systemStatus === 'healthy' ? 'text-status-online' : 'text-status-error font-bold'}>
                 {systemStatus}
-              </span>
-            </h2>-10 h-10 rounded-full bg-gold flex items-center justify-center font-bold border border-border-dt">
-              MN
-            </div>
+        
           </div>
 
           
