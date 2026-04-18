@@ -78,10 +78,7 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
       <div className="flex-1 flex flex-col">
         {/* TOPBAR */}
         <header className="h-16 bg-white border-b border-border-dt flex items-center justify-between px-8">
-          <div className="flex items-center gap-2">
-            <Activity size={18} className={systemStatus === 'healthy' ? 'text-status-online' : 'text-status-error'} />
-            <h2 className="text-sm font-mono uppercase tracking-widest opacity-70">
-              System Status: <span className={systemStatus === 'healthy' ? 'text-status-online' : 'text-status-error font-bold'}>
+       pan className={systemStatus === 'healthy' ? 'text-status-online' : 'text-status-error font-bold'}>
                 {systemStatus}
         
           </div>
