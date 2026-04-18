@@ -75,14 +75,6 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
       </aside>
 
       {/* MAIN CONTENT AREA */}
-      <div className="flex-1 flex flex-col">
-        {/* TOPBAR */}
-       
-          </div>
-
-          
-        </main>
-      </div>
     </div>
   );
 };
