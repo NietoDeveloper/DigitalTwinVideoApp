@@ -26,7 +26,4 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
     { icon: <Video size={20} />, label: 'Streams', id: 'streams' },
     { icon: <Cpu size={20} />, label: 'AI Workers', id: 'ai-worker' },
     { icon: <CreditCard size={20} />, label: 'Billing', id: 'billing' },
-    { icon: <Settings size={20} />, label: 'Settings', id: 'settings' },
-  ];
-
-  return (
+    { icon: 
