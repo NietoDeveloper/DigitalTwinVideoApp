@@ -3,7 +3,4 @@ import {
   LayoutDashboard, 
   Users, 
   Video, 
-  Cpu, 
-  CreditCard, 
-  Settings,  'billing' },
     { icon: 
