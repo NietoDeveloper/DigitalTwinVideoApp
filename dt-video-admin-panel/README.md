@@ -2,17 +2,7 @@
 
     files: ['**/*.{ts,tsx}'],
     extends: [
-      // Other configs...s/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
+      // Other configs...s/eslint-plugin-react-dom) for React-specific lintx}'],
     extends: [
       // Other configs...
       // Enable lint rules for React
