@@ -88,10 +88,7 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="text-right mr-4 hidden sm:block">
-              <p className="text-xs font-bold text-heading-color leading-none">Employee #1</p>
-              <p className="text-[10px] text-gray-500 uppercase">Colombia Committer</p>
-            </div>
+    
             <div className="w-10 h-10 rounded-full bg-gold flex items-center justify-center font-bold border border-border-dt">
               MN
             </div>
