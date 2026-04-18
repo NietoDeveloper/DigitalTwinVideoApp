@@ -308,7 +308,7 @@ dt-video-admin-panel/
 
 ---
 
-### 4 · `dt-video-backend`
+### 4 · `dt-video-landing-backend`
 > **General backend API** — powers the admin panel, handles platform-wide auth, AI worker orchestration, billing, and employee services.
 
 ```
