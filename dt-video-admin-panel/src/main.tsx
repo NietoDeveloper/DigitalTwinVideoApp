@@ -1,10 +1,11 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './App.css' // Importación corregida
-import App from './App.tsx'
+import { create } from 'zustand'
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+interface AdminState {
+  systemStatus: 'healthy' | 'degraded' | 'critical';
+  setSystemStatus: (status: 'healthy' | 'degraded' | 'critical') => void;
+}
+
+export const useAdminStore = create<AdminState>((set) => ({
+  systemStatus: 'healthy', // Estado inicial
+  setSystemStatus: (status) => set({ systemStatus: status }),
+}))
