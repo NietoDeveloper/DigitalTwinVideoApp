@@ -1,0 +1,72 @@
+# --- SOFTWARE DT - MASTER GITIGNORE ---
+
+# Dependencias
+node_modules/
+jspm_packages/
+typings/
+
+# Compilación
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Variables de Entorno (¡CRÍTICO!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Prisma & Base de Datos
+/prisma/*.db
+/prisma/*.db-journal
+dev.db
+dev.db-journal
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# AI WORKER (Python & Modelos)
+ai-worker/__pycache__/
+ai-worker/.pytest_cache/
+ai-worker/venv/
+ai-worker/env/
+ai-worker/.env
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de Datos Pesados (Datasets / Modelos IA)
+*.h5
+*.pth
+*.onnx
+*.weights
+/ai-worker/src/reconstruction/temp_renders/
+/ai-worker/data/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# OS & Editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+coverage/
+.nyc_output/
+
+# Otros
+.cache/
