@@ -47,14 +47,6 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
             onClick={() => setIsSidebarOpen(!isSidebarOpen)}
             className="p-1 hover:bg-gainsboro rounded-md transition-colors"
           >
-            {isSidebarOpen ? <ChevronLeft size={20} /> : <ChevronRight size={20} />}
-          </button>
-        </div>
-
-              {isSidebarOpen && (
-                <span className="ml-4 font-medium text-sm">{item.label}</span>
-              )}
-            </button>
           ))}
         </nav>
 
