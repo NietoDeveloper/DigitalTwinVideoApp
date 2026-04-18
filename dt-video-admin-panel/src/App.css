@@ -1,2 +1,122 @@
 @import "tailwindcss";
 
+/* 1. CONFIGURACIÓN DEL TEMA (Tailwind v4) */
+@theme {
+  --color-gainsboro: #DCDCDC;
+  --color-gold: #FFD700;
+  --color-yellow-color: #FEB60D;
+  --color-heading-color: #000000;
+  --color-text-color: #1a1a1a;
+  
+  --color-main: #DCDCDC;
+  --color-card: #FFFFFF;
+
+  --color-accent: #FFD700;
+  --color-accent-bg: #DCDCDC;
+  --color-accent-border: #FEB60D;
+  
+  --color-border-dt: #bcbcbc;
+
+  --color-status-online: #10b981;
+  --color-status-warning: #f59e0b;
+  --color-status-error: #ef4444;
+  --color-status-ai: #aa3bff;
+}
+
+/* 2. ESTILOS BASE */
+@layer base {
+  body {
+    /* Eliminamos márgenes para que el layout ocupe todo el ancho */
+    @apply bg-main text-text-color antialiased m-0 overflow-x-hidden;
+    font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+
+  h1, h2, h3 {
+    @apply font-semibold tracking-tight;
+    color: var(--color-heading-color);
+  }
+}
+
+/* 3. COMPONENTES REUTILIZABLES */
+.glass-card {
+  @apply bg-card border border-border-dt shadow-sm rounded-lg p-6 transition-all duration-300;
+  &:hover {
+    @apply shadow-md border-gold -translate-y-1;
+  }
+}
+
+.kpi-value {
+  @apply text-3xl font-bold tracking-tighter mt-2;
+  font-family: ui-monospace, Consolas, monospace;
+}
+
+.counter {
+  @apply inline-flex items-center text-sm font-bold px-4 py-2 rounded-md transition-all cursor-pointer;
+  color: var(--color-heading-color);
+  background: white;
+  border: 1px solid var(--color-border-dt);
+
+  &:hover {
+    @apply border-gold shadow-sm ring-1 ring-gold/20;
+    background: #fdfdfd;
+  }
+}
+
+/* 4. AJUSTE DE ESTRUCTURA DASHBOARD (Corrección Crítica) */
+#root {
+  /* Eliminamos max-width para que el sidebar y main ocupen el viewport */
+  @apply min-h-screen w-full flex flex-col bg-main;
+}
+
+/* El contenido central ahora es manejado por el padding del AdminLayout */
+#center {
+  @apply flex flex-col w-full gap-8;
+}
+
+.metrics-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full;
+}
+
+/* Footer de la App.tsx (dentro del Layout) */
+#next-steps {
+  @apply flex border border-border-dt bg-card rounded-xl overflow-hidden mt-8;
+  text-align: left;
+
+  & > div {
+    @apply flex-1 p-8;
+  }
+
+  @media (max-width: 768px) { @apply flex-col; }
+}
+
+#docs {
+  @apply border-r border-border-dt;
+  @media (max-width: 768px) { @apply border-r-0 border-b; }
+}
+
+#next-steps ul {
+  @apply list-none p-0 flex flex-col gap-2 mt-4;
+
+  a {
+    @apply flex items-center gap-2 text-sm font-semibold transition-all no-underline text-gray-600;
+    &:hover { @apply text-gold; }
+  }
+}
+
+/* Detalles de Ingeniería (Ticks) */
+.ticks {
+  @apply relative w-full h-px bg-border-dt my-4 opacity-50;
+  &::before, &::after {
+    content: '';
+    @apply absolute top-[-4.5px] border-[5px] border-transparent;
+  }
+  &::before { @apply left-0 border-l-border-dt; }
+  &::after { @apply right-0 border-r-border-dt; }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-border-dt rounded-full;
+}
