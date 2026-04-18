@@ -34,10 +34,6 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
       {/* SIDEBAR */}
       <aside 
         className={`${
-          isSidebarOpen ? 'w-64' : 'w-20'
-        } bg-white border-r border-border-dt flex flex-col transition-all duration-300 ease-in-out`}
-      >
-        <div className="p-6 flex items-center justify-between">
-          {isSidebarOp
+      p
 
 export default AdminLayout;
