@@ -51,15 +51,6 @@ const AdminLayout: React.FC<AdminLayoutProps> = ({ children }) => {
           </button>
         </div>
 
-        <nav className="flex-1 px-4 space-y-2">
-          {menuItems.map((item) => (
-            <button
-              key={item.id}
-              className="w-full flex items-center p-3 rounded-lg hover:bg-gainsboro text-text-color transition-all group"
-            >
-              <div className="text-gray-500 group-hover:text-gold transition-colors">
-                {item.icon}
-              </div>
               {isSidebarOpen && (
                 <span className="ml-4 font-medium text-sm">{item.label}</span>
               )}
