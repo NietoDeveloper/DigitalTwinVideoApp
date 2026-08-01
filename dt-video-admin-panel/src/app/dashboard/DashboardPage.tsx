@@ -233,10 +233,7 @@ export function DashboardPage() {
           <p className="text-xs text-gray-500 mb-4 font-mono uppercase tracking-tight">
             AWS CloudWatch Shorts
           </p>
-          <ul>
 
-
-          </ul>
         </div>
       </section>
     </AdminLayout>
