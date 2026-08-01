@@ -170,6 +170,4 @@ export function DashboardPage() {
           <h3 className="text-[10px] uppercase tracking-widest text-gray-500 font-bold">
             AI Workers
           </h3>
-          <p className="kpi-value text-status-ai">84%</p>
-          <div className="w-full bg-gainsboro h-1 mt-3 rounded-full overflow-hidden">
 
