@@ -160,4 +160,4 @@ export function DashboardPage() {
           <h3 className="text-[10px] uppercase tracking-widest text-gray-500 font-bold">
             Active Twins
           
-          <p className="kpi-value">1,204</p>
+          <p className="kpi-value">1,204
