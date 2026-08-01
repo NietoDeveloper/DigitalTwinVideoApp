@@ -144,7 +144,7 @@ export function DashboardPage() {
   return (
     <AdminLayout>
       <section className="metrics-grid mb-8">
-        <div className="glass-card">ay-500 font-bold">
+
 
           </h3>
 
