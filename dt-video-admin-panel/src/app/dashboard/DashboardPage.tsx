@@ -161,11 +161,3 @@ export function DashboardPage() {
             Active Twins
           
           <p className="kpi-value">1,204</p>
-
-
-
-
-          s
-
-
-
