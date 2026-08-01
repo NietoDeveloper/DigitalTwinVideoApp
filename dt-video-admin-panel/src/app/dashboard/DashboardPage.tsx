@@ -198,10 +198,3 @@ export function DashboardPage() {
 
       <section id="next-steps" className="rounded-xl overflow-hidden shadow-sm mt-8">
         <div id="docs">
-
-
-        </div>
-
-      </section>
-    </AdminLayout>
-  );
