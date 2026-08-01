@@ -196,10 +196,7 @@ export function DashboardPage() {
             Get started <span className="text-gold">Admin</span>
           </h1>
           <p className="max-w-md mx-auto text-gray-500 text-sm">
-            Panel de control interno para la gestión de{' '}
-            <strong>Digital Twin Video App</strong>. Solo empleados autorizados
-            pueden operar este dashboard.
-          </p>
+
 
           <div className="pt-6">
 
