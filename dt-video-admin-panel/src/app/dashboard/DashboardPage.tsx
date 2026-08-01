@@ -218,8 +218,7 @@ export function DashboardPage() {
           <p className="text-xs text-gray-500 mb-4 font-mono uppercase tracking-tight">
             System Architect Guidelines
           </p>
-          <ul>
-          </ul>
+
         </div>
 
       </section>
