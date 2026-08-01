@@ -149,9 +149,5 @@ export function DashboardPage() {
             Revenue Test
           </h3>
           <p className="kpi-value text-status-online">
-            ${(count * 1250).toLocaleString()}
-          </p>
 
-
-          </div>
         </div
