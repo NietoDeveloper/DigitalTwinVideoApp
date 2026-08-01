@@ -239,7 +239,7 @@ export function DashboardPage() {
             </li>
             <li>
               <a href="#" className="flex items-center gap-2">
-                <div className="w-2 h-2 rounded-full bg-status-warning" />
+ 
 
               </a>
             </li>
