@@ -220,7 +220,7 @@ export function DashboardPage() {
           </p>
           <ul>
             <li>
-              <a href="#streams">Monitor Active Streams</a>
+
             </li>
             <li>
 
