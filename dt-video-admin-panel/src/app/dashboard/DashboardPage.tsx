@@ -181,6 +181,3 @@ export function DashboardPage() {
             Global Uptime
           </h3>
           <p className="kpi-value">99.9%</p>
-
-        </div>
-      </section>
