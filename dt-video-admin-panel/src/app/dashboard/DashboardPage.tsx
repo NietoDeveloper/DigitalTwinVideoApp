@@ -137,5 +137,3 @@ export function DashboardPage() {
 
 import { useState } from 'react';
 import AdminLayout from '../../components/layout/AdminLayout';
-
-export function DashboardPage()
