@@ -206,7 +206,7 @@ export function DashboardPage() {
               className="counter px-8 py-4 text-base"
               onClick={() => setCount((c) => c + 1)}
             >
-              Simulate Transaction: {count}
+
             </button>
           </div>
         </div>
