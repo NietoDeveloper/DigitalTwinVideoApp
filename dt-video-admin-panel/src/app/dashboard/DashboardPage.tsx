@@ -228,11 +228,6 @@ export function DashboardPage() {
           </ul>
         </div>
 
-        <div id="social">
-
-
-
-        </div>
       </section>
     </AdminLayout>
   );
