@@ -215,9 +215,7 @@ export function DashboardPage() {
       <section id="next-steps" className="rounded-xl overflow-hidden shadow-sm mt-8">
         <div id="docs">
           <h2 className="text-lg font-bold mb-2">Internal Docs</h2>
-          <p className="text-xs text-gray-500 mb-4 font-mono uppercase tracking-tight">
-            System Architect Guidelines
-          </p>
+
 
         </div>
 
