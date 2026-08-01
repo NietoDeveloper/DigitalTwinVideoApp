@@ -172,6 +172,4 @@ export function DashboardPage() {
           </h3>
           <p className="kpi-value text-status-ai">84%</p>
           <div className="w-full bg-gainsboro h-1 mt-3 rounded-full overflow-hidden">
-            <div className="bg-status-ai h-full w-[84%]" />
-          </div>
-        </div>
+
