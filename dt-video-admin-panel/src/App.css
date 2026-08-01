@@ -1,0 +1,261 @@
+@import "tailwindcss";
+
+/* 1. CONFIGURACIÓN DEL TEMA (Tailwind v4) */
+@theme {
+  --color-gainsboro: #DCDCDC;
+  --color-gold: #FFD700;
+  --color-yellow-color: #FEB60D;
+  --color-heading-color: #000000;
+  --color-text-color: #1a1a1a;
+  
+  --color-main: #DCDCDC;
+  --color-card: #FFFFFF;
+
+  --color-accent: #FFD700;
+  --color-accent-bg: #DCDCDC;
+  --color-accent-border: #FEB60D;
+  
+  --color-border-dt: #bcbcbc;
+
+  --color-status-online: #10b981;
+  --color-status-warning: #f59e0b;
+  --color-status-error: #ef4444;
+  --color-status-ai: #aa3bff;
+}
+
+/* 2. ESTILOS BASE */
+@layer base {
+  body {
+    /* Eliminamos márgenes para que el layout ocupe todo el ancho */
+    @apply bg-main text-text-color antialiased m-0 overflow-x-hidden;
+    font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+
+  h1, h2, h3 {
+    @apply font-semibold tracking-tight;
+    color: var(--color-heading-color);
+  }
+}
+
+/* 3. COMPONENTES REUTILIZABLES */
+.glass-card {
+  @apply bg-card border border-border-dt shadow-sm rounded-lg p-6 transition-all duration-300;
+  &:hover {
+    @apply shadow-md border-gold -translate-y-1;
+  }
+}
+
+.kpi-value {
+  @apply text-3xl font-bold tracking-tighter mt-2;
+  font-family: ui-monospace, Consolas, monospace;
+}
+
+.counter {
+  @apply inline-flex items-center text-sm font-bold px-4 py-2 rounded-md transition-all cursor-pointer;
+  color: var(--color-heading-color);
+  background: white;
+  border: 1px solid var(--color-border-dt);
+
+  &:hover {
+    @apply border-gold shadow-sm ring-1 ring-gold/20;
+    background: #fdfdfd;
+  }
+}
+
+/* 4. AJUSTE DE ESTRUCTURA DASHBOARD (Corrección Crítica) */
+#root {
+  /* Eliminamos max-width para que el sidebar y main ocupen el viewport */
+  @apply min-h-screen w-full flex flex-col bg-main;
+}
+
+/* El contenido central ahora es manejado por el padding del AdminLayout */
+#center {
+  @apply flex flex-col w-full gap-8;
+}
+
+.metrics-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full;
+}
+
+/* Footer de la App.tsx (dentro del Layout) */
+#next-steps {
+  @apply flex border border-border-dt bg-card rounded-xl overflow-hidden mt-8;
+  text-align: left;
+
+  & > div {
+    @apply flex-1 p-8;
+  }
+
+  @media (max-width: 768px) { @apply flex-col; }
+}
+
+#docs {
+  @apply border-r border-border-dt;
+  @media (max-width: 768px) { @apply border-r-0 border-b; }
+}
+
+#next-steps ul {
+  @apply list-none p-0 flex flex-col gap-2 mt-4;
+
+  a {
+    @apply flex items-center gap-2 text-sm font-semibold transition-all no-underline text-gray-600;
+    &:hover { @apply text-gold; }
+  }
+}
+
+/* Detalles de Ingeniería (Ticks) */
+.ticks {
+  @apply relative w-full h-px bg-border-dt my-4 opacity-50;
+  &::before, &::after {
+    content: '';
+    @apply absolute top-[-4.5px] border-[5px] border-transparent;
+  }
+  &::before { @apply left-0 border-l-border-dt; }
+  &::after { @apply right-0 border-r-border-dt; }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-border-dt rounded-full;
+}
+
+/* 5. AUTH (login / registro empleados) */
+.auth-shell {
+  @apply min-h-screen w-full grid lg:grid-cols-2 bg-main;
+}
+
+.auth-panel {
+  @apply flex flex-col justify-center px-6 py-10 sm:px-12 lg:px-16 bg-white;
+}
+
+.auth-brand {
+  @apply flex items-center gap-3 mb-10;
+}
+
+.auth-brand-mark {
+  @apply w-11 h-11 rounded-lg bg-black text-gold flex items-center justify-center border border-gold/20;
+}
+
+.auth-brand-name {
+  @apply font-black text-lg tracking-tighter leading-none;
+}
+
+.auth-brand-tag {
+  @apply text-[10px] uppercase tracking-[0.2em] text-gray-400 mt-1 font-mono;
+}
+
+.auth-heading {
+  @apply mb-8 space-y-2;
+
+  h1 {
+    @apply text-3xl font-black tracking-tighter uppercase;
+  }
+
+  p {
+    @apply text-sm text-gray-500 max-w-md;
+  }
+}
+
+.auth-form {
+  @apply flex flex-col gap-4 max-w-md;
+}
+
+.auth-field {
+  @apply flex flex-col gap-1.5;
+
+  span {
+    @apply text-[10px] uppercase tracking-widest font-bold text-gray-500;
+  }
+
+  input {
+    @apply w-full rounded-lg border border-border-dt bg-main/40 px-3 py-2.5 text-sm outline-none transition-all;
+    &:focus {
+      @apply border-gold ring-1 ring-gold/30 bg-white;
+    }
+  }
+}
+
+.auth-input-row {
+  @apply relative;
+
+  input {
+    @apply pr-10;
+  }
+}
+
+.auth-icon-btn {
+  @apply absolute right-2 top-1/2 -translate-y-1/2 p-1.5 text-gray-400 hover:text-heading-color rounded-md;
+}
+
+.auth-hint {
+  @apply text-[10px] font-mono text-gray-400;
+}
+
+.auth-alert {
+  @apply rounded-lg border border-status-error/30 bg-status-error/10 text-status-error text-sm px-3 py-2;
+}
+
+.auth-submit {
+  @apply inline-flex items-center justify-center gap-2 mt-2 px-4 py-3 text-sm font-bold rounded-md transition-all cursor-pointer;
+  color: #FFD700;
+  background: #000000;
+  border: 1px solid #000000;
+
+  &:hover {
+    background: #1a1a1a;
+  }
+
+  &:disabled {
+    @apply opacity-60 cursor-not-allowed;
+  }
+}
+
+.auth-footer {
+  @apply mt-8 text-sm text-gray-500 max-w-md;
+
+  a {
+    @apply font-bold text-heading-color underline underline-offset-2 hover:text-gold;
+  }
+}
+
+.auth-aside {
+  @apply hidden lg:flex items-center justify-center p-12 bg-main relative overflow-hidden;
+
+  &::before {
+    content: '';
+    @apply absolute inset-0 opacity-40;
+    background:
+      radial-gradient(circle at 20% 20%, rgba(255, 215, 0, 0.35), transparent 40%),
+      radial-gradient(circle at 80% 70%, rgba(0, 0, 0, 0.08), transparent 45%);
+  }
+}
+
+.auth-aside-card {
+  @apply relative z-10 max-w-md space-y-4 bg-white/80 backdrop-blur border border-border-dt rounded-2xl p-8 shadow-sm;
+
+  h2 {
+    @apply text-2xl font-black tracking-tighter uppercase;
+  }
+
+  p {
+    @apply text-sm text-gray-600;
+  }
+
+  ul {
+    @apply list-disc pl-5 text-sm text-gray-600 space-y-1;
+  }
+}
+
+.auth-aside-link {
+  @apply inline-block text-xs font-bold uppercase tracking-widest text-gray-400 hover:text-gold;
+}
+
+.auth-loading {
+  @apply min-h-screen w-full flex flex-col items-center justify-center gap-3 bg-main text-sm text-gray-500;
+}
+
+.auth-loading-dot {
+  @apply w-3 h-3 rounded-full bg-gold animate-pulse;
+}
