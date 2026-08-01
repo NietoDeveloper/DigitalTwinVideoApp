@@ -150,4 +150,4 @@ export function DashboardPage() {
           </h3>
           <p className="kpi-value text-status-online">
 
-        </div
+  
