@@ -154,6 +154,4 @@ export function DashboardPage() {
           <div className="text-[9px] mt-2 font-mono text-gray-400">
             Live simulation active
           </div>
-        </div>
-
-        <div className="glass-card">
+        </div
