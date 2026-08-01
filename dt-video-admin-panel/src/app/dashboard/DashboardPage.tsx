@@ -234,9 +234,7 @@ export function DashboardPage() {
             AWS CloudWatch Shorts
           </p>
           <ul>
-            <li>
 
-            </li>
 
           </ul>
         </div>
