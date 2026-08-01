@@ -238,10 +238,7 @@ export function DashboardPage() {
 
             </li>
             <li>
-              <a href="#" className="flex items-center gap-2">
- 
 
-              </a>
             </li>
           </ul>
         </div>
