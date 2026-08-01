@@ -184,6 +184,3 @@ export function DashboardPage() {
 
         </div>
       </section>
-
-      <section
-        id="center"
