@@ -229,7 +229,7 @@ export function DashboardPage() {
         </div>
 
         <div id="social">
-          <h2 className="text-lg font-bold mb-2">Infrastructure Status</h2>
+
 
 
         </div>
