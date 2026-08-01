@@ -190,7 +190,3 @@ export function DashboardPage() {
         className="min-h-[400px] border-2 border-dashed border-border-dt rounded-2xl flex flex-col items-center justify-center bg-white/30 backdrop-blur-sm"
       >
         <div className="text-center space-y-4">
->
-
-          </div>
-        </div>
