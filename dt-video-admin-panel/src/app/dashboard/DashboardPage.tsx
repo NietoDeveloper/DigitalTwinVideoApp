@@ -146,8 +146,7 @@ export function DashboardPage() {
       <section className="metrics-grid mb-8">
         <div className="glass-card">
           <h3 className="text-[10px] uppercase tracking-widest text-gray-500 font-bold">
-            Revenue Test
+
           </h3>
-          <p className="kpi-value text-status-online">
 
   
