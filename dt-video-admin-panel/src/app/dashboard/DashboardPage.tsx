@@ -219,9 +219,7 @@ export function DashboardPage() {
             System Architect Guidelines
           </p>
           <ul>
-            <li>
 
-            </li>
             <li>
 
             </li>
