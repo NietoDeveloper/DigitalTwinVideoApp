@@ -175,6 +175,3 @@ export function DashboardPage() {
             <div className="bg-status-ai h-full w-[84%]" />
           </div>
         </div>
-
-        <div className="glass-card">
-
