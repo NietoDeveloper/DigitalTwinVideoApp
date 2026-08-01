@@ -143,4 +143,3 @@ export function DashboardPage() {
 
   return (
     <AdminLayout>
-      <section className="metrics-
