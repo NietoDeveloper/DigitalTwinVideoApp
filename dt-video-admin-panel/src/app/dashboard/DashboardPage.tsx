@@ -223,7 +223,7 @@ export function DashboardPage() {
               <a href="#streams">Monitor Active Streams</a>
             </li>
             <li>
-              <a href="#ai">Worker Queue Management</a>
+
             </li>
           </ul>
         </div>
