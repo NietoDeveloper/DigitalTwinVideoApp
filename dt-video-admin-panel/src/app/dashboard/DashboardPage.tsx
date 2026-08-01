@@ -142,4 +142,4 @@ export function DashboardPage() {
   const [count, setCount] = useState(0);
 
   return (
-    <AdminLayout>
+    <AdminLayout
