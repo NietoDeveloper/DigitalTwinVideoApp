@@ -151,7 +151,7 @@ export function DashboardPage() {
           <p className="kpi-value text-status-online">
             ${(count * 1250).toLocaleString()}
           </p>
-          <div className="text-[9px] mt-2 font-mono text-gray-400">
-            Live simulation active
+
+
           </div>
         </div
