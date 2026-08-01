@@ -143,9 +143,5 @@ export function DashboardPage() {
 
   return (
     <AdminLayout>
-      <section className="metrics-grid mb-8">
-
-
-          </h3>
-
+      <section className="metrics-grid 
   
