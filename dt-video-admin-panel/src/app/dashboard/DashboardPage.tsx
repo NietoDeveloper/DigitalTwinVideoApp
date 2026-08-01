@@ -237,9 +237,7 @@ export function DashboardPage() {
             <li>
 
             </li>
-            <li>
 
-            </li>
           </ul>
         </div>
       </section>
