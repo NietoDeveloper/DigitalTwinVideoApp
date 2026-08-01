@@ -162,8 +162,7 @@ export function DashboardPage() {
           </h3>
           <p className="kpi-value">1,204</p>
           <div className="text-[9px] mt-2 font-mono text-status-online">
-            ● AWS Kinesis Stable
-          </div>
+
         </div>
 
 
