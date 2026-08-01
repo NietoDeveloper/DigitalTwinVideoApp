@@ -202,12 +202,7 @@ export function DashboardPage() {
           </p>
 
           <div className="pt-6">
-            <button
-              className="counter px-8 py-4 text-base"
-              onClick={() => setCount((c) => c + 1)}
-            >
 
-            </button>
           </div>
         </div>
       </section>
