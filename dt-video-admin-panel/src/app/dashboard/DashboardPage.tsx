@@ -115,5 +115,3 @@ export function DashboardPage() {
     </AdminLayout>
   );
 }
-
-
