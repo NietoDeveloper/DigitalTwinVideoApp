@@ -161,7 +161,7 @@ export function DashboardPage() {
             Active Twins
           </h3>
           <p className="kpi-value">1,204</p>
-          <div className="text-[9px] mt-2 font-mono text-staone">
+          <div className="text-[9px] mt-2 font-mono texstaone">
 s
 
 
