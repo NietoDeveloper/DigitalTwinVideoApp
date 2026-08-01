@@ -243,7 +243,7 @@ export function DashboardPage() {
             <li>
               <a href="#" className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-status-warning" />
-                S3 Storage: 88% Full
+
               </a>
             </li>
           </ul>
