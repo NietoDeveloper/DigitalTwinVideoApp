@@ -157,4 +157,4 @@ export function DashboardPage() {
         </div>
 
         <div className="glass-card">
-          <h3 className="text-[10px] uppercase tracking-widest
+          <h3 className="text-[10px] uppercase tracking-
