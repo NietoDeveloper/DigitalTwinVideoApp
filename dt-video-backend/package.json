@@ -5,8 +5,4 @@
   "main": "src/index.ts",
   "type": "commonjs",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only --exit-child src/index.ts",
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "lint",
-    "softw
+ 
