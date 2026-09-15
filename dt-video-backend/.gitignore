@@ -11,23 +11,7 @@ typings/
 .en
 npm-debug.log*
 yarn-debug.log*
-*.pyc
-*.pyo
-*.pyd
-
-# Archivos de Datos Pesados (Datasets / Modelos IA)
-*.h5
-*.pth
-*.onnx
-*.weights
-/ai-worker/src/reconstruction/temp_renders/
-/ai-worker/data/
-
-# Docker
-.docker/
-docker-compose.override.yml
-
-# OS & Editores
+res
 .DS_Store
 Thumbs.db
 .vscode/
