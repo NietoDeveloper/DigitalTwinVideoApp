@@ -5,11 +5,7 @@ node_modules/
 jspm_packages/
 typings/
 
-# Compilación
-dist/
-build/
-out/
-*.tsbuildinfo
+
 
 # Variables de Entorno (¡CRÍTICO!)
 .env
