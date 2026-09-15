@@ -1,12 +1,2 @@
 # --- SOFTWARE DT - MASTER GITIGNORE ---
 
-# Dependencias
-node_modules/
-jspm_packages/
-typings/
-
-
-
-# Variables de Entorno (¡CRÍTICO!)
-.en
-npm-debug.
