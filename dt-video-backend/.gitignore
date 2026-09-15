@@ -9,22 +9,4 @@ typings/
 
 # Variables de Entorno (¡CRÍTICO!)
 .en
-npm-debug.log*
-yarn-debug.log*
-res
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# Testing
-coverage/
-.nyc_output/
-
-# Otros
-.cache/
+npm-debug.
