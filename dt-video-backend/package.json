@@ -1,8 +1,3 @@
 {
   "name": "dt-video-landing-backend",
   "version": "1.0.0",
-  "description": "General backend API for Digital Twin Video App - Software DT",
-  "main": "src/index.ts",
-  "type": "commonjs",
-  "scripts": {
- 
