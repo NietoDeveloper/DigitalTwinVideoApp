@@ -11,16 +11,6 @@ typings/
 .en
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
-logs/
-*.log
-
-# AI WORKER (Python & Modelos)
-ai-worker/__pycache__/
-ai-worker/.pytest_cache/
-ai-worker/venv/
-ai-worker/env/
-ai-worker/.env
 *.pyc
 *.pyo
 *.pyd
