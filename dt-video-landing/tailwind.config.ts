@@ -10,10 +10,6 @@ const config: Config = {
     extend: {
       colors: {
         main: "#DCDCDC",
-        gold: "#FFD700",
-
-    },
-  },
-  plugins: [],
+: [],
 };
 export default config;
