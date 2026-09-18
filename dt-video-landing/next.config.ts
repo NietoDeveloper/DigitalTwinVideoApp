@@ -1,1 +1,0 @@
-xport default nextConfig;
