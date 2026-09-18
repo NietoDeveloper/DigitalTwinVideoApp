@@ -1,11 +1,2 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependenc/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-
-# debug
-npm-debug.log*
-y
