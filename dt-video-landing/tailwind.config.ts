@@ -11,10 +11,7 @@ const config: Config = {
       colors: {
         main: "#DCDCDC",
         gold: "#FFD700",
-        yellowColor: "#FEB60D",
-        headingColor: "#000000",
-        textColor: "#000000",
-      },
+
     },
   },
   plugins: [],
