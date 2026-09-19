@@ -17,9 +17,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body 
-        className="antialiased overflow-x-hidden bg-black text-white selection:bg-gold selection:text-black"
-        style={{ backgroundColor: '#000000' }}
-      >
         {children}
       </body>
     </html>
