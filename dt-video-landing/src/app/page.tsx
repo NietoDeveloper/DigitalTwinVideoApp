@@ -7,5 +7,5 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <main className="relative bg-black min-h-screen w-full">
+    <main className="relative bg-black min-h-screfull">
     
