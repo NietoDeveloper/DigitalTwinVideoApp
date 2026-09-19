@@ -14,10 +14,6 @@
   width: 5px;
 }
 
-::-webkit-scrollbar-track {
-  background: #000000; /* Track negro para que no se note */
-}
-
 ::-webkit-scrollbar-thumb {
   background: var(--accent-gold);
   border-radius: 10px;
