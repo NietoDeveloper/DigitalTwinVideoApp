@@ -16,9 +16,7 @@ export default function Home() {
       
       {/* 3. Sección de Información Técnica - Aparece al bajar el scroll */}
       <section className="relative z-20 bg-black">
-        <About />
-      </section>
-      
+
       {/* 4. Pie de Página */}
       <footer className="relative z-20 bg-black">
         <Footer />
