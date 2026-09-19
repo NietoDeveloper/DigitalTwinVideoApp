@@ -13,8 +13,7 @@ export default function Home() {
         <Navbar />
       </div>
       
-      
-      {/* 3. Sección de Información Técnica - Aparece al bajar el scroll */}
+      oll */}
 
         <Footer />
       </footer>
