@@ -3,11 +3,4 @@
 /* 1. Variables de Identidad Software DT */
 :root {
   --main-bg: #000000; /* Fondo Negro Total para resaltar el Reel */
-  --accent-gold: #FFD700;
-  --industrial-gray: #DCDCDC;
-}
-; }
-.border-gold { border-color: #FFD700; }
-
-/* 4. Scrollbar Estilo Tesla Dark */
-::-webkit-scrollba
+  --accent-go
