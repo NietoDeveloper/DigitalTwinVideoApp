@@ -13,6 +13,3 @@ export const metadata: Metadata = {
 }) {
         {children}
       </body>
-    </html>
-  )
-}
