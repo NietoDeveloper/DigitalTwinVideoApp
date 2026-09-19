@@ -14,15 +14,6 @@
   width: 5px;
 }
 
-::-webkit-scrollbar-thumb {
-  background: var(--accent-gold);
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #e6c200;
-}
-
 /* 5. Fix para el contenedor del Video */
 video {
   display: block;
