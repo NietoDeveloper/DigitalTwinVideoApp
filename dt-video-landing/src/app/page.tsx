@@ -10,9 +10,3 @@ export default function Home() {
     <main className="relative bg-black min-h-screen w-full">
       {/* 1. Navegación - Siempre sobre el contenido */}
       <div className="fixed top-0 w-full z-50">
-        <Navb      </
-      
-      oll */}
-
-        <Footer />
-      </footer>
