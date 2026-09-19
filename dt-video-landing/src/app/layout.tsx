@@ -1,8 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 
-export const metadata: Metadata = {
-  title: 'Digital Twin Video | Software DT',
+export const metadata:oftware DT',
   description: 'Industrial Grade Video Reconstruction',
 
   },
