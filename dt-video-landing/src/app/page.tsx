@@ -7,4 +7,4 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   re
-    <main className="rela
+    <main className
