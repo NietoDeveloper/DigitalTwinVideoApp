@@ -11,7 +11,7 @@ export default function Home() {
       {/* 1. Navegación - Siempre sobre el contenido */}
       <div className="fixed top-0 w-full z-50">
         <Navbar />
-      </div>
+      </
       
       oll */}
 
