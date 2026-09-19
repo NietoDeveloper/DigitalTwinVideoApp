@@ -6,12 +6,7 @@
   --accent-gold: #FFD700;
   --industrial-gray: #DCDCDC;
 }
-
-
-/* 3. Clases de Utilidad Manuales (Backups) */
-.bg-main { background-color: #000000; }
-.text-gold { color: #FFD700; }
-.bg-gold { background-color: #FFD700; }
+; }
 .border-gold { border-color: #FFD700; }
 
 /* 4. Scrollbar Estilo Tesla Dark */
