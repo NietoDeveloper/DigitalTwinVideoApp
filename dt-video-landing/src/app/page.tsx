@@ -5,6 +5,4 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Footer from "../components/Footer";
 
-export default function Home() {
-
-    <main c
+export default function Home() 
