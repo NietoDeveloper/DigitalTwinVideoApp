@@ -10,14 +10,4 @@
 .border-gold { border-color: #FFD700; }
 
 /* 4. Scrollbar Estilo Tesla Dark */
-::-webkit-scrollbar {
-  width: 5px;
-}
-
-/* 5. Fix para el contenedor del Video */
-video {
-  display: block;
-  object-fit: cover;
-  /* Asegura que el video no tenga filtros que lo oculten */
-  filter: brightness(0.8); 
-}
+::-webkit-scrollba
