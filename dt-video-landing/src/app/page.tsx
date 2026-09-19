@@ -13,9 +13,6 @@ export default function Home() {
         <Navbar />
       </div>
       
-      {/* 2. Hero Component (Controla el 50vh Video + 50vh Botones) */}
-      {/* No añadimos padding-top para que el video empiece desde el borde superior */}
-      <Hero />
       
       {/* 3. Sección de Información Técnica - Aparece al bajar el scroll */}
       <section className="relative z-20 bg-black">
