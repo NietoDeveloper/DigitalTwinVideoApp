@@ -6,5 +6,5 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 
 export default function Home() {
-  re
+
     <main className
