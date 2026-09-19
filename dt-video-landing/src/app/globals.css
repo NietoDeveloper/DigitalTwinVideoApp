@@ -7,15 +7,6 @@
   --industrial-gray: #DCDCDC;
 }
 
-/* 2. Reset Base */
-body {
-  background-color: var(--main-bg) !important;
-  color: #FFFFFF; /* Texto blanco sobre fondo negro */
-  margin: 0;
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
-}
 
 /* 3. Clases de Utilidad Manuales (Backups) */
 .bg-main { background-color: #000000; }
