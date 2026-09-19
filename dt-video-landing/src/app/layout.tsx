@@ -8,8 +8,3 @@ export const metadata: Metadata = {
     icon: '/favicon.ico', 
   },
 }
-
-  children: React.ReactNode
-}) {
-        {children}
-      </body>
