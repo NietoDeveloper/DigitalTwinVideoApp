@@ -12,12 +12,6 @@ const videos = [
 
 const services = [
       setIndex((prev) => (prev + 1) % videos.length);
-    }, 5000);
-    return () => clearInterval(timer);
-  }, []);cción, re-intentar al primer click
-          console.log("Esperando interacción del usuario para reproducir.");
-        });
-      }
     }
   }, [index, isMounted]);
 
