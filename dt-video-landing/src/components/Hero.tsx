@@ -16,12 +16,7 @@ const services = [
   { title: 'Infrastructure', desc: 'Large scale city-grid mapping.' }
 ];
 
-export default function Hero() {
-  const [index, setIndex] = useStatull);
-
-  useEffect(() => {
-    setIsMounted(true);
-    const timer = setInterval(() => {
+export default  {
       setIndex((prev) => (prev + 1) % videos.length);
     }, 5000);
     return () => clearInterval(timer);
