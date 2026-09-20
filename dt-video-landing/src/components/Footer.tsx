@@ -16,11 +16,6 @@ const Footer = () => {
               <span className="text-[11px] font-bold uppercase tracking-[0.3em] text-white">
                 Digital Twin <span className="text-gold">Video Systems</span>
               </span>
-            </div>
-            <span className="text-[9px] uppercase tracking-widest text-white/30 ml-5">
-              Powered by Software DT / Colombia #1
-            </span>
-          </div>
 
           {/* Navigation */}
           <nav className="flex flex-wrap justify-center gap-x-8 gap-y-4">
