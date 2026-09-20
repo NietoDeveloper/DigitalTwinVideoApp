@@ -11,12 +11,6 @@ const videos = [
 ];
 
 const services = [
-  { title: 'Real Estate DT', desc: 'Precision scanning for architecture.' },
-  { title: 'Industrial Unit', desc: 'Digital twins for heavy machinery.' },
-  { title: 'Infrastructure', desc: 'Large scale city-grid mapping.' }
-];
-
-export default  {
       setIndex((prev) => (prev + 1) % videos.length);
     }, 5000);
     return () => clearInterval(timer);
