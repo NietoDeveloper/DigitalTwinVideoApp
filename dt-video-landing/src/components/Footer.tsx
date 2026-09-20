@@ -12,15 +12,6 @@ const Footer = () => {
   return (
           <nav className="flex flex-wrap justify-center gap-x-8 gap-y-4">
             {footerLinks.map((link) => (
-                {link.name}
-                <span className="ab
-          
-          <div className="flex items-center gap-4">
-            <span className="text-[9px] text-gainsboro/20 tracking-widest uppercase">
-              BOGOTÁ / 4.7110° N, 74.0721° W
-            </span>
-          </div>
-        </div>
       </div>
     </footer>
   );
