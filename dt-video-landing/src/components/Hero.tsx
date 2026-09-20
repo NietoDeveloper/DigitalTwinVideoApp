@@ -10,11 +10,6 @@ const videos = [
   "https://v.ftcdn.net/01/71/34/44/700_F_1713444
   if (!isMounted) return <div className="h-screen bg-black" />;
 
-  return (
-    <section className="flex flex-col w-full min-h-sc
-            autoPlay 
-            muted 
-            loop 
             playsInline
             controls={false}
             initial={{ opacity: 0 }}
