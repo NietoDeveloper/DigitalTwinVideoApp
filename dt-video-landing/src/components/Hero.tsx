@@ -17,9 +17,7 @@ const services = [
 ];
 
 export default function Hero() {
-  const [index, setIndex] = useState(0);
-  const [isMounted, setIsMounted] = useState(false);
-  const videoRef = useRef<HTMLVideoElement>(null);
+  const [index, setIndex] = useStatull);
 
   useEffect(() => {
     setIsMounted(true);
