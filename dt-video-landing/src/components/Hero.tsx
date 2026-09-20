@@ -15,12 +15,6 @@ const videos = [
             initial={{ opacity: 0 }}
             animate={{ opacity: 0.6 0' }} className="w-8 h-[1px]" />
         </div>d animate-pulse" />
-                    <span className="w-1 h-1 bg-gold animate-pulse delay-75" />
-                 </div>
-              </div>
-            </motion.button>
-          ))}
-        </div>
         
         <div className="mt-4 animate-bounce">
            <div className="w-[1px] h-8 bg-gradient-to-b from-gold to-transparent" />
