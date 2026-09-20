@@ -13,12 +13,7 @@ const videos = [
             playsInline
             controls={false}
             initial={{ opacity: 0 }}
-            animate={{ opacity: 0.6 0' }} className="w-8 h-[1px]" />
-        </div>d animate-pulse" />
-        
-        <div className="mt-4 animate-bounce">
-           <div className="w-[1px] h-8 bg-gradient-to-b from-gold to-transparent" />
-        </div>
+            animate={{ opacity: 0.6 0' }} className="
       </div>
     </section>
   );
