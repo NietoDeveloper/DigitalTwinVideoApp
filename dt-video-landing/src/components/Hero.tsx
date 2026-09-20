@@ -15,12 +15,6 @@ const videos = [
             initial={{ opacity: 0 }}
             animate={{ opacity: 0.6 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 1.5 }}
-            className="absolute inset-0 w-full h-full object-cover"
-          >
-            {/* El uso de <source> con type="video/mp4" soluciona el error "No supported sources" */}
-            <source src={videos[index]} type="video/mp4" />
-          </motion.video>
         </AnimatePresence>
         
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white z-10 px-6 pointer-events-none">
