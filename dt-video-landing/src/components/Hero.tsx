@@ -14,14 +14,7 @@ const videos = [
             controls={false}
             initial={{ opacity: 0 }}
             animate={{ opacity: 0.6 0' }} className="w-8 h-[1px]" />
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-7xl h-full max-h-[300px]">
-          {services.map((s
-                <div className="w-1 h-1 bg-gold group-hovacity-0 group-hover:opacity-100 transition-all transform translate-y-2 group-hover:translate-y-0">
-                 <span style={{ color: '#FFD700' }} className="text-[8px] font-bold tracking-[0.3em]">CONNECTING</span>
-                 <div className="flex gap-1">
-                    <span className="w-1 h-1 bg-gold animate-pulse" />
+        </div>d animate-pulse" />
                     <span className="w-1 h-1 bg-gold animate-pulse delay-75" />
                  </div>
               </div>
