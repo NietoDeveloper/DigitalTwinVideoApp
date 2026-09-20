@@ -10,14 +10,6 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full py-10 pd rounded-full" />
-                <div className="absolute inset-0 w-2 h-2 bg-gold rounded-full animate-ping opacity-75" />
-              </div>
-              <span className="text-[11px] font-bold uppercase tracking-[0.3em] text-white">
-                Digital Twin <span className="text-gold">Video Systems</span>
-              </span>
-
-          {/* Navigation */}
           <nav className="flex flex-wrap justify-center gap-x-8 gap-y-4">
             {footerLinks.map((link) => (
               <a
