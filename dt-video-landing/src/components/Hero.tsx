@@ -13,17 +13,7 @@ const videos = [
             playsInline
             controls={false}
             initial={{ opacity: 0 }}
-            animate={{ opacity: 0.6 }}
-            exit={{ opacity: 0 }}
-        </AnimatePresence>
-      {/* SECCIÓN 2: 50vh Botones Estilizados */}
-      <div 
-        style={{ backgroundColor: '#000000' }} 
-        className="h-[50vh] flex flex-col items-center justify-center gap-8 px-8 relative z-10 border-t border-white/5"
-      >
-        <div className="flex flex-col items-center gap-2 mb-2">
-          <h2 className="text-[10px] font-black uppercase tracking-[0.5em] text-white/20">Deployment Hub</h2>
-          <div style={{ backgroundColor: '#FFD700' }} className="w-8 h-[1px]" />
+            animate={{ opacity: 0.6 0' }} className="w-8 h-[1px]" />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-7xl h-full max-h-[300px]">
