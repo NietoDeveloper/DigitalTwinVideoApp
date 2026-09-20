@@ -18,17 +18,7 @@ const Footer = () => {
                 className="text-[10px] uppercase tracking-[0.2em] text-gainsboro/50 hover:text-gold transition-all duration-300 ease-in-out relative group"
               >
                 {link.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-gold transition-all duration-300 group-hover:w-full" />
-              </a>
-            ))}
-          </nav>
-        </div>
-
-        {/* Bottom Section: Copyright & Location */}
-        <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/5 gap-4">
-          <p className="text-[9px] text-gainsboro/30 tracking-[0.2em] uppercase">
-            © {currentYear} Software DT. All rights reserved. Built for scalability.
-          </p>
+                <span className="ab
           
           <div className="flex items-center gap-4">
             <span className="text-[9px] text-gainsboro/20 tracking-widest uppercase">
