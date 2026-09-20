@@ -12,11 +12,6 @@ const Footer = () => {
   return (
           <nav className="flex flex-wrap justify-center gap-x-8 gap-y-4">
             {footerLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-[10px] uppercase tracking-[0.2em] text-gainsboro/50 hover:text-gold transition-all duration-300 ease-in-out relative group"
-              >
                 {link.name}
                 <span className="ab
           
