@@ -14,16 +14,7 @@ const services = [
       setIndex((prev) => (prev + 1) % videos.length);
     }, 5000);
     return () => clearInterval(timer);
-  }, []);
-
-  // Control de carga robusto
-  useEffect(() => {
-    if (isMounted && videoRef.current) {
-      videoRef.current.load(); // Fuerza al navegador a leer el nuevo <source>
-      const playPromise = videoRef.current.play();
-      if (playPromise !== undefined) {
-        playPromise.catch(() => {
-          // Si el navegador bloquea por interacción, re-intentar al primer click
+  }, []);cción, re-intentar al primer click
           console.log("Esperando interacción del usuario para reproducir.");
         });
       }
