@@ -7,7 +7,4 @@ const footerLinks = [
 ];
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
-
-  return (
-  );
+  const cur
