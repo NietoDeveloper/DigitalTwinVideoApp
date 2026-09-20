@@ -10,14 +10,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full py-10 px-8 border-t border-white/5 bg-black text-gainsboro">
-      <div className="max-w-7xl mx-auto">
-        {/* Top Section: Logo & Status */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-10">
-          <div className="flex flex-col items-center md:items-start gap-2">
-            <div className="flex items-center gap-3">
-              <div className="relative">
-                <div className="w-2 h-2 bg-gold rounded-full" />
+    <footer className="w-full py-10 pd rounded-full" />
                 <div className="absolute inset-0 w-2 h-2 bg-gold rounded-full animate-ping opacity-75" />
               </div>
               <span className="text-[11px] font-bold uppercase tracking-[0.3em] text-white">
