@@ -18,13 +18,7 @@ const services = [
   if (!isMounted) return <div className="h-screen bg-black" />;
 
   return (
-    <section className="flex flex-col w-full min-h-screen bg-black">
-      {/* SECCIÓN 1: 50vh Video Reel */}
-      <div className="h-[50vh] relative overflow-hidden bg-black w-full border-b border-white/5 z-0">
-        <AnimatePresence mode="wait">
-          <motion.video
-            ref={videoRef}
-            key={videos[index]}
+    <section className="flex flex-col w-full min-h-sc
             autoPlay 
             muted 
             loop 
