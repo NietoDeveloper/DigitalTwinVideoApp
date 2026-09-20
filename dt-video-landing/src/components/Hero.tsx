@@ -16,16 +16,6 @@ const videos = [
             animate={{ opacity: 0.6 }}
             exit={{ opacity: 0 }}
         </AnimatePresence>
-        
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-white z-10 px-6 pointer-events-none">
-          <motion.h1 
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}' }} className="tracking-[0.5em] uppercase text-[10px] mt-4 font-bold">
-            Industrial Grade Reconstruction
-          </p>
-        </div>
-      </div>
-
       {/* SECCIÓN 2: 50vh Botones Estilizados */}
       <div 
         style={{ backgroundColor: '#000000' }} 
