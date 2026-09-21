@@ -6,4 +6,4 @@ const config = {
     'autoprefixer': {},
   }
 
-export default con
+export defaul
