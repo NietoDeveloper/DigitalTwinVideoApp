@@ -13,11 +13,9 @@ const About = () => {
                   key={index} 
                   className="bg-main p-8 hover:bg-white transition-colors duration-500 group"
                 >
-                  <p className="text-[9px] uppercase tracking-[0.3em] text-textColor/40 mb-3 group-hover:text-gold transition-colors">
-                    {spec.label}
-                  </p> tracking-tight text-headingColor uppercase">
-                    {spec.value}
-                  </p>
+ingColor uppercase">
+                                <p className="text-[9px] uppercase tracking-[0.3em] text-textColor/40 mb-3 group-hover:text-gold transition-colors">
+
                 </div>
               ))}
             </div>
