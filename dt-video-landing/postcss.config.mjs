@@ -4,7 +4,6 @@ const config = {
     // Se actualiza el nombre del plugin para compatibilidad con Tailwind v4 / Next 16
     '@tailwindcss/postcss': {}, 
     'autoprefixer': {},
-  },
-};
+  }
 
 export default con
