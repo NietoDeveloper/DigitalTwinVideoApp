@@ -25,8 +25,7 @@ const About = () => {
               Nuestra tecnología procesa flujos de video complejos para generar réplicas digitales 
               con precisión milimétrica. No es solo video; es una estructura de datos visual 
               diseñada para la toma de decisiones crítica en tiempo real.
-            </p>
-          </div>
+
 
           {/* Columna Derecha: Specs Grid */}
           <div className="lg:w-1/2 w-full">
