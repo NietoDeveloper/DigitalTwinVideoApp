@@ -14,13 +14,7 @@ const About = () => {
       <div className="absolute top-0 right-0 w-64 h-64 bg-gold/5 rounded-full blur-3xl -mr-32 -mt-32" />
 
       <div className="max-w-6xl mx-auto">
-
-            
-            <p className="text-textColor/70 text-lg leading-relaxed max-w-xl border-l-2 border-gold/20 pl-6">
-              Nuestra tecnología procesa flujos de video complejos para generar réplicas digitales 
-     
-
-          {/* Columna Derecha: Specs Grid */}
+}
           <div className="lg:w-1/2 w-full">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-black/5 border border-black/5">
               {specs.map((spec, index) => (
