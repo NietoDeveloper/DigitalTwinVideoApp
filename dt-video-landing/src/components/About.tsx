@@ -15,8 +15,7 @@ const About = () => {
                 >
                   <p className="text-[9px] uppercase tracking-[0.3em] text-textColor/40 mb-3 group-hover:text-gold transition-colors">
                     {spec.label}
-                  </p>
-                  <p className="text-xl font-bold tracking-tight text-headingColor uppercase">
+                  </p> tracking-tight text-headingColor uppercase">
                     {spec.value}
                   </p>
                 </div>
