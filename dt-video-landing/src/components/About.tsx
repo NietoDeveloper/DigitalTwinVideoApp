@@ -13,10 +13,6 @@ const About = () => {
                   key={index} 
                   className="bg-main p-8 hover:bg-white transition-colors duration-500 group"
 
-                </div>
-              ))}
-n items-center text-[10px] uppercase tracking-widest text-textColor/30 font-medium">
-
               <span>Ref: DT-VIDEO-2026</span>
             </div>
           </div>
