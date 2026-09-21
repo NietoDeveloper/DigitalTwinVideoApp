@@ -14,12 +14,7 @@ const About = () => {
       <div className="absolute top-0 right-0 w-64 h-64 bg-gold/5 rounded-full blur-3xl -mr-32 -mt-32" />
 
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col lg:flex-row gap-16 items-start">
 
-            <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-headingColor mb-8 uppercase leading-none">
-              High Fidelity <br />
-              <span className="text-white drop-shadow-[1px_1px_0px_rgba(0,0,0,1)]">Digital Twin</span>
-            </h2>
             
             <p className="text-textColor/70 text-lg leading-relaxed max-w-xl border-l-2 border-gold/20 pl-6">
               Nuestra tecnología procesa flujos de video complejos para generar réplicas digitales 
