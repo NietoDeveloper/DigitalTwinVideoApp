@@ -16,9 +16,7 @@ const About = () => {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-16 items-start">
           
-          {/* Columna Izquierda: Título e Intro */}
-          <div className="lg:w-1/2">
-            <div className="flex items-center gap-4 mb-6">
+x items-center gap-4 mb-6">
               <div className="w-12 h-[1px] bg-gold" />
               <span className="text-[10px] uppercase tracking-[0.4em] text-gold font-bold">
                 Specifications
