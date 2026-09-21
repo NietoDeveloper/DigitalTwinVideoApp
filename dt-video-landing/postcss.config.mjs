@@ -5,5 +5,3 @@ const config = {
     '@tailwindcss/postcss': {}, 
     'autoprefixer': {},
   }
-
-exp
