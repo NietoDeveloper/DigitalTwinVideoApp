@@ -1,1 +1,1 @@
-/** @type {import('postcss-load-config').Conf
+/** @type {import('postcss-load-config')
