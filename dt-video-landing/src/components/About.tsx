@@ -11,15 +11,7 @@ const About = () => {
   return (
     <section className="relative py-24 px-8 bg-main overflow-hidden">
       {/* Elemento Decorativo de Fondo (Sutil) */}
-      <div className="absolute top-0 right-0 w-64 h-64 bg-gold/5 rounded-full blur-3xl -mr-32 -mt-32" />
 
-      <div className="max-w-6xl mx-auto">
-}
-          <div className="lg:w-1/2 w-full">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-black/5 border border-black/5">
-              {specs.map((spec, index) => (
-                <div 
-                  key={index} 
                   className="bg-main p-8 hover:bg-white transition-colors duration-500 group"
                 >
                   <p className="text-[9px] uppercase tracking-[0.3em] text-textColor/40 mb-3 group-hover:text-gold transition-colors">
