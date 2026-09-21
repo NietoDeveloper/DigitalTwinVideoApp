@@ -6,4 +6,4 @@ const config = {
     'autoprefixer': {},
   }
 
-export defaul
+export d
