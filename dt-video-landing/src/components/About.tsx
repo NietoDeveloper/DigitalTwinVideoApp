@@ -19,7 +19,7 @@ const About = () => {
             
             {/* Tagline de Versión */}
             <div className="mt-8 flex justify-between items-center text-[10px] uppercase tracking-widest text-textColor/30 font-medium">
-              <span>Optimized for Production</span>
+
               <span>Ref: DT-VIDEO-2026</span>
             </div>
           </div>
