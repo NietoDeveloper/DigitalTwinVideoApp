@@ -18,9 +18,7 @@ const About = () => {
           
               <div className="w-12 h-[1px] bg-gold" />
               <span className="text-[10px] uppercase tracking-[0.4em] text-gold font-bold">
-                Specifications
-              </span>
-            </div>
+
             
             <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-headingColor mb-8 uppercase leading-none">
               High Fidelity <br />
