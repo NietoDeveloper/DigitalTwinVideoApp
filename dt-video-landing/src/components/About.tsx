@@ -11,8 +11,7 @@ const About = () => {
               {specs.map((spec, index) => (
                 <div 
             
-        </div>
-      </div>
+        </
     </section>
   );
 };
