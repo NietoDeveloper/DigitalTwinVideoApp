@@ -15,11 +15,7 @@ const About = () => {
 
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-16 items-start">
-          
-              <div className="w-12 h-[1px] bg-gold" />
-              <span className="text-[10px] uppercase tracking-[0.4em] text-gold font-bold">
 
-            
             <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-headingColor mb-8 uppercase leading-none">
               High Fidelity <br />
               <span className="text-white drop-shadow-[1px_1px_0px_rgba(0,0,0,1)]">Digital Twin</span>
