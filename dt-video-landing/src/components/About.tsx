@@ -15,10 +15,7 @@ const About = () => {
                   className="bg-main p-8 hover:bg-white transition-colors duration-500 group"
                 >
                   <p className="text-[9px] uppercase tracking-[0.3em] text-textColor/40 mb-3 group-hover:text-gold transition-colors">
-      
-            {/* Tagline de Versión */}
-            <div className="mt-8 flex justify-between items-center text-[10px] uppercase tracking-widest text-textColor/30 font-medium">
-              <span>Optimized for Production</span>
+      pan>
               <span>Ref: DT-VIDEO-2026</span>
             </div>
           </div>
