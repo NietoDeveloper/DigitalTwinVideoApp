@@ -1,1 +1,1 @@
-/** @type {import('postcss-load-config')
+/** @type {import('postcss-load-co
