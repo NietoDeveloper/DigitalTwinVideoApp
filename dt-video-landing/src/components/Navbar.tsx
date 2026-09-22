@@ -90,7 +90,7 @@ export default function Navbar() {
                   className="flex items-center gap-4 text-lg font-bold text-white hover:text-gold transition-colorst-gold" />
                   <span className="uppercase tracking-widest text-sm">{link.name}</span>
                 
-          
+  
               <button classNameext-blat py-4 rounde
             
           </mo
