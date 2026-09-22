@@ -91,7 +91,7 @@ export default function Navbar() {
                 >
                   <link.icon size={20} className="text-gold" />
                   <span className="uppercase tracking-widest text-sm">{link.name}</span>
-                </a>
+                
               ))}
               <button className="w-full bg-white text-black font-black uppercase tracking-widest py-4 rounded-xl">
                 Get 
