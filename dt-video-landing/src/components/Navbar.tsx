@@ -46,9 +46,4 @@ export default function Navbar() {
         </motion.div>
 
         {/* DESKTOP MENU: Estilo Tech Minimalista */}
-        <div className="hidden md:flex items-center gap-10">
-
-      <AnimatePresence>
-        {isOpen && (
-          <motion.div 
-            initial={{ opacity: 0, height: 0 }
+        
