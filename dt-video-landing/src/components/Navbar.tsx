@@ -87,9 +87,7 @@ export default function Navbar() {
                   key={link.name} 
                   href={link.href} 
                   onClick={() => setIsOpen(false)}
-                  className="flex items-center gap-4 text-lg font-bold text-white hover:text-gold transition-colors"
-    
-                  <link.icon size={20} className="text-gold" />
+                  className="flex items-center gap-4 text-lg font-bold text-white hover:text-gold transition-colorst-gold" />
                   <span className="uppercase tracking-widest text-sm">{link.name}</span>
                 
               ))}
