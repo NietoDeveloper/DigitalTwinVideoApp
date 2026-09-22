@@ -94,7 +94,7 @@ export default function Navbar() {
                 </a>
               ))}
               <button className="w-full bg-white text-black font-black uppercase tracking-widest py-4 rounded-xl">
-                Get Sta
+                Get 
               </butt
             </div>
           </motion
