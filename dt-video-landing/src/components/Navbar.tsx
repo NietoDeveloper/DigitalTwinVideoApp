@@ -56,13 +56,6 @@ export default function Navbar() {
               {link.name}
               <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-gold transition-all duration-300 group-hover:w-full" />
             </a>
-          ))}
-          
-          <button className="bg-gold hover:bg-white text-black text-[11px] font-black uppercase tracking-widest px-6 py-2.5 rounded-full transition-all duration-300 transform hover:scale-105 active:scale-95">
-            Launch App
-          </button>
-        </div>
-
         {/* MOBILE TRIGGER */}
         <button 
           onClick={() => setIsOpen(!isOpen)} 
@@ -83,9 +76,3 @@ export default function Navbar() {
           >
             <div className="flex flex-col p-8 gap-6">
               {navLinks.map((link) => (
-                <a 
-                  key={link.name} 
-                  href={link.href} 
-                  onClick={() => setIsOpen(false)}
-                  className="flex items-center gap-4 text-lg font-bold text-white hover:text-gold transition-colorst-gold" />
-                  <span className="uppercase tracking-widest text-sm">{link.name}<
