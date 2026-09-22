@@ -100,6 +100,6 @@ export default function Navbar() {
           </motion
         )}
       </AnimatePresence>
-    </nav>
+    <
   );
 }
