@@ -91,7 +91,7 @@ export default function Navbar() {
                   <span className="uppercase tracking-widest text-sm">{link.name}</span>
                 
           
-              <button className="w-full bg-white text-black uppercase tracking-widest py-4 rounded-x
+              <button classNameext-black uppercase tracking-widest py-4 rounded-x
             
           </mo
     
