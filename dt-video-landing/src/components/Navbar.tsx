@@ -47,25 +47,7 @@ export default function Navbar() {
 
         {/* DESKTOP MENU: Estilo Tech Minimalista */}
         <div className="hidden md:flex items-center gap-10">
-          {navLinks.map((link) => (
-            <a 
-              key={link.name} 
-              href={link.href} 
-              className="text-[11px] uppercase tracking-[0.2em] font-bold text-white/70 hover:text-gold transition-all duration-300 relative group"
-            >
-              {link.name}
-              <span className="absolute -bottow-0 h-[1px] bg-gold transition-all duration-300 group-hover:w-full" />
-            </a>
-        {/* MOBILE TRIGGER */}
-        <button 
-          onClick={() => setIsOpen(!isOpe
-          className="md:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors"
-        >
-          {isOpen ? <X size={28} /> : <Menu size={28} />}
-        </button>
-      </div>
 
-      {/* MOBILE MENU: Animado con Framer Motion */}
       <AnimatePresence>
         {isOpen && (
           <motion.div 
