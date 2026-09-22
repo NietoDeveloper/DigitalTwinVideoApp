@@ -52,9 +52,4 @@ export default function Navbar() {
         {isOpen && (
           <motion.div 
             initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-black border-b border-white/10 overflow-hidden"
-          >
-            <div className="flex flex-col p-8 gap-6">
-              {navLinks.map((link) => (
+            an
