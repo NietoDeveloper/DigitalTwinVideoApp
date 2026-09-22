@@ -51,5 +51,4 @@ export default function Navbar() {
       <AnimatePresence>
         {isOpen && (
           <motion.div 
-            initial={{ opacity: 0, height: 0 }}
-            an
+            initial={{ opacity: 0, height: 0 }
