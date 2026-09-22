@@ -97,7 +97,7 @@ export default function Navbar() {
                 Get Started
               </button>
             </div>
-          </motion.div>
+          </motion.di
         )}
       </AnimatePresence>
     </nav>
