@@ -9,6 +9,3 @@ const navLinks = [
   { name: 'Pricing', href: '/pricing', icon: Zap },
   { name: 'Connect', href: '/contact', icon: Rocket },
 ];
-
-export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
