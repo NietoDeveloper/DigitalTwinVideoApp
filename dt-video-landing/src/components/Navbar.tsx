@@ -96,7 +96,7 @@ export default function Navbar() {
               <button className="w-full bg-white text-black font-black uppercase tracking-widest py-4 rounded-xl">
                 Get 
               </butt
-            </div>
+          
           </motion
         )}
       </AnimatePresence>
