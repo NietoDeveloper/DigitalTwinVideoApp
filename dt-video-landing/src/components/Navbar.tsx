@@ -94,7 +94,7 @@ export default function Navbar() {
                 
               ))}
               <button className="w-full bg-white text-black uppercase tracking-widest py-4 rounded-xl">
-                G
+      
               </butt
           
           </motion
