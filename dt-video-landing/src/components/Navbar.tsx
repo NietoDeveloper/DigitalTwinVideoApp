@@ -54,7 +54,7 @@ export default function Navbar() {
               className="text-[11px] uppercase tracking-[0.2em] font-bold text-white/70 hover:text-gold transition-all duration-300 relative group"
             >
               {link.name}
-              <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-gold transition-all duration-300 group-hover:w-full" />
+              <span className="absolute -bottow-0 h-[1px] bg-gold transition-all duration-300 group-hover:w-full" />
             </a>
         {/* MOBILE TRIGGER */}
         <button 
