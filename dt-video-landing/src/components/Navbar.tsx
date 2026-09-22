@@ -42,8 +42,4 @@ export default function Navbar() {
               DIGITAL<span className="text-gold font-light">TWIN</span>
             </span>
             <span className="text-[9px] uppercase tracking-[0.4em] text-gold/60 font-bold">Video Systems</span>
-          </div>
-        </motion.div>
-
-        {/* DESKTOP MENU: Estilo Tech Minimalista */}
-        
+       
