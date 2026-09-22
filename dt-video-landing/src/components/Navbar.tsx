@@ -96,7 +96,7 @@ export default function Navbar() {
           
           </motion
         )}
-      </AnimatePresence>
+      </AnimatePres
     <
   );
 }
