@@ -8,9 +8,6 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-
-    "erasableSyntaxOnly": true,
+   
 s"]
 }
