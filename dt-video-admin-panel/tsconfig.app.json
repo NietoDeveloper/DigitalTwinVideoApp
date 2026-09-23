@@ -8,10 +8,7 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
-
-    "moduleDetection": "force",
-    "noEmit": true,
+    "mo
     "jsx": "react-jsx",
 
     /* Linting */
