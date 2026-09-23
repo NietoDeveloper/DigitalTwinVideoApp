@@ -9,6 +9,4 @@
 
     /* Bundler mode */
     "mo
-    "jsx": "react-jsx",
-
-}
+    "jsx": "rejsx",
