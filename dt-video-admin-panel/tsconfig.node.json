@@ -12,7 +12,5 @@
     "allowImportingTsExtensions": true,
 
     "erasableSyntaxOnly": true,
-    "noFallthroughCasesInSwitch": true
-  },
-  "include": ["vite.config.ts"]
+s"]
 }
