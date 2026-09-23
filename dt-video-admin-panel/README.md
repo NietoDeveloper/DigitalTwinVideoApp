@@ -9,12 +9,6 @@ Build Tool: Vite (Optimized for HMR).
 
 Styling: Tailwind CSS v4 (Identidad Software DT).
 
-State Management: Zustand (Store reactivo centralizado).
-
-Icons: Lucide React.
-
-Infrastructure Ready: Dockerized & AWS Cloud compatible.
-
 ├── src/
 │   ├── app/                # Vistas principales (Módulos de negocio)
 │   │   ├── dashboard/      # KPIs: ingresos, twins activos, uptime
