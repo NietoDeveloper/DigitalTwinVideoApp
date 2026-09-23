@@ -13,9 +13,7 @@ Styling: Tailwind CSS v4 (Identidad Software DT).
 │   ├── app/                # Vistas principales (Módulos de negocio)
 │   │   ├── dashboard/      # KPIs: ingresos, twins activos, uptime
 │   │   ├── users/          # Gestión de cuentas de clientes y Tiers
-│   │   ├── streams/        # Monitoreo de flujos de video activos
-│   │   ├── ai-worker/      # Estado de colas de IA y performance
-│   │   ├── billing/        # Facturación, suscripciones e invoices
+
 │   │   └── settings/       # Configuración de sistema y empleados
 │   ├── components/         # Componentes atómicos y moleculares
 │   │   ├── MetricsGrid/    # Tarjetas de KPIs en tiempo real
