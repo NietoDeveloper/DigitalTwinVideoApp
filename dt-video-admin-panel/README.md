@@ -15,9 +15,6 @@ Icons: Lucide React.
 
 Infrastructure Ready: Dockerized & AWS Cloud compatible.
 
-📂 Arquitectura de Carpetas
-Plaintext
-dt-video-admin-panel/
 ├── src/
 │   ├── app/                # Vistas principales (Módulos de negocio)
 │   │   ├── dashboard/      # KPIs: ingresos, twins activos, uptime
