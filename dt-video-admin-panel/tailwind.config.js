@@ -6,6 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      c
+
         // Aquí puedes heredar los colores de tu branding Software DT
       
