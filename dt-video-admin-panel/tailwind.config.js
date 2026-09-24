@@ -8,6 +8,6 @@ export default {
     extend: {
       c
         // Aquí puedes heredar los colores de tu branding Software DT
-        gainsboro: "#DCDCDC",
+        gainsboro: "#D
         gold: "#FFD700",
         yellow
