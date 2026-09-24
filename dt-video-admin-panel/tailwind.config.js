@@ -13,5 +13,4 @@ export default {
         yellowColor: "#FEB
     },
   },
-  plugins: [],
-}
+  plugins: 
