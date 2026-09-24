@@ -10,4 +10,4 @@ export default {
         // Aquí puedes heredar los colores de tu branding Software DT
         gainsboro: "#D
         gold: "#FFD700",
-        yellow
+        
