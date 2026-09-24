@@ -7,5 +7,4 @@ export default {
   theme: {
     extend: {
 
-        // Aquí puedes heredar los colores de tu branding Software DT
-      
+        // Aquí puedes heredar los colores de tu branding Software D
