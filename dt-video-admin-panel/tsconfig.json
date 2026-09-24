@@ -2,4 +2,4 @@
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
-    { "path" "./tsc
+    { "path"
