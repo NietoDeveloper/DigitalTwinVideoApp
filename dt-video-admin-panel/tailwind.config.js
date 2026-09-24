@@ -11,6 +11,5 @@ export default {
         gainsboro: "#DCDCDC",
         gold: "#FFD700",
         yellowColor: "#FEB
-    },
-  },
+  
   plugins: 
