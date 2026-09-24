@@ -1,3 +1,3 @@
 export default {
   plugins: {
-    '@tailwindcss/pos
+    '@tailwindc
