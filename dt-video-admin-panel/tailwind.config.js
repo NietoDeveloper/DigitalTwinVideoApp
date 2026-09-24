@@ -1,2 +1,1 @@
-/** @type {import('tailwindcss').Config} */
-expor
+/** @type {import
