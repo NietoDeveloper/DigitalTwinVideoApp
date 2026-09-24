@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
+      c
         // Aquí puedes heredar los colores de tu branding Software DT
         gainsboro: "#DCDCDC",
         gold: "#FFD700",
