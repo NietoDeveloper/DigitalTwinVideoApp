@@ -2,9 +2,4 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {
-
-        // Aquí puedes heredar los colores de tu branding Software D
+    "./src/**/*.{js,ts,jsx,
