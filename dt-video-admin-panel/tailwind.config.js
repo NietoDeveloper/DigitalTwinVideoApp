@@ -12,4 +12,4 @@ export default {
         gold: "#FFD700",
         yellowColor: "#FEB
   
-  plugins: 
+  plu
