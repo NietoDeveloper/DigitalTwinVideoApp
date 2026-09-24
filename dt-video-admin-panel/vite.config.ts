@@ -1,2 +1,1 @@
-import { defineConfig } from 'vite'
-import rea
+import { defineConfig } from 'vite
