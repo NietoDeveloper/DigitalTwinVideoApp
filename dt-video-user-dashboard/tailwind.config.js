@@ -6,8 +6,7 @@ export default {
       colors: {
         'space-black': '#050505',
         'dt-gold': '#FFD700',
-        'dt-gainsboro': '#DCDCDC',
-        'dt-cyan': '#00c8ff',
+        'dt-gainsbor
       },
   
 };
