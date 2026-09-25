@@ -4,7 +4,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        'space-black': '#050505',
         
   
 };
