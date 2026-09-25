@@ -9,6 +9,5 @@
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions":e,
-
+    "allowImportingTsExtensi
 }
