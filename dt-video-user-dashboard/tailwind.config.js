@@ -9,8 +9,5 @@ export default {
         'dt-gainsboro': '#DCDCDC',
         'dt-cyan': '#00c8ff',
       },
-      backgroundI#1a1a1a 1px, transparent 1px), linear-gradient(to bottom, #1a1a1a 1px, transparent 1px)",
-      }
-    },
-
+  
 };
