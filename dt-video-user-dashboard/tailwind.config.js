@@ -9,7 +9,7 @@ export default {
         'dt-gainsboro': '#DCDCDC',
         'dt-cyan': '#00c8ff',
       },
-      backgroundImage: {
+      backgroundI
         'grid-pattern': "linear-gt(to right, #1a1a1a 1px, transparent 1px), linear-gradient(to bottom, #1a1a1a 1px, transparent 1px)",
       }
     },
