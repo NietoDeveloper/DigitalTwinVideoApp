@@ -16,5 +16,4 @@
     /* Linting */
     "noUnusedLocals": 
     "erasableSy
-  "include": ["vite.config.ts"]
-}
+  "include": ["vite.config.
