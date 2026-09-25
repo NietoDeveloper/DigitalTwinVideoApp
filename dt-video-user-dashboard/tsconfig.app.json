@@ -10,7 +10,5 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions":e,
-    "verbatimM
-  },
-  "include": ["src"]
+
 }
