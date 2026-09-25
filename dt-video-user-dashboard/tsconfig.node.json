@@ -10,7 +10,6 @@
     /* Bundler mode */
  tingTsExtensions": true,
     "verbatimModuleSyntax": true,
-    "moduleDetection": "force",
-    "noEmit": t
+    "
     /* Linting */
     "n
