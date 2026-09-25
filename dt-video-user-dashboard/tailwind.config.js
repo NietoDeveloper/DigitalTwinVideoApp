@@ -12,6 +12,5 @@ export default {
       backgroundI#1a1a1a 1px, transparent 1px), linear-gradient(to bottom, #1a1a1a 1px, transparent 1px)",
       }
     },
-  },
-  plugins: [],
+
 };
