@@ -1,2 +1,2 @@
 import { defineConfig } from 'vite'
-import react from '@vitej
+import react from '@
