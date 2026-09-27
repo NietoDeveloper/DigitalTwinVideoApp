@@ -1,1 +1,1 @@
-import { StrictMode }
+import { StrictMod
