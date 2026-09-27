@@ -12,18 +12,8 @@
 }
   display: flex;
   flex-direction: column;
-  overflow: hidden;
-}
 
-/* --- TYPOGRAPHY --- */
 
-h1, h2, h3 {
-  font-family: var(--font-sans);
-  font-weight: 700;
-  color: var(--text-h);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
 
 h1 {
   font-size: 1.5rem;
