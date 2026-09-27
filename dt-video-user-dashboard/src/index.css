@@ -14,12 +14,6 @@
   flex-direction: column;
 
 
-h2 {
-  font-size: 0.85rem;
-  color: var(--accent);
-  margin-bottom: 0.5rem;
-}
-
 p {
   margin-bottom: 1rem;
   line-height: 1.6;
