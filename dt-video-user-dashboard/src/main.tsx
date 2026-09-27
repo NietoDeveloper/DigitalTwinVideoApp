@@ -1,1 +1,1 @@
-import { Stric
+impo
