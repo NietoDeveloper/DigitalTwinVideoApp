@@ -8,10 +8,7 @@
   --color-dt-cyan: #00c8ff;
   
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
-}
-  overflow: hidden;
-  background-color: var(--bg);
+  --font-mono: 'JetBr
 }
 
 #root {
