@@ -10,10 +10,7 @@
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
 }
-
-:root {
-
-  --code-bg: #111111;
+11;
   --accent-bg: rgba(255, 215, 0, 0.1);
   --accent-border: rgba(255, 215, 0, 0.5);
 
