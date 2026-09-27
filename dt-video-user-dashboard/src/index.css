@@ -10,12 +10,7 @@
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
 }
-11;
 
-  color-scheme: dark;
-  color: var(--text);
-  backg
-  -webkit-font-smoothing: antialiased;
   overflow: hidden; 
 }
 
