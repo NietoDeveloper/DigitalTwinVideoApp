@@ -14,11 +14,6 @@
   flex-direction: column;
 
 
-p {
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
 /* --- UTILITIES & ANIMATIONS --- */
 
 @utility no-scrollbar {
