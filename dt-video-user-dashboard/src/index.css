@@ -16,10 +16,6 @@
 
 /* --- UTILITIES & ANIMATIONS --- */
 
-@utility no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  &::-webkit-scrollbar {
 
 
 /* Animación de carga para el Neural Engine */
