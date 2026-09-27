@@ -25,9 +25,7 @@ p {
   -ms-overflow-style: none;
   scrollbar-width: none;
   &::-webkit-scrollbar {
-    display: none;
-  }
-}
+
 
 /* Animación de carga para el Neural Engine */
 @keyframes loading {
