@@ -12,16 +12,11 @@
 }
 
 :root {
-  --bg: #050505;
-  --text
-  --text-h: #FFFFFF;
-  --accent: #FFD700;
-  --dt-cyan: #00c8ff;
-  --border: rgba(255, 255, 255, 0.1);
+
   --code-bg: #111111;
   --accent-bg: rgba(255, 215, 0, 0.1);
   --accent-border: rgba(255, 215, 0, 0.5);
-  --shadow: rgba(0, 0, 0, 0.5) 0 10px 15px -3px;
+
 
   line-height: 1.45;
   letter-spacing: 0.02em;
