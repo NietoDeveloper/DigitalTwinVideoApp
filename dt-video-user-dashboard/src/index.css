@@ -23,8 +23,6 @@
   --accent-border: rgba(255, 215, 0, 0.5);
   --shadow: rgba(0, 0, 0, 0.5) 0 10px 15px -3px;
 
-  font-family: var(--font-sans);
-  font-size: 14px;
   line-height: 1.45;
   letter-spacing: 0.02em;
   color-scheme: dark;
