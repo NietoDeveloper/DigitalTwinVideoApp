@@ -22,9 +22,7 @@
   letter-spacing: 0.02em;
   color-scheme: dark;
   color: var(--text);
-  background: var(--bg);
-  
-  text-rendering: optimizeLegibility;
+  backg
   -webkit-font-smoothing: antialiased;
   overflow: hidden; 
 }
