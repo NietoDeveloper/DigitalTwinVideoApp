@@ -11,11 +11,6 @@
   --font-mono: 'JetBr
 }
   display: flex;
-  flex-direction: column;
-
-
-/* --- UTILITIES & ANIMATIONS --- */
-
 
 
 .animate-loading {
