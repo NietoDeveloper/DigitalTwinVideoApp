@@ -17,11 +17,6 @@ import {
         <div className="flex gap-4 h-full overf}
               <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.03] pointer-events-none"></div>
 
-                <div className="flex justify-between items-center">
-                  <span className="text-[8px] text-white/30 font-mono uppercase">Status: Finalized</span>
-                  <d
-     
-          ))}
           
           <button className="min-w-[180px] h-[90%] border border-dashed border-white/10 flex flex-col items-center justify-center gap-3 hover:bg-white/[0.03] hover:border-dt-cyan/40 transition-all group/btn opacity-40 hover:opacity-100 rounded-sm">
              <div className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center group-hover/btn:border-dt-cyan group-hover/btn:rotate-90 transition-all duration-500">
