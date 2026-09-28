@@ -14,13 +14,7 @@ import {
             </div>
       {/* SECCIÓN INFERIOR: HISTORIAL DE PROCESAMIENTO */}
       <Widget title="Registered Digital Twin Assets" className="col-span-12 row-span-2">
-        <div className="flex gap-4 h-full overflow-x-auto pb-2 items-center no-scrollbar group">
-          {[1, 2, 3, 4, 5, 6].map((i) => (
-            <div 
-              key={i} 
-              className="min-w-[180px] h-[90%] bg-zinc-900/40 border border-white/10 relative cursor-pointer hover:border-dt-cyan/60 transition-all duration-500 group/item overflow-hidden"
-            >
-              {/* Overlay de Textura Industrial */}
+        <div className="flex gap-4 h-full overf}
               <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.03] pointer-events-none"></div>
               <div className="absolute inset-0r gap-1.5">
                   <Database size={10} className="text-dt-cyan" />
@@ -28,9 +22,7 @@ import {
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-[8px] text-white/30 font-mono uppercase">Status: Finalized</span>
-                  <div className="w-1 h-1 bg-dt-cyan rounded-full"></div>
-                </div>
-              </div>
+                  <d
               
               {/* Hover Glow Effect */}
               <div className="absolute inset-0 bg-dt-cyan/5 opacity-0 group-hover/item:opacity-100 transition-opacity z-0"></div>
