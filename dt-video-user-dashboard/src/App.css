@@ -9,15 +9,7 @@
   flex-grow: 1;
   z-ind
 /* --- HERO VISUAL ENGINE --- */
-.hero {
-  .framework,
-  .vite {
-    inset-inline: 0;
-    margin: 0 auto;
-    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
-  }
 
-  .base {
     width: 170px;
     position: relative;
     z-index: 0;
