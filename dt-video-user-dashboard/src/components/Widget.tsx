@@ -5,17 +5,7 @@ interface WidgetProps {
   title: string;
   /** Clases de Tailwind para posicionamiento en la grilla (col-span/row-span) */
   className?: string;
-  /** Contenido del widget */
-  children: React.ReactNode;
-  /** Opción para mostrar un estado de carga o alerta */
-  status?: 'nominal' | 'alert' | 'processing';
-}
-
-const Widget = memo(({ title, className = "", children, status = 'nominal' }: WidgetProps) => {
-  
-  // Mapeo de colores para el indicador de estado
-  const statusColors = {
-    nominal: 'bg-dt-cyan shadow-[0_0_8px_#00c8ff]',
+  /** Contenido del widgadow-[0_0_8px_#00c8ff]',
     alert: 'bg-red-500 shadow-[0_0_8px_#ef4444]',
     processing: 'bg-dt-gold shadow-[0_0_8px_#ffd700] animate-pulse'
   };
