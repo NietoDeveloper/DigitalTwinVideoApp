@@ -9,11 +9,6 @@ import {
   Layers,
   Zap,vas Placeholder con Animación Neural */}
           <div className="fl] f
-          <bu
-      </Widget>
-
-    </DashboardContainer>
-  );
-}
+      
 
 export default memo(App);
