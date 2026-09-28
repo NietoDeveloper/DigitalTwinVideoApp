@@ -16,10 +16,7 @@ import {
       <Widget title="Registered Digital Twin Assets" className="col-span-12 row-span-2">
         <div className="flex gap-4 h-full overf}
               <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.03] pointer-events-none"></div>
-              <div className="absolute inset-0r gap-1.5">
-                  <Database size={10} className="text-dt-cyan" />
-                  <span className="text-[11px] font-bold text-white/80 truncate">Industrial_Model_0{i}</span>
-                </div>
+
                 <div className="flex justify-between items-center">
                   <span className="text-[8px] text-white/30 font-mono uppercase">Status: Finalized</span>
                   <d
