@@ -22,9 +22,7 @@
   &:hover {
   
   &:focus-visible {
-    outline: 2px solid var(--dt-cyan);
-    outline-offset: 4px;
-  }
+    outline: 2px solid var
 }
 
 /* --- HERO VISUAL ENGINE --- */
