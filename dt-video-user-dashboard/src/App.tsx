@@ -16,9 +16,6 @@ const App = () => {
   return (
     <DashboardContainer userTag="MANUEL_NIETO_COL">
       
-      {/* SECCIÓN PRINCIPAL: VISOR 3D (CENTRO DE MANDO) */}
-      <Widgtion" 
-        status="processing"
         className="col-span-12 lg:col-span-8 row-span-4 shadow-[0_0_30px_rgba(0,200,255,0.05)]"
       >
         <div className="relative w-full h-full bg-zinc-950/50 rounded-sm border border-white/5 overflow-hidden flex flex-col items-center justify-center group">
