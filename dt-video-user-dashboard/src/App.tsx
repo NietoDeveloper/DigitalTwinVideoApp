@@ -12,8 +12,7 @@ import {
   Globe
 } from 'lucide-react';
 
-const App = () => {
-  return (
+
     <DashboardContainer userTag="MANUEL_NIETO_COL">
       
         className="col-span-
