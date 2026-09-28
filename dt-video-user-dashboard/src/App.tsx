@@ -20,9 +20,7 @@ const App = () => {
           
           {/* HUD de coordenadas dinámico */}
           <div className="absolute top-4 left-4 font-mono text-[9px] space-y-1 z-20">
-            <div className="flex gap-2"><span className="text-white/20">LAT:</span> <span className="text-dt-cyan">4.6097° N</span></div>
-            <div className="flex gap-2"><span className="text-white/20">LNG:</span> <span className="text-dt-cyan">74.0817° W</span></div>
-            <div className="flex gap-2"><span className="text-white/20">ALT:</span> <span className="text-dt-gold">2640m</span></div>
+            <div className="flex-2"><span className="text-white/20">ALT:</span> <span className="text-dt-gold">2640m</span></div>
           </div>
 
           {/* Canvas Placeholder con Animación Neural */}
