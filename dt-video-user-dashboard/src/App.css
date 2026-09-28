@@ -7,17 +7,7 @@
   place-content: center;
   place-items: center;
   flex-grow: 1;
-  z-index: 10;
-
-  @media (max-width: 1024px) {
-    padding: 32px 20px 24px;
-    gap: 18px;
-  }
-}
-
-.counter {
-  font-famil
-
+  z-ind
 /* --- HERO VISUAL ENGINE --- */
 .hero {
   .framework,
