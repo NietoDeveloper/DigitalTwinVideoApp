@@ -6,7 +6,3 @@ interface WidgetProps {
   /** Clases de Tailwind para posicionamiento en la grilla (col-span/row-span) */
   className?: string;
   /** Contenido del widgadow-[0_0_8px_#00c8ff]',
-    alert: 'bg-red-500 sha
-Widget.displayName = 'Widget';
-
-export default Widget;
