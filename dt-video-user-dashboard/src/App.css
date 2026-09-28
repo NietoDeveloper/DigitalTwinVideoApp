@@ -11,16 +11,7 @@
 /* --- HERO VISUAL ENGINE --- */
 
     width: 170px;
-    position: relative;
-    z-index: 0;
-    opacity: 0.8;
-  }
 
-  .framework,
-  .vite {
-    position: absolute;
-    transition: transform 0.5s ease;
-  }
 
   .framework {
     z-index: 2;
