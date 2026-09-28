@@ -22,12 +22,7 @@ import {
               </div>
             </div>
           </div>
-1px] font-mono text-white/90">1.2M PTS/S</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="text-[8px] text-white/30 uppercase font-black tracking-widest">Topology</span>
-                <span className="text-[11px] font-mono text-dt-gold uppercase">Optimized</span>
-              </div>
+1px] font-mono text-white/90">1.2M PT
             </div>
             <div className="flex gap-2">
               <div className="px-2 py-1 bg-green-500/5 border border-green-500/20 rounded-sm">
