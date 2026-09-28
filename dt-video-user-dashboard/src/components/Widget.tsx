@@ -10,19 +10,7 @@ interface WidgetProps {
     processing: 'bg-dt-gold shadow-[0_0_8px_#ffd700] animate-pulse'
   };
 
-      {/* DECORACIÓN: ESQUINAS REFORZADAS (Solo visibles al ojo atento) */}
-      <div className="absolute top-0 left-0 w-2 h-2 border-t border-l border-white/20 z-20"></div>
-      <div className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-white/20 z-20"></div>
-
-      {/* HEADER DEL MÓDULO */}
-      <div className="
-        bg-gradient-to-r from-white/10 to-transparent 
-        px-3 py-1.5 flex justify-between items-center 
-        border-b border-white/5
-      ">
-        <div className="flex items-center gap-2">
-          {/* Icono de rack industrial */}
-          <div className="flex flex-col gap-0.5 opacity-30">
+      {/* DECORACIÓN: ESx-col gap-0.5 opacity-30">
             <div className="w-2 h-[1px] bg-white"></div>
             <div className="w-2 h-[1px] bg-white"></div>
           </div>
