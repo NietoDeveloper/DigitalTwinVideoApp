@@ -7,16 +7,7 @@ import {
   Database, 
   Box, 
   Layers,
-  Zap,
-  Cpu,
-  Globe
-} from 'lucide-react';
-
-
-    <DashboardContainer userTag="MANUEL_NIETO_COL">
-      
-        className="col-span-
-          {/* Canvas Placeholder con Animación Neural */}
+  Zap,vas Placeholder con Animación Neural */}
           <div className="fl] font-mono tracking-[0.4em] text-white/40 uppercase">
                 Initializing Neural Engine...
               </p>
@@ -25,9 +16,7 @@ import {
                     className="h-1 w-6 bg-dt-cyan/30 rounded-full overflow-hidden"
                   >
                     <div 
-                      className="h-full bg-dt-cyan animate-[loading_1.5s_infinite]" 
-                      style={{ animationDelay: `${i * 0.2}s` }}
-                    ></div>
+                     
                   </div>
                 ))}
               </div>
