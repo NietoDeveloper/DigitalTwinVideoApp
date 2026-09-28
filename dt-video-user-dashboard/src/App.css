@@ -9,13 +9,6 @@
 
   .vite {
     z-index: 1;
-    top: 107px;
-  border-top: 1px solid var(--border);
-  text-align: left;
-  background: rgba(255, 255, 255, 0.02);
-
-  & > div {
-    flex: 1 1 0;
     padding: 32px;
     @media (max-width: 1024px) {
       padding: 24px 20px;
