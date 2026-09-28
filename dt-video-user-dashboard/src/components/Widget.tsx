@@ -7,18 +7,7 @@ interface WidgetProps {
   className?: string;
   /** Contenido del widgadow-[0_0_8px_#00c8ff]',
     alert: 'bg-red-500 shadow-[0_0_8px_#ef4444]',
-    processing: 'bg-dt-gold shadow-[0_0_8px_#ffd700] animate-pulse'
-  };
-
-      {/* DECORACIÓN: ESx-col gap-0.5 opacity-30">
-            <div className="w-2 h-[1px] bg-white"></div>
-            <div className="w-2 h-[1px] bg-white"></div>
-          </div>
-          <h3 className="text-[9px] uppercase tracking-[0.15em] text-white/70 font-bold font-mono">
-            {title}
-          </h3>
-        </div>
-
+    processing: 'bg-dt-gold shadow-[0_
         {/* Status Led */}
         <div className="flex items-center gap-2">
           <span className="text-[7px] text-white/20 font-mono tracking-widest uppercase hidden group-hover:block">
