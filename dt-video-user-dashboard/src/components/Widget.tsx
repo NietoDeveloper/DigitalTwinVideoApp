@@ -10,16 +10,6 @@ interface WidgetProps {
     processing: 'bg-dt-gold shadow-[0_0_8px_#ffd700] animate-pulse'
   };
 
-  return (
-    <div className={`
-      relative group
-      bg-black/40 backdrop-blur-xl
-      border border-white/10 rounded-sm
-      flex flex-col overflow-hidden
-      transition-all duration-300 hover:border-white/20
-      ${className}
-    `}>
-      
       {/* DECORACIÓN: ESQUINAS REFORZADAS (Solo visibles al ojo atento) */}
       <div className="absolute top-0 left-0 w-2 h-2 border-t border-l border-white/20 z-20"></div>
       <div className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-white/20 z-20"></div>
