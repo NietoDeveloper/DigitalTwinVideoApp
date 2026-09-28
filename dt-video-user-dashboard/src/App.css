@@ -10,15 +10,6 @@
 }
     font-family: var(-
     &:hover {
-      border-color: var(--dt-cyan);
-      background: rgba(0, 200, 255, 0.05);
-      box-shadow: 0 0 10px rgba(0, 200, 255, 0.1);
-    }
-  }
-
-  @media (max-width: 1024px) {
-    margin-top: 20px;
-    flex-wrap: wrap;
     justify-content: center;
 
     li {
