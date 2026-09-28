@@ -17,8 +17,7 @@
 
 .counter {
   font-family: var(--mono);
-  font-size: 14px;
-  font-weight: bold;
+
   padding: 8px 16px;
   border-radius: 2px; /* Más cuadrado para look industrial */
   color: var(--accent);
