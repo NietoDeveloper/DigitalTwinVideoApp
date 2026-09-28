@@ -24,10 +24,7 @@ import {
         </div>
       </Widget>
 
-      {/* PANEL DERECHO: MÉTRICAS DE IA */}
-      <Widget title="AI Processing Telemetry" status="nominal" className="col-span-12 lg:col-span-4 row-span-2">
-        <div className="flex flex-col justify-around h-full font-mono">
-          <div className="space-y-2">
+      {/* PANEL DERECHO: MÉTRICAS DE IA 
             <div className="flex justify-between text-[9px] uppercase font-bold">
               <span className="text-white/40 flex items-center gap-1.5"><Cpu size={12} className="text-dt-cyan" /> Neural Load</span>
               <span className="text-dt-cyan">4.21%</span>
