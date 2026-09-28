@@ -20,11 +20,6 @@
   background: var(--accent-bg);
   border: 1px solid v
   &:hover {
-    background: var(--accent);
-    color: var(--bg);
-    box-shadow: 0 0 15px var(--accent-bg);
-    cursor: pointer;
-  }
   
   &:focus-visible {
     outline: 2px solid var(--dt-cyan);
