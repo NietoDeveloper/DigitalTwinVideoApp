@@ -16,9 +16,7 @@ const App = () => {
   return (
     <DashboardContainer userTag="MANUEL_NIETO_COL">
       
-        className="col-span-12 lg:col-span-8 row-span-4 shadow-[0_0_30px_rgba(0,200,255,0.05)]"
-      >
-        <div className="relative w-full h-full bg-zinc-950/50 rounded-sm border border-white/5 overflow-hidden flex flex-col items-center justify-center group">
+        className="col-span-12 lfull h-full bg-zinc-950/50 rounded-sm border border-white/5 overflow-hidden flex flex-col items-center justify-center group">
           
           {/* HUD de coordenadas dinámico */}
           <div className="absolute top-4 left-4 font-mono text-[9px] space-y-1 z-20">
