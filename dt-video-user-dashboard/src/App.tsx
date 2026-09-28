@@ -13,14 +13,7 @@ import {
             <div className="absolutan">4.21%</span>
             </div>
             <div className="w-full h-1 bg-white/5 rounded-full overflow-hidden">
-              <div className="h-full bg-dt-cyan shadow-[0_0_10px_#00c8ff] w-[42%] transition-all duration-700"></div>
-            </div>
-          </div>
-          
-          <div className="grid grid-cols-2 gap-4 border-t border-white/5 pt-4">
-            <div className="space-y-1">
-              <span className="text-[8px] text-white/20 uppercase font-black">SLAM Engine</span>
-              <div className="flex items-center gap-2">
+              <div className="h-fulr gap-2">
                 <div className="w-2 h-2 rounded-full bg-green-500/80 animate-pulse shadow-[0_0_5px_rgba(34,197,94,0.5)]"></div>
                 <span className="text-[10px] text-green-500 font-bold uppercase tracking-tight">Synced</span>
               </div>
