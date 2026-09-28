@@ -10,14 +10,7 @@ import {
   Zap,vas Placeholder con Animación Neural */}
           <div className="fl] f
           <button className="relative flex flex-col items-center justify-center gap-3 border border-white/5 bg-white/[0.02] hover:bg-dt-cyan/5 hover:border-dt-cyan/40 transition-all group rounded-sm">
-            <div className="absolute top-1.
-        </div>
-      </Widget>
-
-      {/* PANEL DERECHO: MÉTRICAS DE IA 
-            <div className="flex justify-between text-[9px] uppercase font-bold">
-              <span className="text-white/40 flex items-center gap-1.5"><Cpu size={12} className="text-dt-cyan" /> Neural Load</span>
-              <span className="text-dt-cyan">4.21%</span>
+            <div className="absolutan">4.21%</span>
             </div>
             <div className="w-full h-1 bg-white/5 rounded-full overflow-hidden">
               <div className="h-full bg-dt-cyan shadow-[0_0_10px_#00c8ff] w-[42%] transition-all duration-700"></div>
