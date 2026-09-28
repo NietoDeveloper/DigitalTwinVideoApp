@@ -10,16 +10,6 @@
   .vite {
     z-index: 1;
     top: 107px;
-    height: 26px;
-    width: auto;
-    transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg) scale(0.8);
-    opacity: 0.5;
-  }
-}
-
-/* --- SECCIONES DE DOCUMENTACIÓN / PASOS --- */
-#next-steps {
-  display: flex;
   border-top: 1px solid var(--border);
   text-align: left;
   background: rgba(255, 255, 255, 0.02);
