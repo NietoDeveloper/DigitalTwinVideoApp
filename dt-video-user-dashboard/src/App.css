@@ -20,13 +20,6 @@
 
 /* --- HERO VISUAL ENGINE --- */
 .hero {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-
-  .base,
   .framework,
   .vite {
     inset-inline: 0;
