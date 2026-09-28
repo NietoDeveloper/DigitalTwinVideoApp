@@ -12,15 +12,6 @@ import {
           <button className="relative flex flex-col items-center justify-center gap-3 border border-white/5 bg-white/[0.02] hover:bg-dt-cyan/5 hover:border-dt-cyan/40 transition-all group rounded-sm">
             <div className="absolutan">4.21%</span>
             </div>
-            <div className="w-full h-1 bg-white/5 rounded-full overflow-hidden">
-              <div className="h-fulr gap-2">
-                <div className="w-2 h-2 rounded-full bg-green-500/80 animate-pulse shadow-[0_0_5px_rgba(34,197,94,0.5)]"></div>
-                <span className="text-[10px] text-green-500 font-bold uppercase tracking-tight">Synced</span>
-              </div>
-          </div>
-        </div>
-      </Widget>
-
       {/* SECCIÓN INFERIOR: HISTORIAL DE PROCESAMIENTO */}
       <Widget title="Registered Digital Twin Assets" className="col-span-12 row-span-2">
         <div className="flex gap-4 h-full overflow-x-auto pb-2 items-center no-scrollbar group">
