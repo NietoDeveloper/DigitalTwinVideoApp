@@ -6,9 +6,4 @@ import {
   Video, 
   Database, 
   Box, 
-  Layers,
-  Zap,vas Placeholder con Animación Neural */}
-          <div className="fl] f
-      
-
 export default memo(App);
