@@ -4,37 +4,9 @@
   display: flex;
     /* Efecto 3D original de Vite */
     transform: perspective(2000px) rotateZ(300deg) rotateX(44deg) rotateY(39deg) scale(1.4);
-    filter: drop-shadow(0 0 15px var(--dt-cyan));
-  }
-
-  .vite {
-    z-index: 1;
-    padding: 32px;
-    @media (max-width: 1024px) {
-      padding: 24px 20px;
-    }
-  }
-
-  .icon {
-    margin-bottom: 16px;
+    filter: drop-shado
     width: 22px;
     height: 22px;
-    color: var(--dt-cyan);
-  }
-
-  @media (max-width: 1024px) {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-
-#docs {
-  border-right: 1px solid var(--border);
-
-  @media (max-width: 1024px) {
-    border-right: none;
-    border-bottom: 1px solid var(--border);
-  }
 }
 
 #next-steps ul {
