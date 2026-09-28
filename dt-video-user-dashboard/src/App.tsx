@@ -20,8 +20,6 @@ import {
           <div className="fl] font-mono tracking-[0.4em] text-white/40 uppercase">
                 Initializing Neural Engine...
               </p>
-              <div className="mt-3 flex gap-1.5">
-                {[...Array(4)].map((_, i) => (
                   <div 
                     key={i} 
                     className="h-1 w-6 bg-dt-cyan/30 rounded-full overflow-hidden"
