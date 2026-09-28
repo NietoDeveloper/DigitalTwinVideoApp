@@ -2,21 +2,6 @@
 
 #center {
   display: flex;
-  flex-direction: column;
-  gap: 25px;
-  place-content: center;
-  place-items: center;
-  flex-grow: 1;
-  z-ind
-/* --- HERO VISUAL ENGINE --- */
-
-    width: 170px;
-
-
-  .framework {
-    z-index: 2;
-    top: 34px;
-    height: 32px;
     /* Efecto 3D original de Vite */
     transform: perspective(2000px) rotateZ(300deg) rotateX(44deg) rotateY(39deg) scale(1.4);
     filter: drop-shadow(0 0 15px var(--dt-cyan));
