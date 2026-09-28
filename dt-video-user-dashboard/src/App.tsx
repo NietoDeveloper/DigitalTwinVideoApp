@@ -11,20 +11,6 @@ import {
           <div className="fl] font-mono tracking-[0.4em] text-white/40 uppercase">
                 Initializing Neural Engine...
               </p>
-                  <div 
-                    key={i} 
-                    className="h-1 w-6 bg-dt-cyan/30 rounded-full overflow-hidden"
-                  >
-                    <div 
-                     
-                  </div>
-                ))}
-              </div>
-            </div>bg-green-500/5 border border-green-500/20 rounded-sm">
-                <span className="text-[9px] text-green-500 font-bold uppercase tracking-tighter">
-                  97.2% Fidelity
-                </span>
-              </div>
             </div>
           </div>
         </div>
