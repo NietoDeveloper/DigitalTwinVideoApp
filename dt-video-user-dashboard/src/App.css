@@ -10,11 +10,6 @@
 }
     font-family: var(-
     &:hover {
-    justify-content: center;
-olute;
-    top: 10px;
-    left: 20px;
-    font-family: var(--mono);
     font-size: 8px;
     color: var(--dt-cyan);
     opacity: 0.3;
