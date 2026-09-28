@@ -8,14 +8,7 @@ import {
   Box, 
   Layers,
   Zap,vas Placeholder con Animación Neural */}
-          <div className="fl] font-mono tracking-[0.4em] text-white/40 uppercase">
-                Initializing Neural Engine...
-              </p>
-            </div>
-          </div>
-        </div>
-      </Widget>
-          
+          <div className="fl] f
           <button className="relative flex flex-col items-center justify-center gap-3 border border-white/5 bg-white/[0.02] hover:bg-dt-cyan/5 hover:border-dt-cyan/40 transition-all group rounded-sm">
             <div className="absolute top-1.
         </div>
