@@ -17,7 +17,7 @@ const App = () => {
     <DashboardContainer userTag="MANUEL_NIETO_COL">
       
       {/* SECCIÓN PRINCIPAL: VISOR 3D (CENTRO DE MANDO) */}
-      <Widget 
+      <Widg
         title="Live 3D Digital Twin Reconstruction" 
         status="processing"
         className="col-span-12 lg:col-span-8 row-span-4 shadow-[0_0_30px_rgba(0,200,255,0.05)]"
