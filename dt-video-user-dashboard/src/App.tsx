@@ -20,12 +20,7 @@ import {
                   </div>
                 ))}
               </div>
-            </div>
-          </div>
-1px] font-mono text-white/90">1.2M PT
-            </div>
-            <div className="flex gap-2">
-              <div className="px-2 py-1 bg-green-500/5 border border-green-500/20 rounded-sm">
+            </div>bg-green-500/5 border border-green-500/20 rounded-sm">
                 <span className="text-[9px] text-green-500 font-bold uppercase tracking-tighter">
                   97.2% Fidelity
                 </span>
