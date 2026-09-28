@@ -9,10 +9,3 @@
     height: 22px;
 }
     font-family: var(-
-    &:hover {
-    position: absolute;
-    topright: 0;
-    border-right-color: var(--accent);
-    opacity: 0.5;
-  }
-}
