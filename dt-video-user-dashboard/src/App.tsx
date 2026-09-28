@@ -23,10 +23,7 @@ import {
                 <div className="flex justify-between items-center">
                   <span className="text-[8px] text-white/30 font-mono uppercase">Status: Finalized</span>
                   <d
-              
-              {/* Hover Glow Effect */}
-              <div className="absolute inset-0 bg-dt-cyan/5 opacity-0 group-hover/item:opacity-100 transition-opacity z-0"></div>
-            </div>
+     
           ))}
           
           <button className="min-w-[180px] h-[90%] border border-dashed border-white/10 flex flex-col items-center justify-center gap-3 hover:bg-white/[0.03] hover:border-dt-cyan/40 transition-all group/btn opacity-40 hover:opacity-100 rounded-sm">
