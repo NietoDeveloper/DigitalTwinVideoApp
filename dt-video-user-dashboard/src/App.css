@@ -11,17 +11,7 @@
     font-family: var(-
     &:hover {
     justify-content: center;
-
-
-/* --- DETALLES DE HARDWARE (Ticks/Marcas) --- */
-#spacer {
-  height: 88px;
-  border-top: 1px solid var(--border);
-  position: relative;
-  
-  &::before {
-    content: 'DECOUPLED_SYSTEM_ACTIVE';
-    position: absolute;
+olute;
     top: 10px;
     left: 20px;
     font-family: var(--mono);
