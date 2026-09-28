@@ -17,13 +17,7 @@ import {
       
         className="col-span-
           {/* Canvas Placeholder con Animación Neural */}
-          <div className="flex flex-col items-center gap-6 transition-transform duration-700 group-hover:scale-105 z-10">
-            <div className="relative">
-              <Box size={48} className="text-dt-cyan animate-pulse z-10" />
-              <div className="absolute inset-0 bg-dt-cyan/20 blur-2xl rounded-full animate-pulse"></div>
-            </div>
-            <div className="flex flex-col items-center">
-              <p className="text-[10px] font-mono tracking-[0.4em] text-white/40 uppercase">
+          <div className="fl] font-mono tracking-[0.4em] text-white/40 uppercase">
                 Initializing Neural Engine...
               </p>
               <div className="mt-3 flex gap-1.5">
