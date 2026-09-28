@@ -12,16 +12,6 @@
     &:hover {
     justify-content: center;
 
-    li {
-      flex: 1 1 calc(50% - 8px);
-    }
-
-    a {
-      width: 100%;
-      justify-content: center;
-    }
-  }
-}
 
 /* --- DETALLES DE HARDWARE (Ticks/Marcas) --- */
 #spacer {
