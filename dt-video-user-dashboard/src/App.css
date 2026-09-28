@@ -16,14 +16,7 @@
 }
 
 .counter {
-  font-family: var(--mono);
-  background: var(--accent-bg);
-  border: 1px solid v
-  &:hover {
-  
-  &:focus-visible {
-    outline: 2px solid var
-}
+  font-famil
 
 /* --- HERO VISUAL ENGINE --- */
 .hero {
