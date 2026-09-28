@@ -15,15 +15,6 @@ import {
           </div>
         </div>
       </Widget>
-
-      {/* PANEL DERECHO: ACCIONES DE ENTRADA */}
-      <Widget title="Ingest & Orchestration" className="col-span-12 lg:col-span-4 row-span-2">
-        <div className="grid grid-cols-2 gap-3 h-full">
-          <button className="relative flex flex-col items-center justify-center gap-3 border border-white/5 bg-white/[0.02] hover:bg-dt-gold/5 hover:border-dt-gold/40 transition-all group rounded-sm">
-            <div className="absolute top-1.5 right-1.5"><Zap size={10} className="text-dt-gold/40" /></div>
-            <Upload size={22} className="text-white/40 group-hover:text-dt-gold group-hover:-translate-y-1 transition-all" />
-            <span className="text-[10px] uppercase font-bold tracking-widest text-white/50 group-hover:text-white">Upload Raw</span>
-          </button>
           
           <button className="relative flex flex-col items-center justify-center gap-3 border border-white/5 bg-white/[0.02] hover:bg-dt-cyan/5 hover:border-dt-cyan/40 transition-all group rounded-sm">
             <div className="absolute top-1.5 right-1.5"><Globe size={10} className="text-dt-cyan/40" /></div>
