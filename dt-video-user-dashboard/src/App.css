@@ -18,12 +18,7 @@
 .counter {
   font-family: var(--mono);
   background: var(--accent-bg);
-  border: 1px solid var(--accent-border);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 24px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-
+  border: 1px solid v
   &:hover {
     background: var(--accent);
     color: var(--bg);
