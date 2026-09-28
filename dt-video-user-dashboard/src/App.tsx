@@ -16,10 +16,7 @@ const App = () => {
   return (
     <DashboardContainer userTag="MANUEL_NIETO_COL">
       
-        className="col-span-12 lfull h-full bg-zinc-950/50 rounded-sm border border-white/5 overflow-hidden flex flex-col items-center justify-center group">
-          
-          {/* HUD de coordenadas dinámico */}
-          <div className="abs
+        className="col-span-
           {/* Canvas Placeholder con Animación Neural */}
           <div className="flex flex-col items-center gap-6 transition-transform duration-700 group-hover:scale-105 z-10">
             <div className="relative">
