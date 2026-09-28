@@ -17,10 +17,7 @@ import {
       </Widget>
           
           <button className="relative flex flex-col items-center justify-center gap-3 border border-white/5 bg-white/[0.02] hover:bg-dt-cyan/5 hover:border-dt-cyan/40 transition-all group rounded-sm">
-            <div className="absolute top-1.5 right-1.5"><Globe size={10} className="text-dt-cyan/40" /></div>
-            <Video size={22} className="text-white/40 group-hover:text-dt-cyan group-hover:-translate-y-1 transition-all" />
-            <span className="text-[10px] uppercase font-bold tracking-widest text-white/50 group-hover:text-white">Live Stream</span>
-          </button>
+            <div className="absolute top-1.
         </div>
       </Widget>
 
