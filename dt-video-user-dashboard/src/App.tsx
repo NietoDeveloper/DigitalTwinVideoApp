@@ -19,10 +19,7 @@ const App = () => {
         className="col-span-12 lfull h-full bg-zinc-950/50 rounded-sm border border-white/5 overflow-hidden flex flex-col items-center justify-center group">
           
           {/* HUD de coordenadas dinámico */}
-          <div className="absolute top-4 left-4 font-mono text-[9px] space-y-1 z-20">
-            <div className="flex-2"><span className="text-white/20">ALT:</span> <span className="text-dt-gold">2640m</span></div>
-          </div>
-
+          <div className="abs
           {/* Canvas Placeholder con Animación Neural */}
           <div className="flex flex-col items-center gap-6 transition-transform duration-700 group-hover:scale-105 z-10">
             <div className="relative">
