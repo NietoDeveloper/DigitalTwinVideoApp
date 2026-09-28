@@ -13,15 +13,7 @@ interface WidgetProps {
           <span className="text-[7px] text-white/20 font-mono tracking-widest uppercase hidden group-hover:block">
             {status}
           </span>
-          <div className={`w-1.5 h-1.5 rounded-full transition-colors ${statusColors[status]}`}></div>
-        </div>
-      </div>
-
-
-      {/* LÍNEA DE PIE (Detalle cosmético de telemetría) */}
-      <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-white/5 to-transparent"></div>
-    </div>
-  );
+          <div className
 });
 
 Widget.displayName = 'Widget';
