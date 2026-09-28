@@ -17,14 +17,6 @@ import {
                 <div className="w-2 h-2 rounded-full bg-green-500/80 animate-pulse shadow-[0_0_5px_rgba(34,197,94,0.5)]"></div>
                 <span className="text-[10px] text-green-500 font-bold uppercase tracking-tight">Synced</span>
               </div>
-            </div>
-            <div className="space-y-1 text-right">
-              <span className="text-[8px] text-white/20 uppercase font-black tracking-widest text-right block">Hardware</span>
-              <div className="flex items-center justify-end gap-2 text-[10px] text-dt-gold font-bold uppercase">
-                <span>A100_Core</span>
-                <Layers size={10} />
-              </div>
-            </div>
           </div>
         </div>
       </Widget>
