@@ -17,13 +17,6 @@ interface WidgetProps {
         </div>
       </div>
 
-      {/* CUERPO DEL WIDGET */}
-      <div className="flex-1 p-3 relative overflow-hidden h-full">
-        {/* Sutil overlay de ruido para textura de metal/plástico */}
-        <div className="absolute inset-0 opacity-[0.02] pointer-events-none bg-[url('https://grainy-gradients.vercel.app/noise.svg')]"></div>
-        
-        {children}
-      </div>
 
       {/* LÍNEA DE PIE (Detalle cosmético de telemetría) */}
       <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-white/5 to-transparent"></div>
