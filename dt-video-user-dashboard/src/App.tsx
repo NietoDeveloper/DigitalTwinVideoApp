@@ -22,13 +22,7 @@ import {
               </div>
             </div>
           </div>
-
-          {/* Overlay Inferior: Telemetría de Renderizado */}
-          <div className="absolute bottom-4 left-4 right-4 flex justify-between items-end z-20">
-            <div className="flex gap-6">
-              <div className="flex flex-col">
-                <span className="text-[8px] text-white/30 uppercase font-black tracking-widest">Density</span>
-                <span className="text-[11px] font-mono text-white/90">1.2M PTS/S</span>
+1px] font-mono text-white/90">1.2M PTS/S</span>
               </div>
               <div className="flex flex-col">
                 <span className="text-[8px] text-white/30 uppercase font-black tracking-widest">Topology</span>
