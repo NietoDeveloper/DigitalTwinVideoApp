@@ -10,14 +10,6 @@
 }
     font-family: var(-
     &:hover {
-    font-size: 8px;
-    color: var(--dt-cyan);
-    opacity: 0.3;
-  }
-
-  @media (max-width: 1024px) {
-    height: 48px;
-  }
 }
 
 .ticks {
