@@ -22,12 +22,7 @@ import {
             >
               {/* Overlay de Textura Industrial */}
               <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.03] pointer-events-none"></div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-90 z-10"></div>
-              
-              <div className="absolute top-2 right-2 text-[8px] font-mono text-white/20 z-20">ID_REF: 041426_{i}</div>
-              
-              <div className="absolute bottom-3 left-3 right-3 flex flex-col gap-1 z-20 transition-transform group-hover/item:translate-y-[-2px]">
-                <div className="flex items-center gap-1.5">
+              <div className="absolute inset-0r gap-1.5">
                   <Database size={10} className="text-dt-cyan" />
                   <span className="text-[11px] font-bold text-white/80 truncate">Industrial_Model_0{i}</span>
                 </div>
