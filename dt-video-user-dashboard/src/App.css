@@ -8,17 +8,6 @@
     width: 22px;
     height: 22px;
 }
-
-#next-steps ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 12px;
-  margin: 32px 0 0;
-
-  a {
-    color: var(--text-h);
-    font-size: 13px;
     font-family: var(--mono);
     border-radius: 2px;
     background: var(--code-bg);
