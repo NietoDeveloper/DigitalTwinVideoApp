@@ -28,9 +28,7 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
              <Activity size={12} className="text-green-500/50" />
              <span className="font-black">Neural_Load: 4.2%</span>
           </div>
-          <span className="text-[8px] opacity-30">© 2026 SOFTWARE_DT_SYSTEMS</span>
-        </div>
-      </footer>
+  
     </div>
   );
 });
