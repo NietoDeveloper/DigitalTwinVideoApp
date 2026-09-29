@@ -20,7 +20,6 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
       });
     }, 3000);
 
-  // Formateador de fecha estilo militar
   const formattedDate = useMemo(() => {
     return time.toLocaleDateString('en-US', { 
       year: 'numeric', 
