@@ -20,13 +20,7 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
 
         {/* Lado Derecho: Metadatos & Tiempo */}
         <div className="flex items-center gap-10 font-mono">
-          <div className="hidden lg:flex items-center gap-8 text-[9px] tracking-widest uppercase font-bold">
-             <div className="flem font-black text-white/90 tabular-nums tracking-wider">
-                {time.toLocaleTimeString([]
-
-      </header>
-
-      {/* ÁREA DE TRABAJO (GRID) */}
+          <div className="hidden lg:
       <main className="relative z-10 flex-1 grid grid-cols-12 grid-rows-6 gap-4 p-4 overflow-hidden bg-[#0a0a0a]">
         {/* Overlay de profundidad */}
         <div className="pointer-events-none absolute inset-0 shadow-[inset_0_0_150px_rgba(0,0,0,0.8)] z-0"></div>
