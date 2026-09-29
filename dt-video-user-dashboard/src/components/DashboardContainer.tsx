@@ -15,14 +15,6 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
     const timer = setInterval(() => setTime(new Date()), 1000);
     const latencyTimer = setInterval(() => 
 
-        {/* Lado Derecho: Metadatos &xt-white/40 cursor-help transition-colors font-bold">SECURE_SHELL: STABLE</span>
-          </div>
-          <span className="text-[#00c8ff]/30 font-black">AES-256_GCM_ENCRYPTION</span>
-        </div>
-    </div>
-  );
-});
-
-DashboardContainer.displayName = 'DashboardContainer';
+        {/* Lado Derecho: Metadatos &xt-white/4';
 
 export default DashboardContainer;
