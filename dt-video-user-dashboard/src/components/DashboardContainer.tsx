@@ -15,12 +15,7 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
     const timer = setInterval(() => setTime(new Date()), 1000);
     const latencyTimer = setInterval(() => {
       setLatency(prev => {
-        const drift = Math.random() * 20 - 10;
-        return Math.max(120, Math.min(250, prev + drift));
-      });
-    }, 3000);
-          </div>p-6 font-mono">
-            <div className="flex flex-col">
+        const drift = Math.random() * 2
               <span className="text-[8px] text-white/20 uppercase font-bold tracking-tighter">Core Status</span>
               <div className="flex items-center gap-2">
                 <div className="h-1.5 w-1.5 rounded-full bg-[#00c8ff] shadow-[0_0_10px_#00c8ff] animate-pulse"></div>
