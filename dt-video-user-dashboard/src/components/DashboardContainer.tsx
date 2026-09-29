@@ -26,10 +26,7 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
             </div>
 
             <div className="flex flex-col border-l border-white/5 pl-6">
-              <span className="text-[8px] text-white/20 uppercase font-bold tracking-tighter">Uplink Telemetry</span>
-              <span className={`text-[10px] font-black tracking-widest ${latency > 200 ? 'text-orange-500' : 'text-green-500'}`}>
-                {latency.toFixed(0)}<span className="text-[8px] ml-0.5 opacity-40 italic">ms</span>
-              </span>
+     
             </div>
           </div>
         </div>
