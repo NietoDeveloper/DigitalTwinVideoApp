@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Software DT — Panel Admin (Demo)</title>
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+  <div id="login-screen" class="login-screen">
+    <div class="login-box">
+      <h1>SOFTWARE <span class="gold">DT</span></h1>
+      <p class="tagline">Panel administrativo — DEMO</p>
+      <button id="login-btn">Ingresar (demo, sin validación real)</button>
+      <p class="fineprint">En la versión real este acceso está protegido por autenticación con roles.</p>
+    </div>
+  </div>
+
+  <div id="dashboard" class="dashboard hidden">
+    <div class="demo-banner">MODO DEMO — datos ficticios, sin conexión a backend real</div>
+
+    <aside class="sidebar">
+      <h2>SOFTWARE <span class="gold">DT</span></h2>
+      <nav>
+        <button class="nav-btn active" data-section="overview">Overview</button>
+        <button class="nav-btn" data-section="trabajo">Trabajo</button>
+        <button class="nav-btn" data-section="ventas">Ventas</button>
+        <button class="nav-btn" data-section="mensajeria">Mensajería</button>
+        <button class="nav-btn" data-section="productos">Productos</button>
+        <button class="nav-btn" data-section="conexiones">Conexiones</button>
+      </nav>
+    </aside>
+
+    <main>
+      <section id="section-overview" class="section active">
+        <h1>Overview</h1>
+        <div class="kpi-grid" id="kpi-grid"></div>
+      </section>
+
+      <section id="section-trabajo" class="section">
+        <h1>Trabajo</h1>
+        <div class="tabs">
+          <button class="tab-btn active" data-tab="pendiente">Pendiente</button>
+          <button class="tab-btn" data-tab="cumplida">Cumplida</button>
+          <button class="tab-btn" data-tab="cancelada">Cancelada</button>
+        </div>
+        <table id="trabajo-table"><thead>
+          <tr><th>Cliente</th><th>Servicio</th><th>Fecha</th><th>Confirmación</th></tr>
+        </thead><tbody></tbody></table>
+      </section>
+
+      <section id="section-ventas" class="section">
+        <h1>Ventas</h1>
+        <div class="tabs">
+          <button class="tab-btn active" data-range="dia">Día</button>
+          <button class="tab-btn" data-range="semana">Semana</button>
+          <button class="tab-btn" data-range="mes">Mes</button>
+        </div>
+        <div class="kpi-grid" id="ventas-grid"></div>
+      </section>
+
+      <section id="section-mensajeria" class="section">
+        <h1>Mensajería</h1>
+        <div class="inbox-columns">
+          <div class="inbox">
+            <h3>Central <span class="badge" id="badge-central"></span></h3>
+            <ul id="inbox-central"></ul>
+          </div>
+          <div class="inbox">
+            <h3>Contacto <span class="badge" id="badge-contacto"></span></h3>
+            <ul id="inbox-contacto"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="section-productos" class="section">
+        <h1>Productos</h1>
+        <div class="cards" id="productos-list"></div>
+      </section>
+
+      <section id="section-conexiones" class="section">
+        <h1>Conexiones</h1>
+        <ul id="conexiones-list" class="status-list"></ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="./assets/app.js"></script>
+</body>
+</html>

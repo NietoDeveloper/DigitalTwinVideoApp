@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Software DT — Demo Pública</title>
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <div class="demo-banner">MODO DEMO — datos ficticios, sin conexión a backend real</div>
+
+  <header class="hero">
+    <h1>SOFTWARE <span class="gold">DT</span></h1>
+    <p class="tagline">Plataforma de gestión de servicios y digitalización de procesos</p>
+    <a class="cta" href="#agendar">Agendar una cita</a>
+  </header>
+
+  <section class="services">
+    <h2>Servicios</h2>
+    <div class="cards" id="services-list"></div>
+  </section>
+
+  <section id="agendar" class="booking">
+    <h2>Agendar cita (demo)</h2>
+    <form id="booking-form">
+      <label>Nombre
+        <input type="text" id="name" required>
+      </label>
+      <label>Servicio
+        <select id="service"></select>
+      </label>
+      <label>Fecha
+        <input type="date" id="date" required>
+      </label>
+      <button type="submit">Confirmar (simulado)</button>
+    </form>
+    <div id="booking-result"></div>
+  </section>
+
+  <footer>
+    <p>© 2026 Software DT — Showcase comercial. No es el producto final. Ver
+      <a href="../../docs/COMMERCIAL.md">docs/COMMERCIAL.md</a> para acceso privado o licenciamiento.</p>
+  </footer>
+
+  <script src="./assets/app.js"></script>
+</body>
+</html>
