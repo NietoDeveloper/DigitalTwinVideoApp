@@ -24,11 +24,7 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
         </div>
         
         <div className="flex gap-4 items-center">
-          <div className="flex items-center gap-2 px-3 py-0.5 bg-white/[0.02] border border-white/5">
-             <Activity size={12} className="text-green-500/50" />
-             <span className="font-black">Neural_Load: 4.2%</span>
-          </div>
-  
+          <div className="fle
     </div>
   );
 });
