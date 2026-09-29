@@ -9,9 +9,7 @@ lerna-debug.log*
 
 node_modules
 dist
-!.vscode/extensions.json
-.idea
-.DS_Store
+!.vscode/extension
 *.suo
 *.ntvs*
 *.njsproj
