@@ -22,9 +22,6 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
           </div>
           <span className="text-[#00c8ff]/30 font-black">AES-256_GCM_ENCRYPTION</span>
         </div>
-        
-        <div className="flex gap-4 items-center">
-          <div className="fle
     </div>
   );
 });
