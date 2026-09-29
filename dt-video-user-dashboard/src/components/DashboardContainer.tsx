@@ -18,11 +18,7 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
         const drift = Math.random() * 2
               <span className="text-[8px] text-white/20 uppercase font-bold tracking-tighter">Core Status</span>
               <div className="flex items-center gap-2">
-                <div className="h-1.5 w-1.5 rounded-full bg-[#00c8ff] shadow-[0_0_10px_#00c8ff] animate-pulse"></div>
-                <span className="text-[10px] text-[#00c8ff] font-black uppercase tracking-[0.1em]">
-                  S+ RANK / STABLE
-                </span>
-              </div>
+                <div className=
             </div>
 
             <div className="flex flex-col border-l border-white/5 pl-6">
