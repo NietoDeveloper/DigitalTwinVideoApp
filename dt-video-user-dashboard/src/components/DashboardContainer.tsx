@@ -20,9 +20,6 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
               <div className="flex items-center gap-2">
                 <div className=
             </div>
-
-            <div className="flex flex-col border-l border-white/5 pl-6">
-     
             </div>
           </div>
         </div>
