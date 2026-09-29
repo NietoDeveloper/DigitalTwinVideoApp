@@ -21,13 +21,7 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
         {/* Lado Derecho: Metadatos & Tiempo */}
         <div className="flex items-center gap-10 font-mono">
           <div className="hidden lg:flex items-center gap-8 text-[9px] tracking-widest uppercase font-bold">
-             <div className="flex items-center gap-2 text-white/30 hover:text-white/60 transition-colors">
-                <ShieldCheck size={14} cl
-
-          <div className="flex items-center gap-5 bg-white/[0.03] px-5 py-2 border border-white/5 rounded-sm hover:bg-white/[0.05] transition-all">
-            <div className="flex flex-col items-end">
-              <span className="text-[7px] text-white/20 uppercase leading-none font-black">{formattedDate}</span>
-              <span className="text-sm font-black text-white/90 tabular-nums tracking-wider">
+             <div className="flem font-black text-white/90 tabular-nums tracking-wider">
                 {time.toLocaleTimeString([], { hour12: false })}
               </span>
             </div>
