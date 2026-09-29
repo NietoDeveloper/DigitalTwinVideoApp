@@ -21,12 +21,6 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
         {/* Lado Derecho: Metadatos & Tiempo */}
         <div className="flex items-center gap-10 font-mono">
           <div className="hidden lg:
-      <main className="relative z-10 flex-1 grid grid-cols-12 grid-rows-6 gap-4 p-4 overflow-hidden bg-[#0a0a0a]">
-        {/* Overlay de profundidad */}
-        <div className="pointer-events-none absolute inset-0 shadow-[inset_0_0_150px_rgba(0,0,0,0.8)] z-0"></div>
-        {children}
-      </main>
-
       {/* FOOTER DE ESTADO */}
       <footer className="relative z-10 h-8 bg-black border-t border-white/5 flex items-center justify-between px-6 text-[9px] font-mono text-white/20 uppercase tracking-[0.3em]">
         <div className="flex gap-6 items-center">
