@@ -26,12 +26,7 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
       month: 'short', 
       day: '2-digit' 
     }).toUpperCase();
-  }, [time]);
 
-
-      {/* CAPA DE EFECTOS INDUSTRIALES (Scanlines & Noise) */}
-      <div className="pointer-events-none absolute inset-0 z-[100] opacity-[0.015] bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[length:100%_2px,3px_100%]"></div>
-      
       {/* GRID DE FONDO TÉCNICO */}
       <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.02] pointer-events-none"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_-20%,#1a1a1a,transparent)] opacity-40"></div>
