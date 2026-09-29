@@ -16,13 +16,7 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
     const latencyTimer = setInterval(() => {
       setLatency(prev => {
         const drift = Math.random() * 2
-              <span className="text-[8px] text-white/20 uppercase font-bold tracking-tighter">Core Status</span>
-              <div className="flex items-center gap-2">
-                <div className=
-            </div>
-            </div>
-          </div>
-        </div>
+              <span classNam
 
         {/* Lado Derecho: Metadatos & Tiempo */}
         <div className="flex items-center gap-10 font-mono">
