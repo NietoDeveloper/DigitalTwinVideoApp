@@ -22,14 +22,7 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
         <div className="flex items-center gap-10 font-mono">
           <div className="hidden lg:flex items-center gap-8 text-[9px] tracking-widest uppercase font-bold">
              <div className="flex items-center gap-2 text-white/30 hover:text-white/60 transition-colors">
-                <ShieldCheck size={14} className="text-[#FFD700]/60" />
-                <span>Encrypted_Uplink</span>
-             </div>
-             <div className="flex items-center gap-2 text-white/30 hover:text-white/60 transition-colors">
-                <Database size={14} className="text-[#00c8ff]/60" />
-                <span>Cluster_03_Bog</span>
-             </div>
-          </div>
+                <ShieldCheck size={14} cl
 
           <div className="flex items-center gap-5 bg-white/[0.03] px-5 py-2 border border-white/5 rounded-sm hover:bg-white/[0.05] transition-all">
             <div className="flex flex-col items-end">
