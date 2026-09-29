@@ -24,13 +24,7 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
     return time.toLocaleDateString('en-US', { 
       year: 'numeric', g-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.02] pointer-events-none"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_-20%,#1a1a1a,transparent)] opacity-40"></div>
-
-      {/* HEADER DE ALTA FIDELIDAD */}
-      <header className="relative z-10 h-16 border-b border-white/5 bg-black/60 backdrop-blur-xl flex items-center justify-between px-8 shadow-2xl">
-        
-        {/* Lado Izquierdo: Branding & Status */}
-        <div className="flex items-center gap-8">
-          <div className="flex flex-col group cursor-crosshair">
+crosshair">
             <span className="text-[#FFD700] font-black tracking-[0.3em] text-[11px] italic leading-none group-hover:text-white transition-colors">
               SOFTWARE DT
             </span>
