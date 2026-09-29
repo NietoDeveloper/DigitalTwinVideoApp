@@ -19,12 +19,7 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
         return Math.max(120, Math.min(250, prev + drift));
       });
     }, 3000);
-
-  const formattedDate = useMemo(() => {
-    return time.toLocaleDateString(
-          </div>
-
-          <div className="flex items-center gap-6 font-mono">
+          </div>p-6 font-mono">
             <div className="flex flex-col">
               <span className="text-[8px] text-white/20 uppercase font-bold tracking-tighter">Core Status</span>
               <div className="flex items-center gap-2">
