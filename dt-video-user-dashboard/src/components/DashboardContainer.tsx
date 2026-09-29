@@ -20,8 +20,6 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
       });
     }, 3000);
 
-    return () => {
-      clearInterval(timer);
 
 
   // Formateador de fecha estilo militar
