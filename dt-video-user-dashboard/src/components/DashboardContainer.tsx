@@ -18,12 +18,7 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
         const drift = Math.random() * 2
               <span classNam
 
-        {/* Lado Derecho: Metadatos & Tiempo */}
-        <div className="flex items-center gap-10 font-mono">
-          <div className="hidden lg:
-      {/* FOOTER DE ESTADO */}
-      <footer className="relative z-10 h-8 bg-black border-t border-white/5 flex items-center justify-between px-6 text-[9px] font-mono text-white/20 uppercase tracking-[0.3em]">
-        <div className="flex gap-6 items-center">
+        {/* Lado Derecho: Metadatos & Tiempo">
           <div className="flex items-center gap-2">
             <Terminal size={12} className="text-white/10" />
             <span className="hover:text-white/40 cursor-help transition-colors font-bold">SECURE_SHELL: STABLE</span>
