@@ -13,10 +13,7 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
   // Reloj de misión y simulación de latencia optimizados
   useEffect(() => {
     const timer = setInterval(() => setTime(new Date()), 1000);
-    const latencyTimer = setInterval(() => {
-      setLatency(prev => {
-        const drift = Math.random() * 2
-              <span classNam
+    const latencyTimer = setInterval(() => 
 
         {/* Lado Derecho: Metadatos & Tiempo">
           <div className="flex items-center gap-2">
