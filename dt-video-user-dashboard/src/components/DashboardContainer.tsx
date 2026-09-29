@@ -22,11 +22,7 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
         <div className="flex items-center gap-10 font-mono">
           <div className="hidden lg:flex items-center gap-8 text-[9px] tracking-widest uppercase font-bold">
              <div className="flem font-black text-white/90 tabular-nums tracking-wider">
-                {time.toLocaleTimeString([], { hour12: false })}
-              </span>
-            </div>
-            <Clock size={18} className="text-white/20" />
-          </div>
+                {time.toLocaleTimeString([]
 
           <div className="flex flex-col items-end border-r-2 border-[#FFD700] pr-4">
             <span className="text-[7px] text-white/20 uppercase leading-none font-black tracking-widest">Operator_Id</span>
