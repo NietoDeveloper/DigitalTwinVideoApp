@@ -34,8 +34,6 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
             <span className="text-[#FFD700] font-black tracking-[0.3em] text-[11px] italic leading-none group-hover:text-white transition-colors">
               SOFTWARE DT
             </span>
-            <span className="text-[9px] text-white/30 tracking-[0.4em] font-mono mt-1">
-              MISSION_CONTROL_V1
             </span>
           </div>
 
