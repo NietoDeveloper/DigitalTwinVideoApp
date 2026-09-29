@@ -21,17 +21,8 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
     }, 3000);
 
   const formattedDate = useMemo(() => {
-    return time.toLocaleDateString('en-US', { 
-      year: 'numeric', g-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.02] pointer-events-none"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_-20%,#1a1a1a,transparent)] opacity-40"></div>
-crosshair">
-            <span className="text-[#FFD700] font-black tracking-[0.3em] text-[11px] italic leading-none group-hover:text-white transition-colors">
-              SOFTWARE DT
-            </span>
-            </span>
+    return time.toLocaleDateString(
           </div>
-
-          <div className="h-10 w-[1px] bg-white/10 rotate-12"></div>
 
           <div className="flex items-center gap-6 font-mono">
             <div className="flex flex-col">
