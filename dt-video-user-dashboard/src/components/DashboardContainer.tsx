@@ -22,13 +22,7 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
 
   const formattedDate = useMemo(() => {
     return time.toLocaleDateString('en-US', { 
-      year: 'numeric', 
-      month: 'short', 
-      day: '2-digit' 
-    }).toUpperCase();
-
-      {/* GRID DE FONDO TÉCNICO */}
-      <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.02] pointer-events-none"></div>
+      year: 'numeric', g-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.02] pointer-events-none"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_-20%,#1a1a1a,transparent)] opacity-40"></div>
 
       {/* HEADER DE ALTA FIDELIDAD */}
