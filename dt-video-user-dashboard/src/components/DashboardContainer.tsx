@@ -3,5 +3,3 @@ import { Activity, ShieldCheck, Wifi, Clock, Database, Terminal } from 'lucide-r
 
 interface DashboardContainerProps {
   children: React.ReactNode;
-  userTag?: string;
-}
