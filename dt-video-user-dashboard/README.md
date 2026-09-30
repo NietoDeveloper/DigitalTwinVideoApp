@@ -9,9 +9,6 @@ Currently, two official plugins are available:
 
 The React Compiler is not enabled on this template because of its impa
 
-```js
-export default defineConfig([
-
     extends: [
       // Other configs...
 
