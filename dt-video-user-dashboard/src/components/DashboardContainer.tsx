@@ -12,4 +12,4 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
 
   // Reloj de misión y mulación de latencia optimizados
   useEffect(() => {
-    const
+    co
