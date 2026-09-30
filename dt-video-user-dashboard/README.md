@@ -8,11 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vit
 
 The React Compiler is not enabled on this template because of its impa
-
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
+ded and replace with this
       tseslint.configs.recommendedTypeChecked,
       // Alternatively, use this for stricter rules
       tseslint.configs.strictTypeChecked,
