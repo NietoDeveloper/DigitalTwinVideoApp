@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 The React Compiler is not enabled on this template because of its impa
       // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeCheck
+      tseslint.configs.strictType
       // Other configs...
     ],
       parserOptions: {
