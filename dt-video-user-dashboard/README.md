@@ -11,10 +11,7 @@ The React Compiler is not enabled on this template because of its impa
 ded and replace with this
       tseslint.configs.recommendedTypeChecked,
       // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
+      tseslint.configs.strictTypeCheck
       // Other configs...
     ],
     languageOptions: {
