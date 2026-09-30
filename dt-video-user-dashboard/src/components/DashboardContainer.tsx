@@ -5,5 +5,3 @@ interface DashboardContainerProps {
   children: React.ReactNode;
   userTag?: string;
 }
-
-const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardContainerProps) => {
