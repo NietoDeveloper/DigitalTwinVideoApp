@@ -7,7 +7,3 @@ interface DashboardContainerProps {
 }
 
 const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardContainerProps) => {
-  const [time, setTime] = useState(new Date());
-  const [latency, setLatency] = useState(184);
-
-  // Reloj 
