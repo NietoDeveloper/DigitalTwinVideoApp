@@ -13,7 +13,7 @@ The React Compiler is not enabled on this template because of its impa
       // Other configs...
     ],
       parserOptions: {
-      // other options...
+      // other opti
     },
   },
 ])
