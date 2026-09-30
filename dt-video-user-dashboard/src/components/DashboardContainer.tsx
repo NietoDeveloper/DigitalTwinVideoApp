@@ -10,5 +10,5 @@ const DashboardContainer = memo(({ children, userTag = "MN_01_COL" }: DashboardC
   const [time, setTime] = useState(new Date());
   const [latency, setLatency] = useState(184);
 
-  // Reloj de misión y mulación de latencia optimizados
+  // Reloj de misión y mulación de latenimizados
   use
