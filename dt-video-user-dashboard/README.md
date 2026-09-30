@@ -13,9 +13,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 ```js
 export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
+
     extends: [
       // Other configs...
 
