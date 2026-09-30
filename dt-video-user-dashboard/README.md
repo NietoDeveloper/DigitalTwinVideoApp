@@ -13,9 +13,6 @@ The React Compiler is not enabled on this template because of its impa
       // Other configs...
     ],
       parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
       // other options...
     },
   },
