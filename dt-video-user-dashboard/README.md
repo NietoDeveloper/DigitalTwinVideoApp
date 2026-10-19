@@ -11,7 +11,4 @@ The React Compiler is not enabled on this templa
     ],
 ```
 
-You can also install [eslint-pluific lint rules:
-
-      // Enable lint rules for React
-      r
+You can also ins
