@@ -4,19 +4,6 @@ import {
   Video,
   Cpu,
   CreditCard,
-  Settings,
-  ChevronLeft,
-  ChevronRight,
-} from 'lucide-react';
-
-const menuItems = [
-  { icon: LayoutDashboard, label: 'Dashboard', id: 'dashboard' },
-  { icon: Users, label: 'Users', id: 'users' },
-  { icon: Video, label: 'Streams', id: 'streams' },
-  { icon: Cpu, label: 'AI Workers', id: 'ai-worker' },
-  { icon: CreditCard, label: 'Billing', id: 'billing' },
-  { icon: Settings, label: 'Settings', id: 'settings' },
-] as const;
 
 interface SidebarProps {
   isOpen: boolean;
