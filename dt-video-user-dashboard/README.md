@@ -15,8 +15,7 @@ You can also install [eslint-pluific lint rules:
 
 ```js
 // eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+import reactlint-plugin-react-dom'
 
 export default defineConfig([
   globalIgnores(['dist']),
