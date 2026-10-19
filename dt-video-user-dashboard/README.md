@@ -9,6 +9,3 @@ Currently, two official plugins are available:
 
 The React Compiler is not enabled on this templa
     ],
-```
-
-You can 
