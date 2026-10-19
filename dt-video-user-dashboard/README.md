@@ -11,4 +11,4 @@ The React Compiler is not enabled on this templa
     ],
 ```
 
-You can also ins
+You can 
