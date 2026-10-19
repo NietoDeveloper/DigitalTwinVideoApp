@@ -1,34 +1,7 @@
 import {
   LayoutDashboard,
   Users,
-  Video,
-  Cpu,
-  CreditCard,
-
-interface SidebarProps {
-  isOpen: boolean;
-  activeTab: string;
-  onToggle: () => void;
-  onSelect: (id: string) => void;
-}
-
-export function Sidebar({ isOpen, activeTab, onToggle, onSelect }: SidebarProps) {
-  return (
-    <aside
-      className={`${
-        isOpen ? 'w-64' : 'w-20'
-      } bg-white border-r border-border-dt flex flex-col transition-all duration-300 ease-in-out z-20 shadow-sm`}
-    >
-      <div className="p-6 h-16 flex items-center justify-between border-b border-border-dt/50">
-        {isOpen && (
-          <span className="font-black text-xl tracking-tighter text-heading-color">
-            SOFTWARE <span className="text-gold">DT</span>
-          </span>
-        )}
-        <button
-          type="button"
-          onClick={onToggle}
-          className="p-1.5 hover:bg-gainsboro rounded-md transition-all border border-transparent hover:border-border-dt"
+  Vbg-gainsboro rounded-md transition-all border border-transparent hover:border-border-dt"
           title={isOpen ? 'Collapse Sidebar' : 'Expand Sidebar'}
         >
           {isOpen ? <ChevronLeft size={18} /> : <ChevronRight size={18} />}
