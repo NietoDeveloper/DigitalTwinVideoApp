@@ -10,27 +10,7 @@ export function Header() {
   const handleLogout = () => {
     logout();
     navigate('/login', { replace: true });
-  };
 
-  return (
-    <header className="h-16 bg-white border-b border-border-dt flex items-center justify-between px-8 z-10 shadow-sm">
-      <div className="flex items-center gap-6">
-        <div className="flex items-center gap-3 px-3 py-1.5 bg-main/50 rounded-full border border-border-dt/30">
-          <Activity
-            size={14}
-            className={systemStatus === 'healthy' ? 'text-status-online' : 'text-status-error'}
-          />
-          <h2 className="text-[10px] font-mono uppercase tracking-[0.2em] text-gray-500">
-            System:{' '}
-            <span
-              className={
-                systemStatus === 'healthy'
-                  ? 'text-status-online'
-                  : 'text-status-error font-bold'
-              }
-            >
-              {systemStatus}
-            </span>
           </h2>
         </div>
       </div>
