@@ -15,11 +15,6 @@ You can also install [eslint-pluific lint rules:
 
 ```js
 // eslint.config.js
-import reactlint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
     files: ['**/*.{ts,tsx}'],
     extends: [
       // Other configs...
