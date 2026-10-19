@@ -12,10 +12,3 @@ export default defineConfig([
     extends: [
       js.configs.recommended,
  
-    ],
-    languageOptions: {
-      ecmaVersion: 2020,
-      globals: globals.browser,
-    },
-  },
-])
