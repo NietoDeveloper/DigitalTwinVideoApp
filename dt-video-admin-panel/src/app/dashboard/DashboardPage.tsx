@@ -13,16 +13,7 @@ export function DashboardPage() {
 
 acking-widest text-gray-500 font-bold">
   
-          </h3>
-          <p className="kpi-value">1,204</p>
-          <div className="text-[9px] mt-2 font-mono text-status-online">
-
-
-        <div className="glass-card">
-          <h3 classNamus-ai h-full w-[84%]" />
-          </div>
-        </div>
-
+          </h
         <div className="glass-card">
           <h3 className="text-[10px] uppercase tracking-widest text-gray-500 font-bold">
             Global Uptime
