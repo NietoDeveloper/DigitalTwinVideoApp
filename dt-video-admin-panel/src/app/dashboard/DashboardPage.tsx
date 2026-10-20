@@ -17,16 +17,6 @@ export function DashboardPage() {
         classtton
               
 
-      <section id="next-steps" classN
-          </p>
-          <ul>
-            <li>
-              <a href="#streams">Monitor Active Streams</a>
-            </li>
-            <li>
-              <a href="#ai">Worker Queue Management</a>
-            </li>
-          </ul>
         </div>
 
         <div id="social">
