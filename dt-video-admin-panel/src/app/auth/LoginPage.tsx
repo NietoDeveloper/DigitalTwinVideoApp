@@ -6,5 +6,3 @@ import { useAuthStore } from '../../store';
 export function LoginPage() {
   const navigate = useNavigate();
   const { isAuthenticated, isHydrated } = useAuthStore();
-
-  if (isHydrated && isAuthenticated) {
