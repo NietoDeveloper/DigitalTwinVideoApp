@@ -17,16 +17,9 @@ acking-widest text-gray-500 font-bold">
           <p className="kpi-value">1,204</p>
           <div className="text-[9px] mt-2 font-mono text-status-online">
 
-          </div>
-        </div>
 
         <div className="glass-card">
-          <h3 className="text-[10px] uppercase tracking-widest text-gray-500 font-bold">
-            AI Workers
-          </h3>
-          <p className="kpi-value text-status-ai">84%</p>
-          <div className="w-full bg-gainsboro h-1 mt-3 rounded-full overflow-hidden">
-            <div className="bg-status-ai h-full w-[84%]" />
+          <h3 classNamus-ai h-full w-[84%]" />
           </div>
         </div>
 
