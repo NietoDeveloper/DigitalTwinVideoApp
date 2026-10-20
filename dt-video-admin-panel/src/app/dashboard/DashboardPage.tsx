@@ -10,9 +10,7 @@ export function DashboardPage() {
           <h3 className="text-[10px] uppercase tracking-widest text-gray-500 font-bold">
             Global Uptime
           </h3>
-          <p className="kpi-value">99.9%</p>
-         
-      <section
+
 
             <li>
               <a href="#" className="flex items-center gap-2">
