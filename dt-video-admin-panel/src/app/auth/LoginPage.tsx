@@ -18,8 +18,5 @@ export function LoginPage() {
       footer={
         <>
 
-    >
-      <LoginForm onSuccess={() => navigate('/', { replace: true })} />
-    </AuthLayout>
-  );
+
 }
