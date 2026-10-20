@@ -8,5 +8,3 @@ export function LoginPage() {
   const { isAuthenticated, isHydrated } = useAuthStore();
 
   if (isHydrated && isAuthenticated) {
-    return <Navigate to="/" replace />;
-  }
