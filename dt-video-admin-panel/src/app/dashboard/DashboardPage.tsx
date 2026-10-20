@@ -5,15 +5,7 @@ export function DashboardPage() {
   const [count, setCount] = useState(0);
 
   return (
-    <AdminLayout>
-
-
-          </div>
-        </div>
-
-acking-widest text-gray-500 font-bold">
-  
-          </h
+    <
         <div className="glass-card">
           <h3 className="text-[10px] uppercase tracking-widest text-gray-500 font-bold">
             Global Uptime
