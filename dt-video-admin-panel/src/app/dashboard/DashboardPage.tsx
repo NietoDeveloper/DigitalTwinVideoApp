@@ -6,8 +6,7 @@ export function DashboardPage() {
 
   return (
     <AdminLayout>
-      <section className="metrics-grid mb-8">
-        <div className="glass-card">
+
 
 
           </div>
