@@ -15,14 +15,7 @@ export function DashboardPage() {
       <section
         id="center"
         classtton
-              className="counter px-8 py-4 text-base"
-              onClick={() => setCount((c) => c + 1)}
-            >
-              Simulate Transaction: {count}
-            </button>
-          </div>
-        </div>
-      </section>
+              
 
       <section id="next-steps" className="rounded-xl overflow-hidden shadow-sm mt-8">
         <div id="docs">
