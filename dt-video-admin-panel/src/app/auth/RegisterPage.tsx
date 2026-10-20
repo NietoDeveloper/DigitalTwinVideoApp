@@ -14,11 +14,7 @@ export function RegisterPage() {
   return (
     <AuthLayout
       title="Registro de empleado"
-      subtitle="Usa el código de autorización que te dio tu jefe para crear tu acceso."
-      footer={
-        <>
-          ¿Ya estás registrado?{' '}
-          <Link to="/login">Inicia sesión</Link>
+      subt"/login">Inicia sesión</Link>
         </>
       }
     >
