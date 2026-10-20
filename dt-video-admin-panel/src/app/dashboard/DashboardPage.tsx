@@ -13,11 +13,6 @@ export function DashboardPage() {
           <p className="kpi-value">99.9%</p>
          
       <section
-        id="center"
-        classtton
-              
-
-        </div>
 
         <div id="social">
           <h2 className="text-lg font-bold mb-2">Infrastructure Status</h2>
