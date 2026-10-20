@@ -14,12 +14,7 @@ export function DashboardPage() {
          
       <section
         id="center"
-        className="min-h-[400px] border-2 border-dashed border-border-dt rounded-2xl flex flex-col items-center justify-center bg-white/30 backdrop-blur-sm"
-      >
-        <div className
-
-          <div className="pt-6">
-            <button
+        classtton
               className="counter px-8 py-4 text-base"
               onClick={() => setCount((c) => c + 1)}
             >
