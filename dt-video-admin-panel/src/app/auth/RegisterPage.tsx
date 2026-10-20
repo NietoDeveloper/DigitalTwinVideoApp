@@ -8,13 +8,7 @@ export function RegisterPage() {
   const { isAuthenticated, isHydrated } = useAuthStore();
 
   if (isHydrated && isAuthenticated) {
-    return <Navigate to="/" replace />;
-  }
-
-  return (
-    <AuthLayout
-   
-    >
+ 
       <RegisterForm onSuccess={() => navigate('/', { replace: true })} />
     </AuthLayout>
 
