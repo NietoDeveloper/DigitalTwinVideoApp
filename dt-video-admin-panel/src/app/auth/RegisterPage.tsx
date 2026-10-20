@@ -13,10 +13,7 @@ export function RegisterPage() {
 
   return (
     <AuthLayout
-      title="Registro de empleado"
-      subt"/login">Inicia sesión</Link>
-        </>
-      }
+   
     >
       <RegisterForm onSuccess={() => navigate('/', { replace: true })} />
     </AuthLayout>
