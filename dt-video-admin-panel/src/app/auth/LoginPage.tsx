@@ -13,10 +13,4 @@ export function LoginPage() {
 
   return (
     <AuthLayout
-      title="Iniciar sesión"
-      subtitle="Accede al panel interno de empleados Software DT."
-      footer={
-        <>
 
-
-}
