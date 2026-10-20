@@ -16,11 +16,7 @@ export function DashboardPage() {
         id="center"
         className="min-h-[400px] border-2 border-dashed border-border-dt rounded-2xl flex flex-col items-center justify-center bg-white/30 backdrop-blur-sm"
       >
-        <div className="text-center space-y-4">
-          <h1 className="text-4xl font-black tracking-tighter uppercase">
-            Get started <span className="text-gold">Admin</span>
-          </h1>
-          <p className="max-w-md mx-auto text-gray-500 text-sm">
+        <div className="temd mx-auto text-gray-500 text-sm">
             Panel de control interno para la gestión de{' '}
             <strong>Digital Twin Video App</strong>. Solo empleados autorizados
             pueden operar este dashboard.
