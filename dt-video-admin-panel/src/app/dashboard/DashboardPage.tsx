@@ -12,8 +12,7 @@ export function DashboardPage() {
             Revenue Test
           </h3>
           <p className="kpi-value text-status-online">
-            ${(count * 125 font-mono text-gray-400">
-            Live simulation active
+
           </div>
         </div>
 
