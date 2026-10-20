@@ -5,6 +5,3 @@ import { useAuthStore } from '../../store';
 
 export function RegisterPage() {
   const navigate = useNavigate();
-
-  if (isHy
-
