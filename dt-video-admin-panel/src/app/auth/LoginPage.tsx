@@ -17,10 +17,7 @@ export function LoginPage() {
       subtitle="Accede al panel interno de empleados Software DT."
       footer={
         <>
-          ¿Aún no tienes cuenta?{' '}
-          <Link to="/register">Regístrate con tu código</Link>
-        </>
-      }
+
     >
       <LoginForm onSuccess={() => navigate('/', { replace: true })} />
     </AuthLayout>
