@@ -19,12 +19,7 @@ acking-widest text-gray-500 font-bold">
             Global Uptime
           </h3>
           <p className="kpi-value">99.9%</p>
-          <div className="text-[9px] mt-2 font-mono text-gray-400">
-            Instance: dt-prod-01
-          </div>
-        </div>
-      </section>
-
+         
       <section
         id="center"
         className="min-h-[400px] border-2 border-dashed border-border-dt rounded-2xl flex flex-col items-center justify-center bg-white/30 backdrop-blur-sm"
