@@ -10,7 +10,3 @@ export function LoginPage() {
   if (isHydrated && isAuthenticated) {
     return <Navigate to="/" replace />;
   }
-
-  return (
-    <AuthLayout
-
