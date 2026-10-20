@@ -8,7 +8,6 @@ export function DashboardPage() {
     <AdminLayout>
 
 
-
           </div>
         </div>
 
