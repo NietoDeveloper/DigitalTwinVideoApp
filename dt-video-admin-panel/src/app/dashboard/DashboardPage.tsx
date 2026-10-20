@@ -14,10 +14,6 @@ export function DashboardPage() {
          
       <section
 
-        <div id="social">
-
-          </p>
-          <ul>
             <li>
               <a href="#" className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-status-online" />
