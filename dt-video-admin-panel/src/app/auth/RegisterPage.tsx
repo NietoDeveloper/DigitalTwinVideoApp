@@ -24,5 +24,4 @@ export function RegisterPage() {
     >
       <RegisterForm onSuccess={() => navigate('/', { replace: true })} />
     </AuthLayout>
-  );
-}
+
