@@ -13,11 +13,7 @@ export function DashboardPage() {
     
             <li>
               <a href="#" className="flex items-cS-2">
-                <div className="w-2 h-2 rounded-full bg-statarning" />
-                S3 Sto
-              </a>
-            </li>
-          </ul>
+                <div className="w-2 h-2 rounde
         </div>
       </section>
     </AdminLayout>
