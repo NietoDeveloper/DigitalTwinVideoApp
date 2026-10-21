@@ -10,7 +10,7 @@ export function DashboardPage() {
             Global Uptime
           <
 
-            <li>
+      
               <a href="#" className="flex items-center gi
                 API Gateway: 14ms
   
