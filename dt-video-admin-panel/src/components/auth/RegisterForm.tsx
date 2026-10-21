@@ -15,19 +15,7 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
   };
 
   return (
-    <form className="auth-form" onSubmit={handleSubmit} noValidate>
-      {error && <div className="auth-alert" role="alert">{error}</div>}
-
-      <label className="auth-field">
-        <span>Nombre completo</span>
-        <input
-          type="text"
-          autoComplete="name"
-          placeholder="María Nieto"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          required
-        />
+    <form c
       </label>
 
       <label className="auth-field">
