@@ -14,14 +14,6 @@ interface LoginFormProps {
         <input
           type="password"
           autoComplete="current-password"
-          placeholder="Se ajustará más adelante"
-          disabled
-        />
-      </label>
-
-      <button type="submit" className="auth-submit" disabled={isLoading}>
-        {isLoading ? <Loader2 size={18} className="animate-spin" /> : <LogIn size={18} />}
-        {isLoading ? 'Entrando…' : 'Entrar al panel'}
       </button>
     </form>
   );
