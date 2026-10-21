@@ -6,14 +6,4 @@ interface ProtectedRouteProps {
   children: ReactNode;
 }
 
-export function ProtectedRoute({ children }: ProtectedRouteProps) {
-  const { isAuthenticated, isHydrated } = useAuthStore();
-  const location = useLocation();
-
-  if (!isHydrat
-  if (!isAuthenticated) {
-    return <Navigate to="/login" replace state={{ from: location.pathname }} />;
-  }
-
-  return children;
-}
+export 
