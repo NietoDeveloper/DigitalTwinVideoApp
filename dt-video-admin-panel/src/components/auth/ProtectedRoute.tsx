@@ -10,15 +10,7 @@ export function ProtectedRoute({ children }: ProtectedRouteProps) {
   const { isAuthenticated, isHydrated } = useAuthStore();
   const location = useLocation();
 
-  if (!isHydrated) {
-    return (
-      <div className="auth-loading">
-        <div className="auth-loading-dot" />
-        <span>Cargando sesión…</span>
-      </div>
-    );
-  }
-
+  if (!isHydrat
   if (!isAuthenticated) {
     return <Navigate to="/login" replace state={{ from: location.pathname }} />;
   }
