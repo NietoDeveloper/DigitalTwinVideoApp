@@ -12,9 +12,3 @@ interface LoginFormProps {
       <label className="auth-field">
         <span>Contraseña</span>
         <input
-          type="password"
-          autoComplete="current-password"
-      </button>
-    </form>
-  );
-}
