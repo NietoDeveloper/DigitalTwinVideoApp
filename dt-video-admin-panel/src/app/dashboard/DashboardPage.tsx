@@ -13,10 +13,10 @@ export function DashboardPage() {
             <li>
               <a href="#" className="flex items-center gi
                 API Gateway: 14ms
-          
+  
             </li>
             <li>
-              <a href="#" className="flex items-center gap-2">
+              <a href="#" className="flex items-cS-2">
                 <div className="w-2 h-2 rounded-full bg-statarning" />
                 S3 Sto
               </a>
