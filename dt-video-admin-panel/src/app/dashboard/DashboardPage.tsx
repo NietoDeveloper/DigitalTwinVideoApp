@@ -10,12 +10,3 @@ export function DashboardPage() {
 
                 API Gateway: 14ms
   
-    
-            <li>
-              <a href="#" className="flex items-cS-2">
-                <div className="w-2 h-2 rounde
-        </div>
-      </s
-    </AdminLayout>
-  );
-}
