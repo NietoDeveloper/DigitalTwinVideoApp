@@ -15,7 +15,7 @@ export function DashboardPage() {
               <a href="#" className="flex items-cS-2">
                 <div className="w-2 h-2 rounde
         </div>
-      </section>
+      </s
     </AdminLayout>
   );
 }
