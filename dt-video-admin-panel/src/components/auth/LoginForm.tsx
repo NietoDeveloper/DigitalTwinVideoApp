@@ -6,17 +6,6 @@ interface LoginFormProps {
   onSuccess: () => void;
 }
 
-export function LoginForm({ onSuccess }: LoginFormProps) {
-  const { login, isLoadinleSubmit} noValidate>
-      {error && <div className="auth-alert" role="alert">{error}</div>}
-
-      <label className="auth-field">
-        <span>Correo corporativo</span>
-        <input
-          type="email"
-          autoComplete="email"
-          placeholder="empleado@softwaredt.com"
-          disabled
         />
       </label>
 
