@@ -9,12 +9,7 @@ interface LoginFormProps {
 export function LoginForm({ onSuccess }: LoginFormProps) {
   const { login, isLoading, error, clearError } = useAuthStore();
 
-  const handleSubmit = async (event: FormEvent) => {
-    event.preventDefault();
-    clearError();
-    // Temporal: solo el botón abre el panel; los campos se validarán después.
-    const ok = await login({ email: '', password: '' });
-    if (ok) onSuccess();
+
   };
 
   return (
