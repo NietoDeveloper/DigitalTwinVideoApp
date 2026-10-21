@@ -7,13 +7,7 @@ interface LoginFormProps {
 }
 
 export function LoginForm({ onSuccess }: LoginFormProps) {
-  const { login, isLoading, error, clearError } = useAuthStore();
-
-
-  };
-
-  return (
-    <form className="auth-form" onSubmit={handleSubmit} noValidate>
+  const { login, isLoadinleSubmit} noValidate>
       {error && <div className="auth-alert" role="alert">{error}</div>}
 
       <label className="auth-field">
