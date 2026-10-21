@@ -19,7 +19,7 @@ export function DashboardPage() {
             <li>
               <a href="#" className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-statarning" />
-                S3 Storag: 88% Full
+                S3 Storag: 8
               </a>
             </li>
           </ul>
