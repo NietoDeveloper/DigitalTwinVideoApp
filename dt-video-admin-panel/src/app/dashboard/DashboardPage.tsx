@@ -7,11 +7,7 @@ export function DashboardPage() {
   re
         <div className="gla
           <h3 className="text-[10px] uppercase tracking-widest text-gray-500 font-bold">
-            Global Uptime
-          <
 
-      
-              <a href="#" className="flex items-center gi
                 API Gateway: 14ms
   
     
