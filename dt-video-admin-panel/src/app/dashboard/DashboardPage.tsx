@@ -9,12 +9,10 @@ export function DashboardPage() {
         <div className="glass-card">
           <h3 className="text-[10px] uppercase tracking-widest text-gray-500 font-bold">
             Global Uptime
-          </h3>
-
+          <
 
             <li>
-              <a href="#" className="flex items-center g
-                <div className="w-2 h-2 rounded-full bg-status-online" />
+              <a href="#" className="flex items-center gine" />
                 API Gateway: 14ms
               </a>
             </li>
