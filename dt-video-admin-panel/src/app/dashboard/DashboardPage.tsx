@@ -13,7 +13,7 @@ export function DashboardPage() {
             <li>
               <a href="#" className="flex items-center gi
                 API Gateway: 14ms
-              </a>
+          
             </li>
             <li>
               <a href="#" className="flex items-center gap-2">
