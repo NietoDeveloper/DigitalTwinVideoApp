@@ -10,22 +10,7 @@ interface RegisterFormProps {
 export function RegisterForm({ onSuccess }: RegisterFormProps) {
   const { register, isLoading, error, clearError } = useAuthStore();
   const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [confirmPassword, setConfirmPassword] = useState('');
-  const [authorizationCode, setAuthorizationCode] = useState('');
-  const [showPassword, setShowPassword] = useState(false);
-
-  const handleSubmit = async (event: FormEvent) => {
-    event.preventDefault();
-    clearError();
-    const ok = await register({
-      name,
-      email,
-      password,
-      confirmPassword,
-      authorizationCode,
-    });
+ 
     if (ok) onSuccess();
   };
 
