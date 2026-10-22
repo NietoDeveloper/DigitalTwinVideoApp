@@ -29,4 +29,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
 
       <label className="auth-field">
         <span className="inline-flex items-center gap-1.5">
-          <KeyRound size={12} className="text-gold" />
