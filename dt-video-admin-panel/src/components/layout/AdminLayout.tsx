@@ -16,9 +16,7 @@ const AdminLayout = ({ children }: AdminLayoutProps) => {
       <Sidebar bg-main/20 custom-scrollbar">
           <div className="p-8">{children}</div>
           <Footer />
-        </main>
-      </div>
-    </div>
+        </m
   );
 };
 
