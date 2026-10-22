@@ -39,6 +39,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
           value={authorizationCode}
           onChange={(e) => setAuthorizationCode(e.target.value.toUpperCase())}
           required
-        />
-        <small className="auth-hint">
-          Demfront: {VALID_INVITE_CODES.
