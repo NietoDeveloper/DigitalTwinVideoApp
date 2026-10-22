@@ -16,5 +16,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
       </label>
 
       <label className="auth-field">
-        <span>Correo corporativo</span>
-        <input
