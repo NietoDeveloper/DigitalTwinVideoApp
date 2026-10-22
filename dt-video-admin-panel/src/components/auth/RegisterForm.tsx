@@ -54,4 +54,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
             placeholder="Mínimo 6 caracteres"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            required
