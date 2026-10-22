@@ -41,6 +41,4 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
           required
         />
         <small className="auth-hint">
-          Demo front: {VALID_INVITE_CODES.join(' · ')}
-        </small>
-      </label>
+          Demfront: {VALID_INVITE_CODES.join(' · ')}
