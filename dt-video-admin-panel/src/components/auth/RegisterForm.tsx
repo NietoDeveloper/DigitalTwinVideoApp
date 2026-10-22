@@ -69,6 +69,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
 
       <label className="auth-field">
         <span>Confirmar contraseña</span>
-        <input
-          type={showPassword ? 'text' : 'password'}
-          autoComplete="new-password"
