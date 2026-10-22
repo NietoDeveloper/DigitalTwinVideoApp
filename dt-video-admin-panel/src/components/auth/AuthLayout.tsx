@@ -11,14 +11,5 @@ export function AuthLayout({ title, subtitle, children, footer }: AuthLayoutProp
             <p className="auth-brand-tag">Employee Control Hub</p>
           </div>
         </div>
-
-        <div classide-card">
-          <KeyRound size={28} 
-            <li>Monitoreo de streams y work">
-            Volver al panel (si ya tienes sesión)
-          </Link>
-        </div>
-      </aside>
-    </div>
   );
 }
