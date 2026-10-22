@@ -12,5 +12,4 @@ const AdminLayout = ({ children }: AdminLayoutProps) => {
   const [activeTab, setActiveTab] = useState('dashboard');
 
   return (
-    <div className="flex min-h-screen bg-main font-sans selection:bg-gold/30">
-    
+    <div className="flex min-h-screen bg-mai
