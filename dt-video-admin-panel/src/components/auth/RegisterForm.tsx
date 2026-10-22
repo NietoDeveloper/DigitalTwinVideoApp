@@ -28,4 +28,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
       </label>
 
       <label className="auth-field">
-        <span className="inline-flex items-center gap-1.5">
