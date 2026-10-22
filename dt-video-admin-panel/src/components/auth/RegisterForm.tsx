@@ -8,8 +8,4 @@ interface RegisterFormProps {
 }
 
 export function RegisterForm({ onSuccess }: RegisterFormProps) {
-  const { register, isLoading, error, clearError } = useAuthStore();
-
-
-  return (
-    <form 
+  const { register, isLoading, error, clearError } = useAuthStore()
