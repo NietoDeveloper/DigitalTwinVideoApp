@@ -72,7 +72,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
         <input
           type={showPassword ? 'text' : 'password'}
           autoComplete="new-password"
-          placeholder="Repite la contraseña"
-          value={confirmPassword}
-          onChange={(e) => setConfirmPassword(e.target.value)}
-
