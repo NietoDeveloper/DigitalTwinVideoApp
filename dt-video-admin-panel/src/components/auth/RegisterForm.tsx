@@ -56,7 +56,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
             onChange={(e) => setPassword(e.target.value)}
             required
           />
-          <button
-            type="button"
-            className="auth-icon-btn"
-            onClick={() => setShowPassword((v) => !v)}
