@@ -20,5 +20,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
         <input
           type="email"
           autoComplete="email"
-          placeholder="empleado@softwaredt.com"
-equired
