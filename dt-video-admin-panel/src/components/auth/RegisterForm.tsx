@@ -15,4 +15,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
     <form c
       </label>
 
-      <label className="auth-field">
