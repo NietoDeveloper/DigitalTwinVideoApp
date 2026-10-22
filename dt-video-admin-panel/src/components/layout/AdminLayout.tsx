@@ -11,5 +11,4 @@ const AdminLayout = ({ children }: AdminLayoutProps) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [activeTab, setActiveTab] = useState('dashboard');
 
-  return (
-    <div className="flex min-h-screen bg-mai
+  return (flex min-h-screen bg-mai
