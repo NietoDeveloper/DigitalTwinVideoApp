@@ -12,18 +12,7 @@ export function AuthLayout({ title, subtitle, children, footer }: AuthLayoutProp
           </div>
         </div>
 
-        <div className="auth-heading">
-          <h1>{title}</h1>
-          <p>{subtitle}</p>
-        </div>
-
-        {children}
-
-        <div className="auth-footer">{footer}</div>
-      </div>
-
-      <aside className="auth-aside">
-        <div className="auth-aside-card">
+        <div classide-card">
           <KeyRound size={28} className="text-gold" />
           <h2>Acceso solo con autorización</h2>
           <p>
