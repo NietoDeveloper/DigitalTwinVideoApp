@@ -75,9 +75,7 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
           placeholder="Repite la contraseña"
           value={confirmPassword}
           onChange={(e) => setConfirmPassword(e.target.value)}
-          required
-        />
-      </label>
+
 
       <button type="submit" className="auth-submit" disabled={isLoading}>
         {isLoading ? <Loader2 size={18} className="animate-spin" /> : <UserPlus size={18} />}
