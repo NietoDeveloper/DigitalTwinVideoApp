@@ -13,6 +13,4 @@ const AdminLayout = ({ children }: AdminLayoutProps) => {
 
   return (
     <div className="flex min-h-screen bg-main font-sans selection:bg-gold/30">
-      <Sidebar bg-main/20 custom-scrollbar">
     
-export default AdminLayout;
