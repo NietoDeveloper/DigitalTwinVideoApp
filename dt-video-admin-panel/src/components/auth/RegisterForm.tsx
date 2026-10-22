@@ -65,7 +65,4 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
             {showPassword ? <EyeOff size={16} /> : <Eye size={16} />}
           </button>
         </div>
-      </label>
-
-      <label className="auth-field">
-        <span>Confirmar contraseña</span>
+ <span>Confirmar contraseña</span>
