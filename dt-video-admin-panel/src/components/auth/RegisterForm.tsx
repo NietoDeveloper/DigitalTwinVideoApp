@@ -18,5 +18,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
       <label className="auth-field">
         <span>Correo corporativo</span>
         <input
-          type="email"
-          autoComplete="email"
