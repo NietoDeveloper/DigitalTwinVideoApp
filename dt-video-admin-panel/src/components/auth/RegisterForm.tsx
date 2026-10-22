@@ -44,6 +44,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
           Demo front: {VALID_INVITE_CODES.join(' · ')}
         </small>
       </label>
-
-      <label className="auth-field">
-        <span>Contraseña</span>
