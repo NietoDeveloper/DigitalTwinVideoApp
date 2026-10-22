@@ -4,7 +4,3 @@ export function Footer() {
       <div className="ticks" />
       <div className="px-8 py-4 flex justify-between items-center text-[10px] font-mono text-gray-400 uppercase tracking-widest">
         <span>© 2026 Software DT - Digital Twin Lab</span>
-        <div className="flex gap-4">
-          <span className="flex items-center gap-1">
-        
-}
