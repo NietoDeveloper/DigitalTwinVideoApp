@@ -2,21 +2,10 @@ import type { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { KeyRound, ShieldCheck } from 'lucide-react';
 
-interface AuthLayoutProps {
-  title: string;
-  subtitle: string;
-  children: ReactNode;
-  footer: ReactNode;
-}
 
 export function AuthLayout({ title, subtitle, children, footer }: AuthLayoutProps) {
   return (
     <div className="auth-shell">
-      <div className="auth-panel">
-        <div className="auth-brand">
-          <div className="auth-brand-mark">
-            <ShieldCheck size={22} />
-          </div>
           <div>
             <p className="auth-brand-name">
             <p className="auth-brand-tag">Employee Control Hub</p>
