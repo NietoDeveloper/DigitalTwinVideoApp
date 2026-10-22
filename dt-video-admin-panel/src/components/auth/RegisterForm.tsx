@@ -12,6 +12,4 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
 
 
   return (
-    <form c
-      </label>
-
+    <form 
