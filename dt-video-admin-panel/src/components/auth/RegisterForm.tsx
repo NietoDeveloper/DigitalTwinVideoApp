@@ -9,10 +9,7 @@ interface RegisterFormProps {
 
 export function RegisterForm({ onSuccess }: RegisterFormProps) {
   const { register, isLoading, error, clearError } = useAuthStore();
-  const [name, setName] = useState('');
- 
-    if (ok) onSuccess();
-  };
+
 
   return (
     <form c
