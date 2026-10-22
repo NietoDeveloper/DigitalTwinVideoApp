@@ -21,6 +21,4 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
           type="email"
           autoComplete="email"
           placeholder="empleado@softwaredt.com"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
+equired
