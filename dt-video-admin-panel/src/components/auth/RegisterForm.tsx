@@ -49,4 +49,4 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
         <span>Contraseña</span>
         <div className="auth-input-row">
           <input
-            type={showPassword ? 'text' : 'password'}
+          
