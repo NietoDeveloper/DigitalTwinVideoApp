@@ -24,5 +24,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
-        />
-      </label>
