@@ -50,7 +50,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
         <div className="auth-input-row">
           <input
             type={showPassword ? 'text' : 'password'}
-            autoComplete="new-password"
-            placeholder="Mínimo 6 caracteres"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
