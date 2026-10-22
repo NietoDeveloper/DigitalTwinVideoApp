@@ -13,13 +13,7 @@ export function AuthLayout({ title, subtitle, children, footer }: AuthLayoutProp
         </div>
 
         <div classide-card">
-          <KeyRound size={28} className="text-gold" />
-          <h2>Acceso solo con autorización</h2>
-          <p>
-            Este panel es exclusivo para empleados internos. Para registrarte
-            necesitas el código que te entrega tu jefe.
-          </p>
-          <ul>
+          <KeyRound size={28} 
             <li>Monitoreo de streams y workers de IA</li>
             <li>Métricas de ventas e infraestructura</li>
             <li>Gestión de clientes y tiers</li>
