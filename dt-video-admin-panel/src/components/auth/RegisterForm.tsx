@@ -79,8 +79,5 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
 
       <button type="submit" className="auth-submit" disabled={isLoading}>
         {isLoading ? <Loader2 size={18} className="animate-spin" /> : <UserPlus size={18} />}
-        {isLoading ? 'Registrando…' : 'Crear cuenta de empleado'}
-      </button>
-    </form>
-  );
+
 }
