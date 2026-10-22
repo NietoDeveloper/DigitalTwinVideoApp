@@ -55,4 +55,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
-          />
