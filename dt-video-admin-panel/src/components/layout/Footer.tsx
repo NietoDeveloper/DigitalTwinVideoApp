@@ -6,9 +6,5 @@ export function Footer() {
         <span>© 2026 Software DT - Digital Twin Lab</span>
         <div className="flex gap-4">
           <span className="flex items-center gap-1">
-         >Bogotá, CO</span>
-        </div>
-      </div>
-    </footer>
-  );
+        
 }
