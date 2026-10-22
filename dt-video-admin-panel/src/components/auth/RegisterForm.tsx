@@ -26,5 +26,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
           required
         />
       </label>
-
-      <label className="auth-field">
