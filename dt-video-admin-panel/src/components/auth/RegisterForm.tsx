@@ -76,8 +76,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
           value={confirmPassword}
           onChange={(e) => setConfirmPassword(e.target.value)}
 
-
-      <button type="submit" className="auth-submit" disabled={isLoading}>
-        {isLoading ? <Loader2 size={18} className="animate-spin" /> : <UserPlus size={18} />}
-
-}
