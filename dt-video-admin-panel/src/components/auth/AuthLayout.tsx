@@ -19,8 +19,6 @@ export function AuthLayout({ title, subtitle, children, footer }: AuthLayoutProp
           </div>
           <div>
             <p className="auth-brand-name">
-              SOFTWARE <span className="text-gold">DT</span>
-            </p>
             <p className="auth-brand-tag">Employee Control Hub</p>
           </div>
         </div>
