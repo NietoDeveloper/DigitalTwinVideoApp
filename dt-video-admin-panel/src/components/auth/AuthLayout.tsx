@@ -14,11 +14,7 @@ export function AuthLayout({ title, subtitle, children, footer }: AuthLayoutProp
 
         <div classide-card">
           <KeyRound size={28} 
-            <li>Monitoreo de streams y workers de IA</li>
-            <li>Métricas de ventas e infraestructura</li>
-            <li>Gestión de clientes y tiers</li>
-          </ul>
-          <Link to="/" className="auth-aside-link">
+            <li>Monitoreo de streams y work">
             Volver al panel (si ya tienes sesión)
           </Link>
         </div>
