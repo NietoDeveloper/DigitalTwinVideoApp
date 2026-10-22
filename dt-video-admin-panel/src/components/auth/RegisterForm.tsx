@@ -33,7 +33,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
           Código de autorización del jefe
         </span>
         <input
-          type="text"
-          autoComplete="one-time-code"
-          placeholder="DT-EMP-XXXX"
-          value={authorizationCode}
