@@ -37,5 +37,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
           autoComplete="one-time-code"
           placeholder="DT-EMP-XXXX"
           value={authorizationCode}
-          onChange={(e) => setAuthorizationCode(e.target.value.toUpperCase())}
-          required
