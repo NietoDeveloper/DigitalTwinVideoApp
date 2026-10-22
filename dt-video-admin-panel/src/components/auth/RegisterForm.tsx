@@ -47,6 +47,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
 
       <label className="auth-field">
         <span>Contraseña</span>
-        <div className="auth-input-row">
-          <input
-          
