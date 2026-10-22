@@ -60,9 +60,3 @@ export function RegisterForm({ onSuccess }: RegisterFormProps) {
             type="button"
             className="auth-icon-btn"
             onClick={() => setShowPassword((v) => !v)}
-            aria-label={showPassword ? 'Ocultar contraseña' : 'Mostrar contraseña'}
-          >
-            {showPassword ? <EyeOff size={16} /> : <Eye size={16} />}
-          </button>
-        </div>
- <span>Confirmar contraseña</span>
