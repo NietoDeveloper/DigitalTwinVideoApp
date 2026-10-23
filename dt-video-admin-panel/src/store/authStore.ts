@@ -16,17 +16,6 @@ import {
     });
   },
 
-  login: async (payload) => {
-    set({ isLoading: true, error: null });
-    try {
-      const session = await loginEmployee(payload);
-      set({
-        employee: session.employee,
-        token: session.token,
-        isAuthenticated: true,
-        isLoading: false,
-        error: null,
-      });
       return true;
     } catch (err) {
       set({
