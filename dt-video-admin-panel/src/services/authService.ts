@@ -83,13 +83,3 @@ export async function registerEmployee(payload: RegisterPayload): Promise<AuthSe
   if (employees.some((e) => e.email === email)) {
     throw new Error('Ya existe un empleado registrado con este correo.');
   }
-
-  const record: EmployeeRecord = {
-    id: crypto.randomUUID(),
-    name,
-    email,
-    password: payload.password,
-    inviteCode: code,
-    role: 'employee',
-    createdAt: new Date().toISOString(),
-  };
