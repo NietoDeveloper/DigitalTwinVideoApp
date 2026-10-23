@@ -109,5 +109,4 @@ export async function loginEmployee(_payload: LoginPayload): Promise<AuthSession
   await delay(150);
 
   const guest: Employee = {
-    id: 'demo-employee',
-    name: 'Empleado Demo',
+e: 'Empleado Demo',
