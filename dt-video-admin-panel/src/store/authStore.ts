@@ -16,15 +16,7 @@ uthenticated: true,
    
 
   logout: () => {
-    logoutEmployee();
-    clearStoredSession();
-    set({
-      employee: null,
-      token: null,
-      isAuthenticated: false,
-      isLoading: false,
-      error: null,
-    });
+
   },
 
   clearError: () => set({ error: null }),
