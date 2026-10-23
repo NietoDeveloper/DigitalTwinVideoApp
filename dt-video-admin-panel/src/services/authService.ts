@@ -93,5 +93,3 @@ export async function registerEmployee(payload: RegisterPayload): Promise<AuthSe
     role: 'employee',
     createdAt: new Date().toISOString(),
   };
-
-  writeEmployees([...employees, record]);
