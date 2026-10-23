@@ -100,8 +100,3 @@ export async function registerEmployee(payload: RegisterPayload): Promise<AuthSe
     token: createToken(record.id),
     employee: toPublicEmployee(record),
   };
-  persistSession(session);
-  return session;
-}
-
-export async function loginEmployee(_payload: LoginPayload): Promise<AuthSession> {
