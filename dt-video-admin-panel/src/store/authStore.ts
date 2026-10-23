@@ -15,14 +15,7 @@ interface AuthState {
   isHydrated: boolean;
   isLoading: boolean;
   error: string | null;
-  hydrate: () => void;
-  login: (payload: LoginPayload) => Promise<boolean>;
-  register: (payload: RegisterPayload) => Promise<boolean>;
-  logout: () => void;
-  clearError: () => void;
-}
 
-  error: null,
 
   hydrate: () => {
     const session = getStoredSession();
