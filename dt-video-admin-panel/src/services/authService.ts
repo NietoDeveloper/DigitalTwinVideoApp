@@ -47,7 +47,3 @@ export function getStoredSession(): AuthSession | null {
     return null;
   }
 }
-
-export function clearStoredSession() {
-  localStorage.removeItem(SESSION_KEY);
-}
