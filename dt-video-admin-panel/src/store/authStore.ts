@@ -11,18 +11,7 @@ import {
       employee: null,
       token: null,
       isAuthenticated: false,
-      isHydrated: true,
-      error: null,
-
-
-  register: async (payload) => {
-    set({ isLoading: true, error: null });
-    try {
-      const session = await registerEmployee(payload);
-      set({
-        employee: session.employee,
-        token: session.token,
-        isAuthenticated: true,
+uthenticated: true,
         isLoading: false,
         error: null,
       });
