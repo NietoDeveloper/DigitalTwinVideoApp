@@ -13,17 +13,7 @@ import {
       isAuthenticated: false,
 uthenticated: true,
         isLoading: false,
-        error: null,
-      });
-      return true;
-    } catch (err) {
-      set({
-        isLoading: false,
-        error: err instanceof Error ? err.message : 'No se pudo completar el registro.',
-      });
-      return false;
-    }
-  },
+   
 
   logout: () => {
     logoutEmployee();
