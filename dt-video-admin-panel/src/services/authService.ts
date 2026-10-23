@@ -123,5 +123,3 @@ export async function loginEmployee(_payload: LoginPayload): Promise<AuthSession
   persistSession(session);
   return session;
 }
-
-export function logoutEmployee() {
