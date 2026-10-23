@@ -38,12 +38,3 @@ function toPublicEmployee(record: EmployeeRecord): Employee {
 function createToken(employeeId: string) {
   return `dt-front-${employeeId}-${Date.now()}`;
 }
-
-export function getStoredSession(): AuthSession | null {
-  try {
-    const raw = localStorage.getItem(SESSION_KEY);
-    return raw ? (JSON.parse(raw) as AuthSession) : null;
-  } catch {
-    return null;
-  }
-}
