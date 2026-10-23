@@ -10,4 +10,4 @@ export const useAdminStore = create<AdminState>((set) => ({
   setSystemStatus: (status) => set({ systemStatus: status }),
 }));
 
-export { useAuthStore } from './authStore';
+export { useAuthStore } from './authStore
