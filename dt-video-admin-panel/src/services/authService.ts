@@ -62,7 +62,3 @@ export async function registerEmployee(payload: RegisterPayload): Promise<AuthSe
   const name = payload.name.trim();
   const email = payload.email.trim().toLowerCase();
   const code = payload.authorizationCode.trim().toUpperCase();
-
-  if (!name || name.length < 2) {
-    throw new Error('Ingresa tu nombre completo.');
-  }
