@@ -75,11 +75,4 @@ export async function registerEmployee(payload: RegisterPayload): Promise<AuthSe
   if (payload.password !== payload.confirmPassword) {
     throw new Error('Las contraseñas no coinciden.');
   }
-  if (!VALID_INVITE_CODES.includes(code as (typeof VALID_INVITE_CODES)[number])) {
-    throw new Error('Código de autorización inválido. Solicítalo a tu jefe.');
-  }
-
-  const employees = readEmployees();
-  if (employees.some((e) => e.email === email)) {
-    throw new Error('Ya existe un empleado registrado con este correo.');
-  }
+ }
