@@ -34,7 +34,3 @@ function toPublicEmployee(record: EmployeeRecord): Employee {
     createdAt: record.createdAt,
   };
 }
-
-function createToken(employeeId: string) {
-  return `dt-front-${employeeId}-${Date.now()}`;
-}
