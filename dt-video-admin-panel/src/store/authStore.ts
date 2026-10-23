@@ -13,11 +13,6 @@ import {
       isAuthenticated: false,
       isHydrated: true,
       error: null,
-    });
-  },
-
-      return true;
-    } catch (err) {
 
 
   register: async (payload) => {
