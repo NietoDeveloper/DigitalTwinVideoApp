@@ -117,7 +117,3 @@ export async function loginEmployee(_payload: LoginPayload): Promise<AuthSession
   };
 
   const session: AuthSession = {
-    token: createToken(guest.id),
-    employee: guest,
-  };
-  persistSession(session);
