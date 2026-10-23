@@ -105,5 +105,3 @@ export async function registerEmployee(payload: RegisterPayload): Promise<AuthSe
 }
 
 export async function loginEmployee(_payload: LoginPayload): Promise<AuthSession> {
-  // Temporal: cualquier clic en "Entrar" abre el panel. Validación real después.
-  await delay(150);
