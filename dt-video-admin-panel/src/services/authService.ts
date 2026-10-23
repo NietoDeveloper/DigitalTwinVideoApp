@@ -127,5 +127,3 @@ export async function loginEmployee(_payload: LoginPayload): Promise<AuthSession
 export function logoutEmployee() {
   clearStoredSession();
 }
-
-function delay(ms: number) {
