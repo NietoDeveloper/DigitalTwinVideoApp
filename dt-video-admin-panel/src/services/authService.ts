@@ -115,5 +115,3 @@ export async function loginEmployee(_payload: LoginPayload): Promise<AuthSession
     role: 'employee',
     createdAt: new Date().toISOString(),
   };
-
-  const session: AuthSession = {
