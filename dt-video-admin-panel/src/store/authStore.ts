@@ -22,12 +22,6 @@ interface AuthState {
   clearError: () => void;
 }
 
-export const useAuthStore = create<AuthState>((set) => ({
-  employee: null,
-  token: null,
-  isAuthenticated: false,
-  isHydrated: false,
-  isLoading: false,
   error: null,
 
   hydrate: () => {
