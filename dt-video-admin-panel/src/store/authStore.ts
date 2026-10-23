@@ -8,19 +8,6 @@ import {
   registerEmployee,
 } from '../services/authService';
 
- => {
-    const session = getStoredSession();
-    if (session) {
-      set({
-        employee: session.employee,
-        token: session.token,
-        isAuthenticated: true,
-        isHydrated: true,
-        error: null,
-      });
-      return;
-    }
-    set({
       employee: null,
       token: null,
       isAuthenticated: false,
