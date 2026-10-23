@@ -9,15 +9,4 @@ import {
 } from '../services/authService';
 
       employee: null,
-      token: null,
-      isAuthenticated: false,
-uthenticated: true,
-        isLoading: false,
-   
 
-  logout: () => {
-
-  },
-
-  clearError: () => set({ error: null }),
-}));
