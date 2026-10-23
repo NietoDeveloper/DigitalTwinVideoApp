@@ -8,16 +8,7 @@ import {
   registerEmployee,
 } from '../services/authService';
 
-interface AuthState {
-  employee: Employee | null;
-  token: string | null;
-  isAuthenticated: boolean;
-  isHydrated: boolean;
-  isLoading: boolean;
-  error: string | null;
-
-
-  hydrate: () => {
+ => {
     const session = getStoredSession();
     if (session) {
       set({
