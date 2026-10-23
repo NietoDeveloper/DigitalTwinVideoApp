@@ -95,8 +95,3 @@ export async function registerEmployee(payload: RegisterPayload): Promise<AuthSe
   };
 
   writeEmployees([...employees, record]);
-
-  const session: AuthSession = {
-    token: createToken(record.id),
-    employee: toPublicEmployee(record),
-  };
