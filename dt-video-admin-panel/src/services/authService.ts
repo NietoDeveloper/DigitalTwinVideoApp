@@ -66,5 +66,3 @@ export async function registerEmployee(payload: RegisterPayload): Promise<AuthSe
   if (!name || name.length < 2) {
     throw new Error('Ingresa tu nombre completo.');
   }
-  if (!email.includes('@')) {
-    throw new Error('Ingresa un correo válido.');
