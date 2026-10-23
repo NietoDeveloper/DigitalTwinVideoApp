@@ -71,5 +71,3 @@ export async function registerEmployee(payload: RegisterPayload): Promise<AuthSe
   }
   if (payload.password.length < 6) {
     throw new Error('La contraseña debe tener al menos 6 caracteres.');
-  }
-  if (payload.password !== payload.confirmPassword) {
