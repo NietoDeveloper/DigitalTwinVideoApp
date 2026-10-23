@@ -68,6 +68,3 @@ export async function registerEmployee(payload: RegisterPayload): Promise<AuthSe
   }
   if (!email.includes('@')) {
     throw new Error('Ingresa un correo válido.');
-  }
-  if (payload.password.length < 6) {
-    throw new Error('La contraseña debe tener al menos 6 caracteres.');
