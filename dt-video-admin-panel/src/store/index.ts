@@ -6,4 +6,3 @@ interface AdminState {
 }
 
 export const useAdminStore = create<AdminState>((set) => ({
-  systemStatus: 'healthy',
