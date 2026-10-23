@@ -51,7 +51,3 @@ export function getStoredSession(): AuthSession | null {
 export function clearStoredSession() {
   localStorage.removeItem(SESSION_KEY);
 }
-
-function persistSession(session: AuthSession) {
-  localStorage.setItem(SESSION_KEY, JSON.stringify(session));
-}
