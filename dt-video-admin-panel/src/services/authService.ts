@@ -58,7 +58,3 @@ function persistSession(session: AuthSession) {
 
 export async function registerEmployee(payload: RegisterPayload): Promise<AuthSession> {
   await delay(350);
-
-  const name = payload.name.trim();
-  const email = payload.email.trim().toLowerCase();
-  const code = payload.authorizationCode.trim().toUpperCase();
