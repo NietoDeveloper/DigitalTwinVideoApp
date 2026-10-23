@@ -8,6 +8,3 @@ interface AdminState {
 export const useAdminStore = create<AdminState>((set) => ({
   systemStatus: 'healthy',
   setSystemStatus: (status) => set({ systemStatus: status }),
-}));
-
-export { useAuthStore } from './authStore
