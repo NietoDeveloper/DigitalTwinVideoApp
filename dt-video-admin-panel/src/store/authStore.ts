@@ -18,13 +18,7 @@ import {
 
       return true;
     } catch (err) {
-      set({
-        isLoading: false,
-        error: err instanceof Error ? err.message : 'No se pudo iniciar sesión.',
-      });
-      return false;
-    }
-  },
+
 
   register: async (payload) => {
     set({ isLoading: true, error: null });
