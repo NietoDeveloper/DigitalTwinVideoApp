@@ -111,7 +111,3 @@ export async function loginEmployee(_payload: LoginPayload): Promise<AuthSession
   const guest: Employee = {
     id: 'demo-employee',
     name: 'Empleado Demo',
-    email: 'empleado@softwaredt.com',
-    role: 'employee',
-    createdAt: new Date().toISOString(),
-  };
