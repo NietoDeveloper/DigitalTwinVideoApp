@@ -55,6 +55,3 @@ export function clearStoredSession() {
 function persistSession(session: AuthSession) {
   localStorage.setItem(SESSION_KEY, JSON.stringify(session));
 }
-
-export async function registerEmployee(payload: RegisterPayload): Promise<AuthSession> {
-  await delay(350);
