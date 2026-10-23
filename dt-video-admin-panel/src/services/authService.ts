@@ -73,6 +73,3 @@ export async function registerEmployee(payload: RegisterPayload): Promise<AuthSe
     throw new Error('La contraseña debe tener al menos 6 caracteres.');
   }
   if (payload.password !== payload.confirmPassword) {
-    throw new Error('Las contraseñas no coinciden.');
-  }
- }
