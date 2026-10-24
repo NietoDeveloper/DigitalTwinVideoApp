@@ -1,1 +1,1 @@
-🛰️ DT-Video Admin Panel
+🛰️ DT-Video Admin Pane
