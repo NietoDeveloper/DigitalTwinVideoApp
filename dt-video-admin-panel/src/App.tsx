@@ -11,8 +11,6 @@ function App() {
   const hydrate = useAuthStore((s) => s.hydrate);
 
   useEffect(() => {
-    hydrate();
-  }, [hydrate]);
         />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
