@@ -6,6 +6,4 @@ Este es el panel administrativo de alta disponibilidad diseñado para el ecosist
 Core: React 19 + TypeScript.
 
 npm run dev
-Construir para producción (Docker):
-
 Bash
