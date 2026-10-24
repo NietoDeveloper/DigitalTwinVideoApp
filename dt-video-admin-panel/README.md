@@ -5,17 +5,6 @@ Este es el panel administrativo de alta disponibilidad diseñado para el ecosist
 🛠️ Stack Tecnológico
 Core: React 19 + TypeScript.
 
-Build Tool: Vite (Optimized for HMR).
-
-Styling: Tailwind CSS v4 dos activos y resaltados.
-Background: Gainsboro (#DCDCDC) para el layout principal.
-sdencias:
-
-Bash
-npm install
-Iniciar entorno de desarrollo:
-
-Bash
 npm run dev
 Construir para producción (Docker):
 
