@@ -12,8 +12,7 @@ function App() {
 
   useEffect(() => {
         />
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
+        <Route path="*" e
     </BrowserRouter>
   );
 }
