@@ -15,10 +15,6 @@ export interface EmployeeRecord extends Employee {
 
 export interface AuthSession {
   token: string;
-  employee: Employee;
-}
-
-}
 
 export interface RegisterPayload {
   name: string;
