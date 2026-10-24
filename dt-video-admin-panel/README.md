@@ -7,18 +7,9 @@ Core: React 19 + TypeScript.
 
 Build Tool: Vite (Optimized for HMR).
 
-Styling: Tailwind CSS v4 ponentes atn de empaquetado
-🚀 Funcionalidades Clave
-Real-Time Sales Metrics: Visualización de ingresos (MRR/ARR) y uso de recursos por cliente.
-Tier Administration: Control total sobre los niveles de servicio (Basic, Pro, Enterprise) de los clientes de Software DT.
-
-Primary: Gold (#FFD700) para estados activos y resaltados.
+Styling: Tailwind CSS v4 dos activos y resaltados.
 Background: Gainsboro (#DCDCDC) para el layout principal.
-
-Dark Mode: Optimizado para entornos de monitoreo 24/7.
-
-🔧 Instalación y Desarrollo
-Instalar dependencias:
+sdencias:
 
 Bash
 npm install
