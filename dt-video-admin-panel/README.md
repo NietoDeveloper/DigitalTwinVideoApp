@@ -7,17 +7,7 @@ Core: React 19 + TypeScript.
 
 Build Tool: Vite (Optimized for HMR).
 
-Styling: Tailwind CSS v4 ponentes atómicos y moleculares
-│   │   ├── MetricsGrid/    # Tarjetas de KPIs en tiempo real
-│   │   ├── UserTable/      # Listado paginado de clientes
-│   │   ├── WorkerStatus/   # Salud de workers de IA (GPU/CPU load)
-│   │   ├── SystemHealth/   # Status de AWS (Kinesis, ECS, RDS)
-│   │   └── BillingPanel/   # Upgrades de planes y estados de pago
-│   ├── hooks/              # Lógica reutilizable y suscripciones
-│   ├── store/              # Estado global administrativo (Zustand)
-│   └── utils/              # Helpers y formateadores
-├── Dockerfile              # Configuración de contenedor para producción
-└── vite.config.ts          # Optimización de empaquetado
+Styling: Tailwind CSS v4 ponentes atn de empaquetado
 🚀 Funcionalidades Clave
 Real-Time Sales Metrics: Visualización de ingresos (MRR/ARR) y uso de recursos por cliente.
 
