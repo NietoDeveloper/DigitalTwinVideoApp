@@ -14,9 +14,6 @@ function App() {
     hydrate();
   }, [hydrate]);
 
-  return (
-    <BrowserRouter>
-
         <Route
           path=
             </ProtectedRoute>
