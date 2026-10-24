@@ -10,11 +10,6 @@ export interface Employee {
 
 export interface EmployeeRecord extends Employee {
   password: string;
-  inviteCode: string;
-}
-
-export interface AuthSession {
-  token: string;
 
 export interface RegisterPayload {
   name: string;
