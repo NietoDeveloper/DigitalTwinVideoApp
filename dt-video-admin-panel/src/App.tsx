@@ -13,8 +13,6 @@ function App() {
   useEffect(() => {
     hydrate();
   }, [hydrate]);
-
-          }
         />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
