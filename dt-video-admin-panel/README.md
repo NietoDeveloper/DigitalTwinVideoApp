@@ -7,15 +7,7 @@ Core: React 19 + TypeScript.
 
 Build Tool: Vite (Optimized for HMR).
 
-Styling: Tailwind CSS v4 (Identidad Software DT).
-
-├── src/
-│   ├── app/                # Vistas principales (Módulos de negocio)
-│   │   ├── dashboard/      # KPIs: ingresos, twins activos, uptime
-│   │   ├── users/          # Gestión de cuentas de clientes y Tiers
-
-│   │   └── settings/       # Configuración de sistema y empleados
-│   ├── components/         # Componentes atómicos y moleculares
+Styling: Tailwind CSS v4 ponentes atómicos y moleculares
 │   │   ├── MetricsGrid/    # Tarjetas de KPIs en tiempo real
 │   │   ├── UserTable/      # Listado paginado de clientes
 │   │   ├── WorkerStatus/   # Salud de workers de IA (GPU/CPU load)
