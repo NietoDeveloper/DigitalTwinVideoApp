@@ -1,1 +1,1 @@
-// src/main.tsx
+// src/main.ts
