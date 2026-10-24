@@ -9,10 +9,3 @@ npm run dev
 Construir para producción (Docker):
 
 Bash
-docker build -t dt-video-admin-panel .
-📈 Roadmap de Desarrollo
-[ ] Dashboards interactivos con Recharts.
-
-[ ] Conexión con AWS CloudWatch API.
-
-Built with precision by NietoDeveloper > #1 GitHub Committer Colombia | Software Architect
