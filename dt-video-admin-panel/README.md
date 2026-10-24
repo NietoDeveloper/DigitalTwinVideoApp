@@ -13,7 +13,6 @@ Real-Time Sales Metrics: Visualización de ingresos (MRR/ARR) y uso de recursos 
 Tier Administration: Control total sobre los niveles de servicio (Basic, Pro, Enterprise) de los clientes de Software DT.
 
 Primary: Gold (#FFD700) para estados activos y resaltados.
-
 Background: Gainsboro (#DCDCDC) para el layout principal.
 
 Dark Mode: Optimizado para entornos de monitoreo 24/7.
