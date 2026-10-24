@@ -18,9 +18,6 @@ export interface AuthSession {
   employee: Employee;
 }
 
-export interface LoginPayload {
-  email: string;
-  password: string;
 }
 
 export interface RegisterPayload {
