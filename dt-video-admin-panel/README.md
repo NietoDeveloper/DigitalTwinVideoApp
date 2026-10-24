@@ -12,11 +12,6 @@ Styling: Tailwind CSS v4 ponentes atn de empaquetado
 Real-Time Sales Metrics: Visualización de ingresos (MRR/ARR) y uso de recursos por cliente.
 Tier Administration: Control total sobre los niveles de servicio (Basic, Pro, Enterprise) de los clientes de Software DT.
 
-Stream Health: Monitoreo técnico de latencia y bitrate de los videos de Digital Twin activos.
-
-🎨 Identidad Visual (Software DT Standard)
-El panel utiliza el sistema de diseño exclusivo de la marca:
-
 Primary: Gold (#FFD700) para estados activos y resaltados.
 
 Background: Gainsboro (#DCDCDC) para el layout principal.
