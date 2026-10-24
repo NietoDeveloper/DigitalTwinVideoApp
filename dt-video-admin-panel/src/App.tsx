@@ -18,7 +18,7 @@ function App() {
     <BrowserRouter>
 
         <Route
-          path="
+          path=
             </ProtectedRoute>
           }
         />
