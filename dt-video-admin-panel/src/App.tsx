@@ -7,14 +7,4 @@ import { ProtectedRoute } from './components/auth/ProtectedRoute';
 import { useAuthStore } from './store';
 import './App.css';
 
-function App() {
-  const hydrate = useAuthStore((s) => s.hydrate);
-
-  useEffect(() => {
-        />
-        <Route path="*" e
-    </BrowserRouter>
-  );
-}
-
-export default App;
+function 
