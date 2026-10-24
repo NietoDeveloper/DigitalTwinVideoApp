@@ -11,14 +11,6 @@ Construir para producción (Docker):
 Bash
 docker build -t dt-video-admin-panel .
 📈 Roadmap de Desarrollo
-[x] Estructura de carpetas profesional.
-
-[x] Configuración de Tailwind CSS v4.
-
-[x] Store de estado global con Zustand.
-
-[ ] Integración con WebSockets para métricas en vivo.
-
 [ ] Dashboards interactivos con Recharts.
 
 [ ] Conexión con AWS CloudWatch API.
