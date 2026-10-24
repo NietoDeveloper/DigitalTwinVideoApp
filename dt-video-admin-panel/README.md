@@ -1,1 +1,1 @@
-🛰️ DT-Video Admin P
+🛰️ DT-Video Adm
