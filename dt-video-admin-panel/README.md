@@ -10,8 +10,6 @@ Build Tool: Vite (Optimized for HMR).
 Styling: Tailwind CSS v4 ponentes atn de empaquetado
 🚀 Funcionalidades Clave
 Real-Time Sales Metrics: Visualización de ingresos (MRR/ARR) y uso de recursos por cliente.
-AI Worker Management: Supervisión de la carga de trabajo en la nube para el procesamiento de video con IA.
-
 Tier Administration: Control total sobre los niveles de servicio (Basic, Pro, Enterprise) de los clientes de Software DT.
 
 Stream Health: Monitoreo técnico de latencia y bitrate de los videos de Digital Twin activos.
