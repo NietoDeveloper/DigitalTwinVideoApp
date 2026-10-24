@@ -14,7 +14,6 @@ function App() {
     hydrate();
   }, [hydrate]);
 
-        <Route
           }
         />
         <Route path="*" element={<Navigate to="/" replace />} />
