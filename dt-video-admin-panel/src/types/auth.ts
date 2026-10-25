@@ -8,6 +8,4 @@ export interface Employee {
   createdAt: string;
 }
 
-export interface EmployeeRecord extends Employee {
-  password: st
-export inter
+export interface EmployeeRecord
