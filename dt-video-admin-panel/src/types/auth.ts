@@ -12,5 +12,4 @@ export interface EmployeeRecord extends Employee {
   password: st
 export interface RegisterPaylo
   name: str
-  password: string
-  c
+  password: str
