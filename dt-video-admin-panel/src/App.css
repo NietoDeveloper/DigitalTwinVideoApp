@@ -11,12 +11,6 @@
   --color-main: #DCDCDC;
   --color-card: #FFFFFF;
 
-  --color-accent: #FFD700;
-
-  --color-status-online: #10b981;
-  --color-status-warning: #f59e0b;
-
-}
 
 /* 2. ESTILOS BASE */
 @layer base {
