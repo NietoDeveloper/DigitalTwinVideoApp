@@ -14,6 +14,6 @@ export interface EmployeeRecord extends Employee {
 export interface RegisterPayload {
   name: string
   password: string
-  confirmPassword: string;
+  confirmPassword: st
   authorizationCode: string;
 }
