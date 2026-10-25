@@ -1,34 +1,4 @@
-@import "tailwindcss";
 
-/* 1. CONFIGURACIÓN DEL TEMA (Tailwind v4) */
-@theme {
-  --color-gainsboro: #DCDCDC;
-  --color-gold: #FFD700;
-  -
-  p {
-    @apply
-    @apply pr-10;
-  }
-}
-  background: #000000;
-  border: 1px solid #000000;
-
-  &:hover {
-    background: #1a1a1a;
-  }
-
-  &:disabled {
-    @apply opacity-60 cursor-not-allowed;
-  }
-}
-
-.auth-footer {
-  @apply mt-8 text-sm text-gray-500 max-w-md;
-
-  a {
-    @apply font-bold text-heading-color underline underline-offset-2 hover:text-gold;
-  }
-}
 
 .auth-aside {
   @apply hidden lg:flex items-center justify-center p-12 bg-main relative overflow-hidden;
@@ -47,16 +17,7 @@
 
   h2 {
     @apply text-2xl font-black tracking-tighter uppercase;
-  }
 
-  p {
-    @apply text-sm text-gray-600;
-  }
-
-  ul {
-    @apply list-disc pl-5 text-sm text-gray-600 space-y-1;
-  }
-}
 
 .auth-aside-link {
   @apply inline-block text-xs font-bold uppercase tracking-widest text-gray-400 hover:text-gold;
