@@ -7,4 +7,4 @@
     content: '';
     @apply absolute inset-0 opacity-40;
     back
-      radial-gradient(circle at 20% 20%, rgba(25, 0, 0.35), transparent 40%),
+      radial-gradient(circle at 20% 20%, rgba(250.35), transparent 40%),
