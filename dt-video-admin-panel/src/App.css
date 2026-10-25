@@ -12,14 +12,6 @@
   --color-card: #FFFFFF;
 
 
-/* 2. ESTILOS BASE */
-@layer base {
-  body {
-    /* Eliminamos márgenes para que el layout ocupe todo el ancho */
-    @apply bg-main text-text-color antialiased m-0 overflow-x-hidden;
-    font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
-  }
-
 
 /* 3. COMPONENTES REUTILIZABLES */
 .glass-card {
