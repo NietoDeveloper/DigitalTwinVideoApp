@@ -12,15 +12,6 @@
   --color-card: #FFFFFF;
 
 
-
-/* 3. COMPONENTES REUTILIZABLES */
-.glass-card {
-  @apply bg-card border border-border-dt shadow-sm rounded-lg p-6 transition-all duration-300;
-  &:hover {
-    @apply shadow-md border-gold -translate-y-1;
-  }
-}
-
 .kpi-value {
   @apply text-3xl font-bold tracking-tighter mt-2;
   font-family: ui-monospace, Consolas, monospace;
