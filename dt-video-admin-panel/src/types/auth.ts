@@ -11,7 +11,7 @@ export interface Employee {
 export interface EmployeeRecord extends Employee {
   password: string;
 
-export interface RegisterPayload {
+export interface RegisterPaylo
   name: str
   password: string
   confirmPassword: st
