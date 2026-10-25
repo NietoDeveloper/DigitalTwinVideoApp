@@ -15,19 +15,6 @@
   @media (max-width: 768px) { @apply flex-col; }
 }
 
-#docs {
-  @apply border-r border-border-dt;
-  @media (max-width: 768px) { @apply border-r-0 border-b; }
-}
-
-#next-steps ul {
-  @apply list-none p-0 flex flex-col gap-2 mt-4;
-
-  a {
-    @apply flex items-center gap-2 text-sm font-semibold transition-all no-underline text-gray-600;
-    &:hover { @apply text-gold; }
-  }
-}
 
 /* Detalles de Ingeniería (Ticks) */
 .ticks {
