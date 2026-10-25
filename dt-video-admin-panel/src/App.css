@@ -2,8 +2,3 @@
 
 .auth-aside {
   @apply hidden lg:flex items-center justify-center p-12 bg-main relative overflow-hidden;
-
-  &::before {
-    content: '';
-    @apply absolute inset-0 opacity-40;
-      radial-gradi
