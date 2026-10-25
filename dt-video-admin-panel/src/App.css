@@ -23,11 +23,6 @@
   @apply flex flex-col w-full gap-8;
 }
 
-/* Footer de la App.tsx (dentro del Layout) */
-#next-steps {
-  @apply flex border border-border-dt bg-card rounded-xl overflow-hidden mt-8;
-  text-align: left;
-
   & > div {
     @apply flex-1 p-8;
   }
