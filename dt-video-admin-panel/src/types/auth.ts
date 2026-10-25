@@ -9,8 +9,7 @@ export interface Employee {
 }
 
 export interface EmployeeRecord extends Employee {
-  password: string;
-
+  password: st
 export interface RegisterPaylo
   name: str
   password: string
