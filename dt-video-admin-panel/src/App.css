@@ -11,12 +11,6 @@
   --color-main: #DCDCDC;
   --color-card: #FFFFFF;
 
-
-.kpi-value {
-  @apply text-3xl font-bold tracking-tighter mt-2;
-  font-family: ui-monospace, Consolas, monospace;
-}
-
 .counter {
   @apply inline-flex items-center text-sm font-bold px-4 py-2 rounded-md transition-all cursor-pointer;
   color: var(--color-heading-color);
