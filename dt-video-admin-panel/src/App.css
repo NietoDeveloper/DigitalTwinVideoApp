@@ -20,11 +20,6 @@
     font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   }
 
-  h1, h2, h3 {
-    @apply font-semibold tracking-tight;
-    color: var(--color-heading-color);
-  }
-}
 
 /* 3. COMPONENTES REUTILIZABLES */
 .glass-card {
