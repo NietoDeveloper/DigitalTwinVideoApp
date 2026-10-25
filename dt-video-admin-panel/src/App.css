@@ -9,24 +9,7 @@
   --color-text-color: #1a1a1a;
   
   --color-main: #DCDCDC;
-  --color-card: #FFFFFF;
-
-
-  @media (max-width: 768px) { @apply flex-col; }
-}
-
-
-/* Detalles de Ingeniería (Ticks) */
-.ticks {
-  @apply relative w-full h-px bg-border-dt my-4 opacity-50;
-  &::before, &::after {
-    content: '';
-    @apply absolute top-[-4.5px] border-[5px] border-transparent;
-  }
-  &::before { @apply left-0 border-l-border-dt; }
-  &::after { @apply right-0 border-r-border-dt; }
-}
-
+  --color-card: 
 .custom-scrollbar::-webkit-scrollbar {
   width: 6px;
 }
