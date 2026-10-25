@@ -11,17 +11,6 @@
   --color-main: #DCDCDC;
   --color-card: #FFFFFF;
 
-.counter {
-  @apply inline-flex items-center text-sm font-bold px-4 py-2 rounded-md transition-all cursor-pointer;
-  color: var(--color-heading-color);
-  background: white;
-  border: 1px solid var(--color-border-dt);
-
-  &:hover {
-    @apply border-gold shadow-sm ring-1 ring-gold/20;
-    background: #fdfdfd;
-  }
-}
 
 /* 4. AJUSTE DE ESTRUCTURA DASHBOARD (Corrección Crítica) */
 #root {
