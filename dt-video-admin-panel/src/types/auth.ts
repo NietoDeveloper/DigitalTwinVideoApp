@@ -7,5 +7,3 @@ export interface Employee {
   role: EmployeeRole;
   createdAt: string;
 }
-
-export interface EmployeeRecord
