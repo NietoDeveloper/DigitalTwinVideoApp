@@ -13,19 +13,7 @@
 }
 
 .auth-aside-card {
-  @apply relative z-10 max-w-md space-y-4 bg-white/80 backdrop-blur border border-border-dt rounded-2xl p-8 shadow-sm;
-
-  h2 {
-    @apply text-2xl font-black tracking-tighter uppercase;
-
-
-.auth-aside-link {
-  @apply inline-block text-xs font-bold uppercase tracking-widest text-gray-400 hover:text-gold;
-}
-
-.auth-loading {
-  @apply min-h-screen w-full flex flex-col items-center justify-center gap-3 bg-main text-sm text-gray-500;
-}
+  @apply relative z-10 
 
 .auth-loading-dot {
   @apply w-3 h-3 rounded-full bg-gold animate-pulse;
