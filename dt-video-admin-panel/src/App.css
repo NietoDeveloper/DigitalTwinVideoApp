@@ -10,22 +10,6 @@
     @apply pr-10;
   }
 }
-
-.auth-icon-btn {
-  @apply absolute right-2 top-1/2 -translate-y-1/2 p-1.5 text-gray-400 hover:text-heading-color rounded-md;
-}
-
-.auth-hint {
-  @apply text-[10px] font-mono text-gray-400;
-}
-
-.auth-alert {
-  @apply rounded-lg border border-status-error/30 bg-status-error/10 text-status-error text-sm px-3 py-2;
-}
-
-.auth-submit {
-  @apply inline-flex items-center justify-center gap-2 mt-2 px-4 py-3 text-sm font-bold rounded-md transition-all cursor-pointer;
-  color: #FFD700;
   background: #000000;
   border: 1px solid #000000;
 
