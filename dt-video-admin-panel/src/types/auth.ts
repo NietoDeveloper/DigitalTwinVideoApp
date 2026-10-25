@@ -10,4 +10,4 @@ export interface Employee {
 
 export interface EmployeeRecord extends Employee {
   password: st
-export interface Reg
+export inter
