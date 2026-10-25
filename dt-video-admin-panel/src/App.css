@@ -12,21 +12,6 @@
   --color-card: #FFFFFF;
 
 
-/* 4. AJUSTE DE ESTRUCTURA DASHBOARD (Corrección Crítica) */
-#root {
-  /* Eliminamos max-width para que el sidebar y main ocupen el viewport */
-  @apply min-h-screen w-full flex flex-col bg-main;
-}
-
-/* El contenido central ahora es manejado por el padding del AdminLayout */
-#center {
-  @apply flex flex-col w-full gap-8;
-}
-
-  & > div {
-    @apply flex-1 p-8;
-  }
-
   @media (max-width: 768px) { @apply flex-col; }
 }
 
