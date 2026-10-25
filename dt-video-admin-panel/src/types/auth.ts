@@ -15,4 +15,4 @@ export interface RegisterPaylo
   name: str
   password: string
   confirmPassword
-  autho
+  a
