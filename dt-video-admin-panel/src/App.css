@@ -7,27 +7,7 @@
   --color-yellow-color: #FEB60D;
   --color-heading-color: #000000;
   --color-text-color: #1a1a1a;
-  
-  --color-main: #DCDCDC;
-  --color-card: 
-.custom-scrollbar::-webkit-scrollbar {
-  width: 6px;
-}
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  @apply bg-border-dt rounded-full;
-}
-
-/* 5. AUTH (login / registro empleados) */
-.auth-shell {
-  @apply min-h-screen w-full grid lg:grid-cols-2 bg-main;
-}
-
-.auth-panel {
-  @apply flex flex-col justify-center px-6 py-10 sm:px-12 lg:px-16 bg-white;
-}
-
-.auth-brand {
-  @apply flex items-center gap-3 mb-10;
+  gap-3 mb-10;
 }
 
 .auth-brand-mark {
