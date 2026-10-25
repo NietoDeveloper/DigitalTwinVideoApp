@@ -23,10 +23,6 @@
   @apply flex flex-col w-full gap-8;
 }
 
-.metrics-grid {
-  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full;
-}
-
 /* Footer de la App.tsx (dentro del Layout) */
 #next-steps {
   @apply flex border border-border-dt bg-card rounded-xl overflow-hidden mt-8;
