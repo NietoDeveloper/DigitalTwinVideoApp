@@ -6,4 +6,4 @@
   &::before {
     content: '';
     @apply absolute inset-0 opacity-40;
-      radial-gradient(circle at 20% 20%, rgb35), transparent 40%),
+      radial-gradient(circlegb35), transparent 40%),
