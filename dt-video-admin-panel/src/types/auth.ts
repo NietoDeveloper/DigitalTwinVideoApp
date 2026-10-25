@@ -14,5 +14,5 @@ export interface EmployeeRecord extends Employee {
 export interface RegisterPaylo
   name: str
   password: string
-  confirmPassword: st
+  confirmPassword
   autho
