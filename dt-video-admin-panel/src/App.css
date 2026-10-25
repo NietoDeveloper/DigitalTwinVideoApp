@@ -6,33 +6,7 @@
   --color-gold: #FFD700;
   -
   p {
-    @apply text-sm text-gray-500 max-w-md;
-  }
-}
-
-.auth-form {
-  @apply flex flex-col gap-4 max-w-md;
-}
-
-.auth-field {
-  @apply flex flex-col gap-1.5;
-
-  span {
-    @apply text-[10px] uppercase tracking-widest font-bold text-gray-500;
-  }
-
-  input {
-    @apply w-full rounded-lg border border-border-dt bg-main/40 px-3 py-2.5 text-sm outline-none transition-all;
-    &:focus {
-      @apply border-gold ring-1 ring-gold/30 bg-white;
-    }
-  }
-}
-
-.auth-input-row {
-  @apply relative;
-
-  input {
+    @apply
     @apply pr-10;
   }
 }
