@@ -16,4 +16,3 @@ export interface RegisterPayload {
   password: string
   confirmPassword: st
   authorizationCode: string;
-}
