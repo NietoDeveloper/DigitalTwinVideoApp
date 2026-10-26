@@ -13,13 +13,6 @@ dt-video-backend/
 │   ├── models/                 ← Prisma: User, Employee, Subscription, WorkerJob
 │   ├── middleware/             ← admin
 │   ├── routes/
-│   │   ├── twins/              ← /twins CRUD — create, list, get, delete
-│   │   ├── streams/            ← /streams — start, stop, status per user
-│   │   ├── assets/             ← /assets — S3-backed 3D files (splats, PLY)
-│   │   └── alerts/             ← /alerts — sharpness events, quality logs
-│   ├── services/
-│   │   ├── twinService.ts      ← Twin lifecycle management
-│   │   ├── streamService.ts    ← Kinesis session handling
 │   │   ├── assetService.ts     ← S3 upload/downlod/presign URLs
 │   │   └── alertService.ts     ← Quality threshold monitoring + emit
 │   ├── realtime/
