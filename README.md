@@ -9,13 +9,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-go=docker&logoColor=white)](https://docker.com)
 [![PostgreSQL](https://img.shields.io/badge/Po.x-61DAFB?s
-![Latency](https://img.shields.io/badge/Latency-%3C200ms-00ffe0?style=flat-square)
-![Fidelity](https://img.shields.io/badge/Reality%20Fidelity-97%25-0let?style=flat-square)
-![Colombia](https://img.shields.io/badge/Made%20in-Colombia%20🇨🇴-yellow?style=flat-square)
-
-</div>
-
----
+![Latency](https://img.shields.io/badge/Latency-%3C20
 
 <div align="center">
 
