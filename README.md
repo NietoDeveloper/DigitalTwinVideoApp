@@ -8,10 +8,7 @@
 ---
 
 ## 📌 Table of Contents
-- [Deployment — AWS](#-deployment--aws)
-- [Security](#-security)
-- [Contributing](#-contributing)
-- [Author](#-author)interactive 3D Digital Twins** in near real-time.
+- [Deployment — AWS](#-deployment--aws)real-time.
 
 Each repository is isolated, independently deployable, and owns its own domain:
 
