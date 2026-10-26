@@ -14,11 +14,6 @@
 
 | # | Repository | Type | Description | Port |
 |---|-----------|------|-------------|------|
-| 1 | [`dt-video-landing`](#1--dt-video-landing) | **Frontend** | Public app — landing page & sales funnel | `3000` |
-| 2 | [`dt-video-user-dashboard`](#2--dt-video-user-dashboard) | **Frontend** | Client-facing dashboard — twin monitoring & visualization | `3001` |
-| 3 | [`dt-video-admin-panel`](#3--dt-video-admin-panel) | **Frontend** | Internal employee panel — sales, ops, system health | `3002` |
-| 4 | [`dt-video-backend`](#4--dt-video-backend) | **Backend** | General API + admin/employee services + AI worker orchestration | `4000` |
-| 5 | [`dt-video-user-api`](#5--dt-video-user-api) | **Backend** | Dedicated API for the user dashboard — twins, streams, alerts | `4001` |
 
 > **Why 5 separate repos?**
 > ✅ If the admin panel goes down for maintenance, clients keep working — zero impact.
