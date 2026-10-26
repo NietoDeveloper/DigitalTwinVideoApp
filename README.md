@@ -18,8 +18,6 @@ dt-video-backend/
 ├── package.json
 ├── tsconfig.json
 ├── Dockerfile
-├── .env.example
-└── README.md
 ```
 
 ---
