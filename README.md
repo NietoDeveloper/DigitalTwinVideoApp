@@ -3,25 +3,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c8ff,100:00ffe0&height=220&section=header&text=Digital%20Twin%20Video%20Industrial&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Real-Time%203D%20Reconstruction%20from%20Li
          ▼
-⚡  dt-video-user-api  →  WebSocket push
-         │
-         ▼
-│   │   ├── Hero/               ← Animated 3D twin preview embed
-│   │   ├── TierCards/          ← Pricing + feature comparison
-│   │   ├── DemoPlayer/         ← Video demo of reconstruction
-│   │   └── CTABanner/          ← Conversion funnel CTA
-│   ├── styles/
-│   └── lib/                    ← Analytics, form handlers
-├── public/
-├── next.config.ts
-├── tailwind.config.ts
-├── package.json
-├── tsconfig.json
-├── Dockerfile
-├── .env.example
-└── README.md
-```
-
+⚡  dt-video-user-api  →  WebSocket
 ---
 
 ### 2 · `dt-video-user-dashboard`
