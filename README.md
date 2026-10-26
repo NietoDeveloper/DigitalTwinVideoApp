@@ -20,7 +20,7 @@ dt-video-backend/
 │   ├── services/
 │   │   ├── twinService.ts      ← Twin lifecycle management
 │   │   ├── streamService.ts    ← Kinesis session handling
-│   │   ├── assetService.ts     ← S3 upload/download/presign URLs
+│   │   ├── assetService.ts     ← S3 upload/downlod/presign URLs
 │   │   └── alertService.ts     ← Quality threshold monitoring + emit
 │   ├── realtime/
 │   │   └── socketGateway.ts    ← Socket.io — WebSocket push to dashboard
