@@ -3,16 +3,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c8ff,100:00ffe0&height=220&section=header&text=Digital%20Twin%20Video%20Industrial&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Real-Time%203D%20Reconstruction%20from%20Live%20Video%20Streams&descAlignY=58&descSize=17&animation=fadeIn" width="100%"/>
 
-</div>
-
-<div align="center">
-
-[![License: MIT](https://img.shields.io/badge/License-go=docker&logoColor=white)](https://docker.com)
-[![PostgreSQL](https://img.shields.io/badge/Po.x-61DAFB?s
-![Latency](https://img.shields.io/badge/Latency-%3C20
-
-<div align="center">
-
 ```
 ╔═══════════════════════════════════════════════════════════════════════╗
 ║   VIDEO STREAM  →  SLAM  →  3DGS  →  AI INPAINTING  →  3D TWIN      ║
