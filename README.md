@@ -14,9 +14,7 @@ dt-video-backend/
 │   ├── middleware/             ← admin
 │   ├── routes/
 │   │   ├── assetService.ts     ← S3 upload/downlod/presign URLs
-│   │   └── alertService.ts     ← Quality threshold monitoring + emit
-│   ├── realtime/
-│   │   └── socketGateway.ts    ← Socket.io — WebSocket push to dashboard
+│   │   └── alertService.ts     ← Quality threshold monito to dashboard
 │   ├── models/                 ← Prisma: Twin, Stream, Asset, Alert
 │   ├── middleware/             ← userAuth (JWT), rateLimit, logging
 │   └── db/                     ← Migrations, seeds, schema.prisma
