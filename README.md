@@ -6,26 +6,6 @@
 ⚡  dt-video-user-api  →  WebSocket push
          │
          ▼
-🖥️  dt-video-user-dashboard  (Three.js Live 3D Viewer)
-         │
-         └──  < 200ms total end-to-end
-```
-
----
-
-## 📁 Full Repository Structure
-
-### 1 · `dt-video-landing`
-> **Public frontend** — landing page, pricing, sales funnel, tier selection.
-
-```
-dt-video-landing/
-├── src/
-│   ├── app/                    ← Next.js App Router pages
-│   │   ├── page.tsx            ← Hero / landing
-│   │   ├── pricing/            ← Tier selector (Basic / Medium / Premium)
-│   │   └── contact/            ← Lead capture form
-│   ├── components/
 │   │   ├── Hero/               ← Animated 3D twin preview embed
 │   │   ├── TierCards/          ← Pricing + feature comparison
 │   │   ├── DemoPlayer/         ← Video demo of reconstruction
