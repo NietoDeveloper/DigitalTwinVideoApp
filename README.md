@@ -10,20 +10,6 @@ cd dt-video-landing && npm install && npm run dev
 cd dt-video-user-dashboard && npm install && npm run dev
 
 # Terminal 5 — Admin panel
-| User Dashboard | http://localhost:3001 |
-| Admin Panel | http://localhost:3002 |
-| Backend API | http://localhost:4000 |
-| User API | http://localhost:4001 |
-| PostgreSQL | localhost:5432 |
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
-
----
-
 ## 📬 Contact
 
 For questions, support, or business inquiries:
