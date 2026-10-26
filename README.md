@@ -1,27 +1,7 @@
 <!-- HEADER ANIMADO -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c8ff,100:00ffe0&height=220&section=header&text=Digital%20Twin%20Video%20Industrial&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Real-Time%203D%20Reconstruction%20from%20Live%20Video%20Streams&descAlignY=58&descSize=17&animation=fadeIn" width="100%"/>
-
-``` └────────────┬────────────┘
-                                      │ Sign up / Auth
-               ┌──────────────────────┼─────────────────────
-| `dt-video-landing` | React / Next.js, Tailwind, TypeScript | Public users — acquisition |
-| `dt-video-user-dashboard` | React 18, Three.js, Zustand, TypeScript | Paying clients — twin operations |
-| `dt-video-admin-panel` | React 18, Zustand, TypeScript | Internal employees — ops & sales |
-| `dt-video-backend` | Node.js, Express, PostgreSQL, Prisma, JWT | Admin panel + platform core logic |
-| `dt-video-user-api` | Node.js, Express, PostgreSQL, Prisma, Socket.io | User dashboard — twins & streams |
-
----
-
-## ⚙️ Core AI Pipeline
-
-> Lives inside `dt-video-backend` — orchestrates the AI worker Docker container.
-
-```
-📷  Video Source  (Drone / Industrial Camera / CCTV)
-         │
-         ▼
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c8ff,100:00ffe0&height=220&section=header&text=Digital%20Twin%20Video%20Industrial&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Real-Time%203D%20Reconstruction%20from%20Liv
 📡  AWS Kinesis Video Streams
          │
          ▼
