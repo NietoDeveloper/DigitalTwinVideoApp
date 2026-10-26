@@ -22,8 +22,6 @@ dt-video-backend/
 
 ---
 
-## 🛠️ Tech Stack
-
 ### Frontend — all 3 frontends share this base
 | Tool | Version | Role |
 |------|---------|------|
