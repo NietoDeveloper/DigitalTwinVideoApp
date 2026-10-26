@@ -8,21 +8,6 @@
 ---
 
 ## 📌 Table of Contents
----
-
-## 🗂️ Ecosystem Overview — 5 Repos
-
-| # | Repository | Type | Description | Port |
-|---|-----------|------|-------------|------|
-
-> **Why 5 separate repos?**
-> ✅ If the admin panel goes down for maintenance, clients keep working — zero impact.
-> ✅ The employee backend is 100% isolated from the user-facing API — full security boundary.
-> ✅ Each repo deploys, scales, and versions independently.
-> ✅ This is the structure companies pay **$5,000+ USD** for — corporate-grade, not a toy.
-
----
-
 ## 💎 Business Tiers
 
 | Tier | Target | Features | Fidelity |
