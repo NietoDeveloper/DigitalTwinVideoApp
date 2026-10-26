@@ -8,19 +8,7 @@
 dt-video-backend/
 ├── src/
 │   ├── routes/
-│   │   ├── auth/        struction pipeline |
-| AWS CDK / Terraform | Infrastructure as code |
-| Docker | All 5 repos fully containerized |
-| GitHub Actions | CI/CD per repo → AWS / Vercel |
-
----
-
-## ⚡ Quick Start — Full Ecosystem
-
-### Clone all 5 repos
-
-```bash
-# Create workspace folder
+│   │   ├── auth/        struction p
 mkdir digital-twins-ecosystem && cd digital-twins-ecosystem
 
 # Clone all repos
