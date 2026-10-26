@@ -16,15 +16,7 @@ git clone https://github.com/NietoDeveloper/dt-video-landing
 git clone https://github.com/NietoDeveloper/dt-video-user-dashboard
 git clone https://github.com/NietoDeveloper/dt-video-admin-panel
 git clone https://github.com/NietoDeveloper/dt-video-backend
-git clone https://github.com/NietoDeveloper/dt-video-user-api
-```
-
-### Configure environments
-
-```bash
-# Each repo has its own .env — copy and fill in
-cp dt-video-landing/.env.example          dt-video-landing/.env
-cp dt-video-user-dashboard/.env.example   dt-video-user-dashboard/.env
+git clone https://github.com/NietoDevelovideo-user-dashboard/.env
 cp dt-video-admin-panel/.env.example      dt-video-admin-panel/.env
 cp dt-video-backend/.env.example          dt-video-backend/.env
 cp dt-video-user-api/.env.example         dt-video-user-api/.env
