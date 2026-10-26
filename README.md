@@ -5,25 +5,7 @@
 
 ``` └────────────┬────────────┘
                                       │ Sign up / Auth
-               ┌──────────────────────┼──────────────────────┐
-               │                      │                      │
-               ▼                      ▼                      ▼
-  ┌────────────────────┐  ┌─────────────────────┐  ┌─
-  ┌──────────────────────────────────────────────────────────────┐
-  │                        AWS CLOUD                             │
-  │                                                              │
-  │  ┌─────────────┐  ┌──────────────┐  ┌─────────────────────┐ │
-  │  │ API Cluster │  │ Video Signal │  │   Data Cluster       │ │
-  │  │ (ECS/Node)  │  │(Kinesis/WRT) │  │ (RDS + S3 + Cache)  │ │
-  │  └─────────────┘  └──────────────┘  └─────────────────────┘ │
-  │                       CloudFront CDN                         │
-  └──────────────────────────────────────────────────────────────┘
-```
-
-### Application layer summary
-
-| Repo | Technology | Serves |
-|------|-----------|--------|
+               ┌──────────────────────┼─────────────────────
 | `dt-video-landing` | React / Next.js, Tailwind, TypeScript | Public users — acquisition |
 | `dt-video-user-dashboard` | React 18, Three.js, Zustand, TypeScript | Paying clients — twin operations |
 | `dt-video-admin-panel` | React 18, Zustand, TypeScript | Internal employees — ops & sales |
