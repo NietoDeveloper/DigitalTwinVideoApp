@@ -2,25 +2,7 @@
 <div align="center">
 
 ### 4 · `dt-video-landing-backend`
-> **General backend API** — powers the admin panel, handles platform-wide auth, AI worker orchestration, billing, and employee services.
-
-```
-dt-video-backend/
-├── src/
-│   ├── routes/
-│   │   ├── auth/        struction p
-mkdir digital-twins-ecosystem && cd digital-twins-ecosystem
-
-# Clone all repos
-### Start each service
-
-```bash
-# Terminal 1 — General backend + AI worker
-cd dt-video-backend && docker-compose up --build
-
-# Terminal 2 — User API
-cd dt-video-user-api && docker-compose up --build
-
+> **General backend API** — powers the admin panel, handles platform-wide auth, AI worker orchestration, billing, and emp
 # Terminal 3 — Landing
 cd dt-video-landing && npm install && npm run dev
 
