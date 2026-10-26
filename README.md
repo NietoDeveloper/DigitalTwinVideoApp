@@ -7,9 +7,7 @@
 
 <div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-00c8ff.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/Node.js-20.x-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-.x-D?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-00c8ff.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)dge/TypeScript-.x-D?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgresql.org)
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?s
 ![Latency](https://img.shields.io/badge/Latency-%3C200ms-00ffe0?style=flat-square)
