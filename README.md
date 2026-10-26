@@ -15,9 +15,6 @@ dt-video-backend/
 | Three.js | latest | 3D viewer (user-dashboard only) |
 | Socket.io-client | 4.x | Real-time WebSocket (user-dashboard only) |
 
-### Backend — both APIs share this base
-| Tool | Version | Role |
-|------|---------|------|
 | Node.js | 20.x | Runtime |
 | Express | 4.x | REST API framework |
 | TypeScript | 5.x | Type safety |
