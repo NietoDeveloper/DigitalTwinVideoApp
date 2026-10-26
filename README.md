@@ -3,23 +3,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c8ff,100:00ffe0&height=220&section=header&text=Digital%20Twin%20Video%20Industrial&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Real-Time%203D%20Reconstruction%20from%20Live%20Video%20Streams&descAlignY=58&descSize=17&animation=fadeIn" width="100%"/>
 
-```
-╔═══════════════════════════════════════════
----
-
-## 📌 Table of Contents
-## 🏗️ System Architecture
-
-### How the 5 repos connect
-
-```
-                         ┌─────────────────────────┐
-                         │   dt-video-landing       │
-                         │   (Public Frontend)      │
-                         │   Next.js / React        │
-                         │   → Sales funnel         │
-                         │   → Tier selection       │
-                         └────────────┬────────────┘
+``` └────────────┬────────────┘
                                       │ Sign up / Auth
                ┌──────────────────────┼──────────────────────┐
                │                      │                      │
