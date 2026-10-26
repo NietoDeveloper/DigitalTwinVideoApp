@@ -8,16 +8,7 @@
 dt-video-backend/
 ├── src/
 │   ├── routes/
-│   │   ├── auth/               ← /auth/login, /auth/refresh, /auth/logout
-│   │   ├── admin/              ← /admin/users, /admin/metrics, /admin/billing
-│   │   ├── workers/            ← /workers/status, /workers/queue, /workers/restart
-│   │   ├── streams/            ← /streams (system-wide, admin view)
-│   │   └── health/             ← /health — uptime, AWS service checks
-│   ├── services/
-│   │   ├── authService.ts      ← JWT issue/refresh/revoke
-│   │   ├── adminService.ts     ← Employee operations, role management
-│   │   ├── workerService.ts    ← AI worker orchestration (Docker/ECS)
-│   │   ├── billingService.ts   ← Tier logic, subscription handling
+│   │   ├── auth/               ← /auth/login, /auth/refreshndling
 │   │   └── healthService.ts    ← System health aggregation
 │   ├── models/                 ← Prisma: User, Employee, Subscription, WorkerJob
 │   ├── middleware/             ← adminAuth, rateLimit, logging, errorHandler
