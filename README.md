@@ -1,25 +1,7 @@
 <!-- HEADER ANIMADO -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c8ff,100:00ffe0&height=220&section=header&text=Digital%20Twin%20Video%20Industrial&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Real-Time%203D%20Reconstruction%20from%20Li
-         ▼
-⚡  dt-video-user-api  →  WebSocket
----
-
-### 2 · `dt-video-user-dashboard`
-│   │   ├── useStream.ts        ← WebSocket stream connection
-│   │   ├── useTwin.ts          ← Twin data fetch + real-time updates
-│   │   └── useAlert.ts         ← Quality alert subscriptions
-│   ├── store/                  ← Zustand global state
-│   └── utils/                  ← Three.js helpers, WebSocket client
-├── package.json
-├── vite.config.ts
-├── tsconfig.json
-├── Dockerfile
-├── .env.example
-└── README.md
-```
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c8ff,100:00ffe0&height=220&section=header&text=Digital%20Twin%20Video%20Industria
 ---
 
 ### 3 · `dt-video-admin-panel`
