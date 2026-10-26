@@ -16,9 +16,6 @@ dt-video-backend/
 │   └── ai-worker/              ← ¡EL CORAZÓN! Python Docker worker
 │       ├── src/
 │       │   ├── pipeline/       ← Orquestador: frame → twin
-│       │   ├── slam/           ← SLAM odometry, sparse map
-│       │   ├── reconstruction/ ← 3DGS lite + NeRF fallback
-│       │   └── features/       ← ORB, SuperPoint extraction
 │       └── modules/
 │           ├── inpainting/     ← AI inpainting (4% workload)
 │           ├── segmentation/   ← Industrial semantic masking
