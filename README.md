@@ -8,16 +8,6 @@
 ---
 
 ## 📌 Table of Contents
-
-- [What is this?](#-what-is-this)
-- [Ecosystem Overview — 5 Repos](#-ecosystem-overview--5-repos)
-- [Business Tiers](#-business-tiers)
-- [System Architecture](#-system-architecture)
-- [Core AI Pipeline](#-core-ai-pipeline)
-- [Full Repository Structure](#-full-repository-structure)
-- [Tech Stack](#-tech-stack)
-- [Quick Start — Full Ecosystem](#-quick-start--full-ecosystem)
-- [Environment Variables](#-environment-variables)
 - [Deployment — AWS](#-deployment--aws)
 - [Security](#-security)
 - [Contributing](#-contributing)
