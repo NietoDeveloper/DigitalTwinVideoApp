@@ -13,13 +13,7 @@ dt-video-backend/
 │   ├── models/                 ← Prisma: User, Employee, Subscription, WorkerJob
 │   ├── middleware/             ← adminAuth, rateLimit, logging, errorHandler
 │   ├── db/                     ← Migrations, seeds, schema.prisma
-│   └── ai-worker/              ← ¡EL CORAZÓN! Python Docker worker
-│       ├── src/
-│       │   ├── pipeline/   
-### 5 · `dt-video-user-api`
-> **Dedicated user backend** — exclusively serves `dt-video-user-dashboard`. Handles twins, stream sessions, 3D assets, real-time alerts, and WebSocket push. Zero coupling with admin services.
-
-```
+│   └── ai-worker/       
 dt-video-user-api/
 ├── src/
 │   ├── routes/
