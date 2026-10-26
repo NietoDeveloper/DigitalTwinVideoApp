@@ -18,8 +18,6 @@ dt-video-backend/
 │       │   ├── pipeline/       ← Orquestador: frame → twin
 
 ├── docker-compose.yml
-├── .env.example
-└── README.md
 ```
 
 ---
