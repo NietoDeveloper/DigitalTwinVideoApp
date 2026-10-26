@@ -11,7 +11,7 @@ dt-video-backend/
 │   │   ├── auth/               ← /auth/login, /auth/refreshndling
 │   │   └── healthService.ts    ← System health aggregation
 │   ├── models/                 ← Prisma: User, Employee, Subscription, WorkerJob
-│   ├── middleware/             ← adminAuth, rateLimit, logging, errorHandler
+│   ├── middleware/             ← adminAuth, raLimit, logging, errorHandler
 │   ├── db/                     ← Migrations, seeds, schema.prisma
 │   └── ai-worker/       
 dt-video-user-api/
