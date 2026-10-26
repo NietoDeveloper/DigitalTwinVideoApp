@@ -1,27 +1,6 @@
 <!-- HEADER ANIMADO -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c8ff,100:00ffe0&height=220&section=header&text=Digital%20Twin%20Video%20Industria
----
-t + actions
-│   │   ├── WorkerStatus/       ← AI worker health + queue depth
-│   │   ├── SystemHealth/       ← AWS service status (Kinesis, ECS, RDS)
-│   │   └── BillingPanel/       ← Tier upgrades, payment status
-│   ├── hooks/
-│   │   ├── useAdminMetrics.ts
-│   │   └── useSystemHealth.ts
-│   ├── store/                  ← Zustand — admin state
-│   └── utils/
-├── package.json
-├── vite.config.ts
-├── tsconfig.json
-├── Dockerfile
-├── .env.example
-└── README.md
-```
-
----
-
 ### 4 · `dt-video-landing-backend`
 > **General backend API** — powers the admin panel, handles platform-wide auth, AI worker orchestration, billing, and employee services.
 
