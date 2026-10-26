@@ -7,24 +7,6 @@
 ---
 
 ### 2 · `dt-video-user-dashboard`
-> **Client frontend** — authenticated dashboard for paying users to manage and visualize their digital twins.
-
-```
-dt-video-user-dashboard/
-├── src/
-│   ├── app/                    ← React Router / Next.js pages
-│   │   ├── dashboard/          ← Twin overview + live status
-│   │   ├── twin/[id]/          ← Individual twin detail + 3D viewer
-│   │   ├── streams/            ← Active stream sessions
-│   │   ├── assets/             ← 3D asset library (S3-backed)
-│   │   └── settings/           ← Account, tier, billing
-│   ├── components/
-│   │   ├── TwinViewer3D/       ← Three.js + Gaussian Splatting viewer
-│   │   ├── StreamMonitor/      ← Live feed + quality indicator
-│   │   ├── AlertsPanel/        ← Sharpness alerts, blur warnings
-│   │   ├── AssetCard/          ← Twin thumbnail + metadata
-│   │   └── DroneControls/      ← Camera/drone control interface
-│   ├── hooks/
 │   │   ├── useStream.ts        ← WebSocket stream connection
 │   │   ├── useTwin.ts          ← Twin data fetch + real-time updates
 │   │   └── useAlert.ts         ← Quality alert subscriptions
