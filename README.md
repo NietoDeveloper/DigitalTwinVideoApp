@@ -19,10 +19,6 @@ dt-video-backend/
 | Express | 4.x | REST API framework |
 | TypeScript | 5.x | Type safety |
 | PostgreSQL | 15 | Relational data store |
-| Prisma | 5.x | Type-safe ORM + migrations |
-| JWT | — | Stateless authentication |
-| Zod | 3.x | Runtime schema validation |
-| Socket.io | 4.x | WebSocket push (user-api only) |
 
 ### AI Worker — inside `dt-video-backend`
 | Tool | Role |
