@@ -11,13 +11,7 @@
 - [Deployment — AWS](#-deployment--aws)
 - [Security](#-security)
 - [Contributing](#-contributing)
-- [Author](#-author)
-
----
-
-## 🧠 What is this?
-
-**digital-twins-video-industrial** is a **high-availability, industrial-grade ecosystem** of **5 independent repositories** that together form a complete platform for ingesting live video (drones, industrial cameras, CCTV) and constructing **photorealistic, interactive 3D Digital Twins** in near real-time.
+- [Author](#-author)interactive 3D Digital Twins** in near real-time.
 
 Each repository is isolated, independently deployable, and owns its own domain:
 
