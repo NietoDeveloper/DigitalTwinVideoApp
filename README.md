@@ -8,22 +8,7 @@
 dt-video-backend/
 ├── src/
 │   ├── routes/
-│   │   ├── auth/               ← /auth/login, /auth/refreshndling
-│   │   └── healthService.ts    ← System health aggregation
-│   ├── models/                 ← Prisma: User, Employee, Subscr
-| Tailwind CSS | 3.x | Utility-first styling |
-| Three.js | latest | 3D viewer (user-dashboard only) |
-| Socket.io-client | 4.x | Real-time WebSocket (user-dashboard only) |
-
-| Node.js | 20.x | Runtime |
-| Express | 4.x | REST API framework |
-| TypeScript | 5.x | Type safety |
-| PostgreSQL | 15 | Relational data store |
-
-### AI Worker — inside `dt-video-backend`
-| Tool | Role |
-|------|------|
-| Python 3.11 | Reconstruction pipeline |
+│   │   ├── auth/        struction pipeline |
 | SLAM | Visual odometry, sparse 3D map |
 | 3DGS Lite | Gaussian Splatting reconstruction |
 | NeRF (fallback) | Neural radiance field backup |
