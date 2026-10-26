@@ -1,28 +1,7 @@
 <!-- HEADER ANIMADO -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c8ff,100:00ffe0&height=220&section=header&text=Digital%20Twin%20Video%20Industrial&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Real-Time%203D%20Reconstruction%20from%20Liv
-📡  AWS Kinesis Video Streams
-         │
-         ▼
-🔬  ai-worker  (Docker container — Python 3.11)
-    │
-    ├── 1. Feature Extraction     (ORB / SuperPoint)
-    │           ↓
-    ├── 2. SLAM Odometry          → Sparse 3D Map
-    │           ↓
-    ├── 3. 3DGS Lite Reconstruction  (NeRF fallback)
-    │           ↓
-    ├── 4. AI Inpainting          — gap filling  (4% CPU load)
-    │           ↓
-    └── 5. Quality Check          — blur detection, sharpness score
-         │
-         ▼
-🪣  AWS S3  ←  twin assets  (splats, point clouds, textures)
-         │
-         ▼
-🗄️  PostgreSQL  ←  twin metadata, stream sessions, alerts
-         │
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c8ff,100:00ffe0&height=220&section=header&text=Digital%20Twin%20Video%20Industrial&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Real-Time%203D%20Reconstruction%20from%20Li
          ▼
 ⚡  dt-video-user-api  →  WebSocket push
          │
