@@ -10,14 +10,6 @@ cd dt-video-landing && npm install && npm run dev
 cd dt-video-user-dashboard && npm install && npm run dev
 
 # Terminal 5 — Admin panel
-cd dt-video-admin-panel && npm install && npm run dev
-```
-
-### Services will be available at
-
-| Service | URL |
-|---------|-----|
-| Landing | http://localhost:3000 |
 | User Dashboard | http://localhost:3001 |
 | Admin Panel | http://localhost:3002 |
 | Backend API | http://localhost:4000 |
