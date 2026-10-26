@@ -10,13 +10,7 @@ dt-video-backend/
 │   ├── routes/
 │   │   ├── auth/               ← /auth/login, /auth/refreshndling
 │   │   └── healthService.ts    ← System health aggregation
-│   ├── models/                 ← Prisma: User, Employee, Subscription, WorkerJob
-│   ├── middleware/             ← admin
-│   ├── routes/
-│   │   ├── assetService.ts     ← S3 upload/dow
-|------|---------|------|
-| React | 18.x | UI framework |
-| TypeScript | 5.x |al state |
+│   ├── models/                 ← Prisma: User, Employee, Subscr
 | Tailwind CSS | 3.x | Utility-first styling |
 | Three.js | latest | 3D viewer (user-dashboard only) |
 | Socket.io-client | 4.x | Real-time WebSocket (user-dashboard only) |
