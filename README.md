@@ -9,21 +9,6 @@ dt-video-backend/
 ├── src/
 │   ├── routes/
 │   │   ├── auth/        struction pipeline |
-| SLAM | Visual odometry, sparse 3D map |
-| 3DGS Lite | Gaussian Splatting reconstruction |
-| NeRF (fallback) | Neural radiance field backup |
-| ORB / SuperPoint | Feature extraction |
-| AI Inpainting | Gap filling — 4% CPU load |
-| CUDA (optional) | GPU acceleration |
-
-### Cloud & Infrastructure
-| Service | Role |
-|---------|------|
-| AWS Kinesis Video Streams | Live video ingest |
-| AWS ECS Fargate | Container orchestration — 3 clusters |
-| AWS S3 | 3D asset storage (splats, point clouds) |
-| AWS RDS PostgreSQL | Managed database — one instance, 2 schemas |
-| AWS CloudFront | CDN — all 3 frontends |
 | AWS CDK / Terraform | Infrastructure as code |
 | Docker | All 5 repos fully containerized |
 | GitHub Actions | CI/CD per repo → AWS / Vercel |
