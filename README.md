@@ -11,10 +11,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-20.x-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-.x-D?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgresql.org)
-[![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&lgo=react&logoColor=black)](https://react.dev)
-
-<br/>
-
+[![React](https://img.shields.io/badge/React-18.x-61DAFB?s
 ![Latency](https://img.shields.io/badge/Latency-%3C200ms-00ffe0?style=flat-square)
 ![Fidelity](https://img.shields.io/badge/Reality%20Fidelity-97%25-00c8ff?style=flat-square)
 ![AI Load](https://img.shields.io/badge/AI%20Inpainting%20Load-4%25-green?style=flat-square)
