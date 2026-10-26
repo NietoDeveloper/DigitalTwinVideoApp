@@ -7,7 +7,7 @@
 
 <div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-00c8ff.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)dge/TypeScript-.x-D?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
+[![License: MIT](https://img.shields.io/badge/License-go=docker&logoColor=white)](https://docker.com)
 [![PostgreSQL](https://img.shields.io/badge/Po.x-61DAFB?s
 ![Latency](https://img.shields.io/badge/Latency-%3C200ms-00ffe0?style=flat-square)
 ![Fidelity](https://img.shields.io/badge/Reality%20Fidelity-97%25-00c8ff?style=flat-square)
