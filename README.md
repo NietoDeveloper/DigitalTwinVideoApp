@@ -3,23 +3,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c8ff,100:00ffe0&height=220&section=header&text=Digital%20Twin%20Video%20Industria
 ---
-
-### 3 · `dt-video-admin-panel`
-> **Internal employee frontend** — sales metrics, system health, user management, tier administration. Fully isolated from client-facing code.
-
-```
-dt-video-admin-panel/
-├── src/
-│   ├── app/
-│   │   ├── dashboard/          ← KPIs: revenue, active twins, uptime
-│   │   ├── users/              ← Client accounts + tier management
-│   │   ├── streams/            ← All active streams system-wide
-│   │   ├── ai-worker/          ← Worker queue status + performance
-│   │   ├── billing/            ← Subscription management, invoices
-│   │   └── settings/           ← System config, employee accounts
-│   ├── components/
-│   │   ├── MetricsGrid/        ← Real-time KPI cards
-│   │   ├── UserTable/          ← Paginated client list + actions
+t + actions
 │   │   ├── WorkerStatus/       ← AI worker health + queue depth
 │   │   ├── SystemHealth/       ← AWS service status (Kinesis, ECS, RDS)
 │   │   └── BillingPanel/       ← Tier upgrades, payment status
