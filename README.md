@@ -8,29 +8,7 @@
                ┌──────────────────────┼──────────────────────┐
                │                      │                      │
                ▼                      ▼                      ▼
-  ┌────────────────────┐  ┌─────────────────────┐  ┌──────────────────────┐
-  │ dt-video-user-     │  │  dt-video-admin-    │  │  dt-video-backend    │
-  │ dashboard          │  │  panel              │  │  (General API)       │
-  │ (Client Frontend)  │  │  (Employee Frontend)│  │                      │
-  │ · Twin viewer 3D   │  │  · Sales metrics    │  │  · Auth & sessions   │
-  │ · Stream monitor   │  │  · System health    │  │  · AI worker orch.   │
-  │ · Alerts panel     │  │  · User management  │  │  · Admin services    │
-  │ · Asset library    │  │  · Tier management  │  │  · Billing logic     │
-  └────────┬───────────┘  └──────────┬──────────┘  └──────────┬───────────┘
-           │                         │                         │
-           ▼                         ▼                         │
-  ┌────────────────────┐             │                         │
-  │ dt-video-user-api  │◄────────────┘                         │
-  │ (User Backend)     │        uses general auth              │
-  │                    │◄──────────────────────────────────────┘
-  │ · Twins CRUD       │
-  │ · Stream sessions  │
-  │ · 3D assets (S3)   │
-  │ · Real-time alerts │
-  │ · WebSocket push   │
-  └────────┬───────────┘
-           │
-           ▼
+  ┌────────────────────┐  ┌─────────────────────┐  ┌─
   ┌──────────────────────────────────────────────────────────────┐
   │                        AWS CLOUD                             │
   │                                                              │
