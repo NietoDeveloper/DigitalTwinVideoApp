@@ -8,19 +8,6 @@ cd dt-video-landing && npm install && npm run dev
 
 # Terminal 4 — User dashboard
 cd dt-video-user-dashboard && npm install && npm run dev
-
-# Terminal 5 — Admin panel
-## 📬 Contact
-
-For questions, support, or business inquiries:
-
-[![Email](https://img.shields.io/badge/Email-contact@digitaltwinvideoapp.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@digitaltwinvideoapp.com)
-[![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username/DigitalTwinVideoApp/issues)
-
----
-
-<div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2196f3,100:0d47a1&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 **Built with ❤️ for Digital Twin Video Applications**
