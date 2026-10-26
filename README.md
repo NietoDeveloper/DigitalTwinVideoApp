@@ -16,9 +16,7 @@ dt-video-backend/
 │   └── ai-worker/              ← ¡EL CORAZÓN! Python Docker worker
 │       ├── src/
 │       │   ├── pipeline/       ← Orquestador: frame → twin
-│       └── modules/
-│           ├── inpainting/     ← AI inpainting (4% workload)
-│           ├── segmentation/   ← I
+
 ├── docker-compose.yml
 ├── .env.example
 └── README.md
