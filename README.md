@@ -4,16 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c8ff,100:00ffe0&height=220&section=header&text=Digital%20Twin%20Video%20Industrial&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Real-Time%203D%20Reconstruction%20from%20Live%20Video%20Streams&descAlignY=58&descSize=17&animation=fadeIn" width="100%"/>
 
 ```
-╔═══════════════════════════════════════════════════════════════════════╗
-║   VIDEO STREAM  →  SLAM  →  3DGS  →  AI INPAINTING  →  3D TWIN      ║
-║                    < 200ms end-to-end latency                         ║
-║                                                                       ║
-║   5 independent repos · Triple-cluster AWS · 97% reality fidelity    ║
-╚═══════════════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
+╔═══════════════════════════════════════════
 ---
 
 ## 📌 Table of Contents
