@@ -13,12 +13,7 @@ dt-video-backend/
 │   ├── models/                 ← Prisma: User, Employee, Subscription, WorkerJob
 │   ├── middleware/             ← admin
 │   ├── routes/
-│   │   ├── assetService.ts     ← S3 upload/downlod/presign URLs
-│   │   └── alertService.ts     ← Qua, seeds, schema.prisma
-├── package.json
-├── tsconfig.json
-├── Dockerfile
-```
+│   │   ├── assetService.ts     ← S3 upload/dow
 |------|---------|------|
 | React | 18.x | UI framework |
 | TypeScript | 5.x |al state |
