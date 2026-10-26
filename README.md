@@ -8,19 +8,6 @@
 ---
 
 ## 📌 Table of Contents
-- [Deployment — AWS](#-deployment--aws)real-time.
-
-Each repository is isolated, independently deployable, and owns its own domain:
-
-- 🌐 A **public-facing landing** with sales funnel and tier selection
-- 🖥️ A **client dashboard** where users manage and visualize their digital twins
-- 🔧 An **admin panel** for internal employees — sales, system health, operations
-- ⚙️ A **general backend API** powering the admin panel and core platform logic
-- 🔌 A **dedicated user API** exclusively serving the client dashboard
-
-> *"Building scalable systems with 100% discipline. Code that scales, architecture that lasts."*
-> — **NietoDeveloper · #1 GitHub Colombia 🇨🇴 · Rank S+**
-
 ---
 
 ## 🗂️ Ecosystem Overview — 5 Repos
