@@ -15,13 +15,7 @@ dt-video-backend/
 │   ├── db/                     ← Migrations, seeds, schema.prisma
 │   └── ai-worker/              ← ¡EL CORAZÓN! Python Docker worker
 │       ├── src/
-│       │   ├── pipeline/       ← Orquestador: frame → twin
-
-├── docker-compose.yml
-```
-
----
-
+│       │   ├── pipeline/   
 ### 5 · `dt-video-user-api`
 > **Dedicated user backend** — exclusively serves `dt-video-user-dashboard`. Handles twins, stream sessions, 3D assets, real-time alerts, and WebSocket push. Zero coupling with admin services.
 
