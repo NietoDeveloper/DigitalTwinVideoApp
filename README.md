@@ -8,16 +8,6 @@
 ---
 
 ## 📌 Table of Contents
-## 💎 Business Tiers
-
-| Tier | Target | Features | Fidelity |
-|------|--------|----------|----------|
-| 🥉 **Basic (Assets)** | Cars, small objects | Small-scale monitoring, basic twin preview | Standard |
-| 🥈 **Medium (Infrastructure)** | Buildings, construction sites | Persistent twins, alert dashboard, team access | High |
-| 🥇 **Premium (Industrial)** | Heavy industry, high-security | 97% fidelity, sub-200ms latency, CUDA GPU, SLA | **97%** |
-
----
-
 ## 🏗️ System Architecture
 
 ### How the 5 repos connect
