@@ -19,16 +19,9 @@ dt-video-backend/
 ├── tsconfig.json
 ├── Dockerfile
 ```
-
----
-
-### Frontend — all 3 frontends share this base
-| Tool | Version | Role |
 |------|---------|------|
 | React | 18.x | UI framework |
-| TypeScript | 5.x | Type safety |
-| Vite / Next.js | 5.x / 14.x | Build tool + SSR (landing only) |
-| Zustand | 4.x | Global state |
+| TypeScript | 5.x |al state |
 | Tailwind CSS | 3.x | Utility-first styling |
 | Three.js | latest | 3D viewer (user-dashboard only) |
 | Socket.io-client | 4.x | Real-time WebSocket (user-dashboard only) |
