@@ -18,12 +18,7 @@ dt-video-backend/
 │       │   ├── pipeline/       ← Orquestador: frame → twin
 │       └── modules/
 │           ├── inpainting/     ← AI inpainting (4% workload)
-│           ├── segmentation/   ← Industrial semantic masking
-│           └── quality/        ← Blur detection, sharpness alerts
-├── package.json
-├── tsconfig.json
-├── Dockerfile
-├── Dockerfile.ai-worker
+│           ├── segmentation/   ← I
 ├── docker-compose.yml
 ├── .env.example
 └── README.md
