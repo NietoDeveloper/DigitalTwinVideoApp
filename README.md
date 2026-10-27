@@ -68,18 +68,7 @@ open apps/admin-demo/index.html
 ## 🎨 Identidad visual
 
 | Token | Valor | Uso |
-|-------|-------|-----|
-| `--color-gold` | `#FEB60D` | Acentos principales, CTAs |
-| `--color-gainsboro` | `#DCDCDC` | Texto secundario, bordes |
-| `--color-bg-primary` | `#0A0A0A` | Fondo principal |
-| `--color-bg-surface` | `#111111` | Tarjetas y paneles |
 
-Estética industrial, dark-first, acentos dorados — consistente con la marca Software DT.
-
----
-
-
----
 
 <div align="center">
 
