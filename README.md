@@ -47,11 +47,7 @@ software-dt-showcase/
 │   └── admin-demo/      # Panel administrativo de demostración (datos mock, login simulado)
 ├── docs/
 │   ├── COMMERCIAL.md            # Modelo comercial: cómo acceder en privado o pagando
-│   └── ARCHITECTURE-OVERVIEW.md # Vista de alto nivel, sin detalles sensibles
-└── README.md
-```
-
-Cada demo es **estática y autocontenida** (HTML/CSS/JS plano, sin dependencias de build) para que cualquier persona pueda abrirla y probarla localmente sin instalar nada:
+│   └── ARCHITECTURE-OVERVIEW.md # Vista de alto nivel, sin detalles sensiblesenida** (HTML/CSS/JS plano, sin dependencias de build) para que cualquier persona pueda abrirla y probarla localmente sin instalar nada:
 
 ```bash
 # Demo del cliente (landing + agendamiento)
@@ -59,16 +55,7 @@ open apps/client-demo/index.html
 
 # Demo del panel administrativo
 open apps/admin-demo/index.html
-```
-
-(En Linux: `xdg-open`. También puedes servirlas con cualquier servidor estático, por ejemplo `npx serve apps/client-demo`.)
-
----
-
-## 🎨 Identidad visual
-
-| Token | Valor | Uso |
-
+``
 
 <div align="center">
 
