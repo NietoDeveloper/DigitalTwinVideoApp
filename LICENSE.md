@@ -2,7 +2,7 @@
 
 © 2026 Software DT (softwaredt.com). Todos los derechos reservados.
 
-Este repositorio contiene **material demostrativo y comercial**, no el producto de producción om>
+Este repositorio contiene **maoducción om>
 
 # MIT License
 
