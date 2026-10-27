@@ -32,10 +32,7 @@ Resuelve, para negocios con agenda de citas/servicios y ventas recurrentes:
 - 💳 **Pagos integrados** — pasarela de pago conectada, con métricas de ventas por día/semana/mes/trimestre/semestre/año.
 - 💬 **Mensajería centralizada** — bandeja para solicitudes de citas/pagos y bandeja separada para el formulario de contacto, con conteo de no leídos por canal.
 - 🗂️ **Catálogo de productos/servicios** — alta y edición desde el panel.
-- 📊 **Panel de control (Dashboard)** — KPIs de usuarios, trabajos en curso vs. terminados, estado de conexiones.
-
-> Este repositorio mue
-```
+- 📊 **Panel de control (Dashboa
 ```bashmin-demo/index.html
 ``
 
