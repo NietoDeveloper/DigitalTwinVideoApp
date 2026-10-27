@@ -41,12 +41,7 @@ Resuelve, para negocios con agenda de citas/servicios y ventas recurrentes:
 ## 🧱 Estructura de este showcase
 
 ```
-```bash
-# Demo del cliente (landing + agendamiento)
-open apps/client-demo/index.html
-
-# Demo del panel administrativo
-open apps/admin-demo/index.html
+```bashmin-demo/index.html
 ``
 
 <div align="center">
