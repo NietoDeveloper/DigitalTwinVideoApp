@@ -43,11 +43,7 @@ Resuelve, para negocios con agenda de citas/servicios y ventas recurrentes:
 ```
 software-dt-showcase/
 ├── apps/
-│   ├── client-demo/     # Landing + flujo de agendamiento (datos de muestra, sin backend real)
-│   └── admin-demo/      # Panel administrativo de demostración (datos mock, login simulado)
-├── docs/
-│   ├── COMMERCIAL.md            # Modelo comercial: cómo acceder en privado o pagando
-│   └── ARCHITECTURE-OVERVIEW.md # Vista de alto nivel, sin detalles sensiblesenida** (HTML/CSS/JS plano, sin dependencias de build) para que cualquier persona pueda abrirla y probarla localmente sin instalar nada:
+│   ├── client-demo/     # Landing + flujo de agendamiento (datos de muestra, sin backend real)localmente sin instalar nada:
 
 ```bash
 # Demo del cliente (landing + agendamiento)
