@@ -1,8 +1,6 @@
 # Licencia — Material de demostración comercial
 
-© 2026 Software DT (softwaredt.com). Todos los derechos reservados.
-
-Este repositorio contiene **maoducción om>
+© 202
 
 # MIT License
 
