@@ -78,11 +78,6 @@ Estética industrial, dark-first, acentos dorados — consistente con la marca S
 
 ---
 
-## 🏢 Sobre Software DT
-
-Producto de una empresa de software con sede en Bogotá, Colombia, especializada en plataformas de gestión de servicios y ecosistemas de gemelos digitales (Digital Twin) para procesos industriales y comerciales.
-
-
 
 ---
 
