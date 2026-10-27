@@ -1,6 +1,4 @@
-# Licencia — Material de demostración comercial
-
-© 202
+# Licencia — Material de demostración comercia 202
 
 # MIT License
 
