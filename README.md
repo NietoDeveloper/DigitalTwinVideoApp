@@ -22,9 +22,7 @@ El desarrollo real, el repositorio privado y la implementación a medida se entr
 
 ---
 
-## 📌 Qué es Software DT
-
-**Software DT** es una plataforma de gestión de servicios y digitalización de procesos (*Digital Twin* operativo), parte del ecosistema de gemelos digitales que también incluye **DroneDT** y **EmeraldDT**.
+## 📌 Qué es Software DT también incluye **DroneDT** y **EmeraldDT**.
 
 - 📅 **Gestión de citas y trabajos** — flujo cliente → agendamiento → validación → panel administrativo en tiempo real.
 - 💳 **Pagos integrados** — pasarela de pago conectada, con métricas de ventas por día/semana/mes/trimestre/semestre/año.
