@@ -17,8 +17,7 @@
 Este repositorio es el **showcase público** de **Software DT**, producto de la empresa colombiana de software **[softwaredt.com](https://softwaredt.com)** (Bogotá).
 
 **No contiene el producto final.** No incluye código fuente de producción, arquitectura interna real, credenciales, integraciones ni lógica de negocio sensible. Todo lo que verás aquí es una **muestra funcional** — pantallas de demostración con datos ficticios — pensada para que un cliente o socio entienda **qué hace el producto y cómo se ve funcionando**, antes de contratar acceso privado o una licencia.
-
-El desarrollo real, el repositorio privado y la implementación a medida se entregan bajo contrato. Ver [`docs/COMMERCIAL.md`](./docs/COMMERCIAL.md) para modalidades de acceso.
+idades de acceso.
 
 ---
 
