@@ -17,7 +17,7 @@ Para consultas de licenciamiento: admin@softwaredt.com
 
 # MIT License
 
-Copyright (c) 2026 Manuel Nieto
+Copyright (c) © 2026 Software DT (softwaredt.com).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
