@@ -41,10 +41,6 @@ Resuelve, para negocios con agenda de citas/servicios y ventas recurrentes:
 ## 🧱 Estructura de este showcase
 
 ```
-software-dt-showcase/
-├── apps/
-│   ├── client-demo/     # Landing + flujo de agendamiento (datos de muestra, sin backend real)localmente sin instalar nada:
-
 ```bash
 # Demo del cliente (landing + agendamiento)
 open apps/client-demo/index.html
