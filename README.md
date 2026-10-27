@@ -14,11 +14,7 @@
 
 ## ⚠️ Qué es este repositorio
 
-Este repositorio es el **showcase público** de **Software DT**, producto de la empresa colombiana de software **[softwaredt.com](https://softwaredt.com)** (Bogotá).
-
-**No contiene el producto final.** No is de contratar acceso privado o una licencia.
-idades de acceso.
-
+Este repositorio es el **sho
 ---
 
 ## 📌 Qué es Software DT también incluye **DroneDT** y **EmeraldDT**.
