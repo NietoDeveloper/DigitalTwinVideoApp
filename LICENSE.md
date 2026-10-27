@@ -5,7 +5,7 @@
 Este repositorio contiene **material demostrativo y comercial**, no el producto de producción de Software DT.
 
 - Está permitido: clonar, ejecutar localmente y revisar este repositorio con fines de evaluación del producto.
-- No está permitido: usar este código, marca o contenido para construir un producto competioficial de Software DT.
+- No está permitido: usar este código, arca o contenido para construir un producto competioficial de Software DT.
 - El acceso al código dedencialidad (NDA). Ver [`docs/COMMERCIAL.md`](./docs/iento: <admin@softwaredt.com>
 
 # MIT License
