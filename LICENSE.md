@@ -1,4 +1,3 @@
-
 # MIT License
 
 Copyright (c) © 2026 Software DT (softwaredt.com).
