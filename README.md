@@ -34,12 +34,7 @@ Resuelve, para negocios con agenda de citas/servicios y ventas recurrentes:
 - 🗂️ **Catálogo de productos/servicios** — alta y edición desde el panel.
 - 📊 **Panel de control (Dashboard)** — KPIs de usuarios, trabajos en curso vs. terminados, estado de conexiones.
 
-> Este repositorio muestra **el "qué"**, no **el "cómo"**: no se documentan aquí decisiones de arquitectura interna, esquemas de datos reales ni configuración de infraestructura de producción.
-
----
-
-## 🧱 Estructura de este showcase
-
+> Este repositorio mue
 ```
 ```bashmin-demo/index.html
 ``
